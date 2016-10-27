@@ -1,3 +1,6 @@
 notas/*
 charts/*
+private/*
 conexao.php
+conexao_fluig.php
+con_glpi.php
