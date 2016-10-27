@@ -1,0 +1,319 @@
+/* Folha de Estilos Padrão */
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+    background: #EEE url(../img/fundoConteudo.jpg) center top;
+    color: #434343;
+    font-family: calibri;
+    background-size: cover;
+}
+
+main {
+	width: 80%;
+	max-width: 1420px;
+	margin: 0 auto;
+}
+
+header {
+    height: 205px;
+    z-index: 99;
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    margin: 25px 0 12px;
+    color: #FFF;
+}
+
+img#logoInterno {
+    margin-left: 5%;
+    display: inline-block;
+    margin-top: 4%;
+}
+
+a#profile {
+    margin-right: 5.5%;
+    display: inline-block;
+    margin-top: 3%;
+    float: right;
+    background: #FFF;
+    height: 142px;
+    width: 142px;
+    border-radius: 100%;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    color: #FFF;
+    font-family: "Champagne";
+    font-size: 34px;
+    text-align: center;
+    font-weight: normal;
+}
+
+a#iniciar {
+    color: #FFF;
+    font-family: "Champagne";
+    padding: 25px 43px;
+    display: inline-block;
+    background: url(../img/fundoBotaoVerde.jpg);
+    font-size: 24px;
+    margin: 16px 7px;
+    letter-spacing: 1px;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+
+a#iniciar:hover {
+    animation: botaoIniciar 1.2s infinite;
+    background: url(../img/fundoBotaoVerde2.jpg);
+}
+
+a#apps {
+    color: #FFF;
+    font-family: "Champagne";
+    padding: 16px 43px;
+    display: inline-block;
+    background: #1C2D3E;
+    font-size: 22px;
+    margin: 16px 7px;
+    letter-spacing: 1px;
+}
+
+
+a#apps:hover {
+    animation: botaoApps 1.2s infinite;
+}
+
+#formBusca {
+    display: none;
+}
+
+#formBusca input[type="text"] {
+    height: 130px;
+    width: 60%;
+    position: fixed;
+    padding: 0 3%;
+    top: 50%;
+    left: 20%;
+    margin-top: -65px;
+    background: #000;
+    border: none;
+    box-shadow: 0px 0px 12px #466F97;
+    z-index: 999;
+    color: #EEE;
+    font-size: 34px;
+    font-family: "Champagne";
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+div#sombra {
+    display: none;
+    background: rgba(0,0,0,.79);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 998;
+}
+
+
+::-webkit-input-placeholder {
+   color: #555;
+}
+
+:-moz-placeholder {
+   color: #555;
+}
+
+
+nav {
+    width: 21%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 98;
+    margin-right: -21%;
+    padding-top: 216px;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+nav a {
+    background: #222;
+    display: block;
+    width: 75%;
+    margin: 1px auto;
+    padding: 12px 0;
+    color: #EEE;
+    text-align: center;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+
+nav a.feedback {
+    background: #2C455E;
+    color: #FFF;
+    margin: 25px auto;
+}
+
+nav a.feedback:hover {
+    background: #4E6780;
+}
+
+nav a:hover {
+    background: #444;
+}
+
+
+@keyframes botaoIniciar {
+    0% {background: url(../img/fundoBotaoVerde2.jpg);}
+    50% {background: url(../img/fundoBotaoVerde.jpg);}
+    100% {background: url(../img/fundoBotaoVerde2.jpg);}
+}
+
+
+@keyframes botaoApps {
+    0% {background: #1C2D3E;}
+    50% {background: #3E4F60;}
+    100% {background: #1C2D3E;}
+}
+
+
+@font-face {
+    font-family: 'Champagne';
+    src: url('../fontes/champagne__limousines-webfont.eot');
+    src: url('../fontes/champagne__limousines-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fontes/champagne__limousines-webfont.woff') format('woff'),
+        url('../fontes/champagne__limousines-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+

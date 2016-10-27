@@ -1,0 +1,12 @@
+<link rel="stylesheet" type="text/css" href="css/estilosLogin.css">
+
+<main>
+	<form method="post" action="login.php" autocomplete="off">
+	<img src="img/logo.png">
+	<input required type="text" name="usuario" placeholder="USUÁRIO">
+	<input required type="password" name="senha" placeholder="SENHA">
+	<input type="submit" value="ENTRAR">
+
+	<?php if(!empty($erro)) echo "<p class='erroLogin'>".$erro."</p>"; ?>
+	</form>
+</main>

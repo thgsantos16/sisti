@@ -1,0 +1,82 @@
+<?php
+
+// Arquivo de Conteúdo
+
+?>
+
+
+<h1>Sistema integrado de Soluções - TI</h1>
+
+<main>
+
+<h2><?php if(substr($_POST['matriculaGlobal'], 0, 1) == "#") echo $_POST['matriculaGlobal']; else echo "#".$_POST['matriculaGlobal']; ?></h2>
+
+<?php 
+
+$matricula = str_replace("#", "", $_POST['matriculaGlobal']);
+
+$sql = "SELECT a.*, b.logon FROM relatorios_funcionarios a 
+LEFT JOIN relatorios_usuarios_ad b ON 
+a.matricula = b.matricula WHERE a.matricula = ".$matricula;
+$res = sqlsrv_query($con, $sql);
+$existe = sqlsrv_has_rows($res);
+
+if($existe) { 
+	$row = sqlsrv_fetch_array($res);
+	$logon = str_replace("@pia.com.br", "", $row['logon']);
+
+	include_once "con_glpi.php";
+
+	$sqlGLPI = "SELECT a.* FROM glpi_tickets a 
+	LEFT JOIN glpi_tickets_users c ON 
+	a.id = c.tickets_id
+	LEFT JOIN glpi_users b ON 
+	c.users_id = b.id
+	WHERE b.name = '".$logon."' AND a.is_deleted = 0 AND c.type = 1 ORDER BY a.id DESC LIMIT 5";
+	$resGLPI = mysqli_query($con2, $sqlGLPI);
+	//echo $sqlGLPI;
+
+	?>
+
+<h3><img src="img/profile.jpg" id='profileBusca'><?=$row['nome'];?></h3>
+
+
+<div id="links">
+<a id="chamados" data-cod="<?=$logon?>" class="aba selecionado">Últimos Chamados
+</a><a data-cod="<?=$matricula?>" class="aba" id="equipamentos">Equipamentos
+</a><a data-cod="<?=$matricula?>" data-logon="<?=$logon?>" class="aba" id="recursos">Recursos
+</a>
+</div>
+
+<div id="dinamico"><div class="ultimosChamados titulo">
+		<div class="coluna">ID</div><div class="coluna">Data de Abertura</div><div class="coluna">Assunto do Chamado</div>
+	</div>
+	<?php
+	$total = 0;
+	 while($rowGLPI = mysqli_fetch_array($resGLPI)) {
+	 	$total++;
+		$explodir = explode(" ", $rowGLPI['date']);
+		$explodir2 = explode("-", $explodir[0]);
+		$data = $explodir2[2]."/".$explodir2[1]."/".$explodir2[0];
+		?><a href="http://suporte.pia.com.br/ti/front/ticket.form.php?id=<?=$rowGLPI['id']?>" target="_blank" class="ultimosChamados">
+		<div class="coluna"><?=$rowGLPI['id']?></div><div class="coluna"><?=$data." - ".$explodir[1];?></div><div class="coluna"><?=$rowGLPI['name']?></div>
+	</a><?php } if($total == 0) echo "<p>Nenhum Chamado foi Aberto.</p>" ?>
+</div>
+
+
+<?php }
+
+else echo "<p id='naoExiste'>Nenhum resultado encontrado.<p>";
+
+?>
+
+	
+</main>
+
+
+
+<form id="formBusca" action="./" method="post" class="modal" autocomplete="off">
+
+<input autocomplete="off" type="text" name="matriculaGlobal" placeholder="MATRÍCULA DO USUÁRIO" required>
+
+</form>
