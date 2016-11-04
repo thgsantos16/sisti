@@ -143,9 +143,12 @@ a#profile {
     margin-top: 3%;
     float: right;
     background: #FFF;
-    height: 142px;
-    width: 142px;
+    width: 10%;
     border-radius: 100%;
+    background-image: url(../img/profile.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    border: #FFF 5px solid;
 }
 
 main {
@@ -197,11 +200,11 @@ a#apps:hover {
     animation: botaoApps 1.2s infinite;
 }
 
-#formBusca {
+#formBusca, #formFeedback {
     display: none;
 }
 
-#formBusca input[type="text"] {
+#formBusca input[type="text"], #formFeedback input[type="text"] {
     height: 130px;
     width: 60%;
     position: fixed;
@@ -250,7 +253,7 @@ nav {
     background: rgba(0,0,0,.7);
     z-index: 98;
     margin-right: -21%;
-    padding-top: 216px;
+    padding-top: 15%;
     transition: all 0.43s;
     -o-transition: all 0.43s;
     -moz-transition: all 0.43s;
@@ -278,12 +281,28 @@ nav a.feedback {
     margin: 25px auto;
 }
 
+nav a.sair {
+    background: #B22D00;
+}
+
+nav a.sair:hover {
+    background: #C33E11;
+}
+
 nav a.feedback:hover {
     background: #4E6780;
 }
 
 nav a:hover {
     background: #444;
+}
+
+nav p {
+    color: #EEE;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Champagne";
+    margin-bottom: 16px;
 }
 
 

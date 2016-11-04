@@ -15,10 +15,24 @@
 
 <header>
 
-<a href='./'><img src="img/logoInterno.png" id="logoInterno"></a><a id="iniciar">Iniciar Chamado</a><div id="preencher"></div><form id="buscaGeral" action="./" method="post" autocomplete="off"><input name="inputBuscaGeralTipo" type="hidden" id="inputBuscaGeralTipo"><span id="inputBuscaGeralBefore"></span><input onkeyup="checkPesquisa()" autocomplete="off" name="inputBuscaGeral" required placeholder="PESQUISAR" id="inputBuscaGeral"></form><a id="profile"></a>
+<a href='./'><img src="img/logoInterno.png" id="logoInterno"></a><a id="iniciar">Iniciar Chamado</a><div id="preencher"></div><form id="buscaGeral" action="./" method="post" autocomplete="off"><input name="inputBuscaGeralTipo" type="hidden" id="inputBuscaGeralTipo"><span id="inputBuscaGeralBefore"></span><input onkeyup="checkPesquisa()" autocomplete="off" name="inputBuscaGeral" required placeholder="PESQUISAR" id="inputBuscaGeral"></form><div id="resultadosBusca"></div><a id="profile"></a>
 	
 </header>
 
 <nav>
 
 </nav>
+
+
+
+<div id="ajudaBusca" class="modal">
+	<h2>Central de Ajuda - Buscas</h2>
+	<h3>Comandos:</h3>
+	<p><span>p: </span> - Realiza as Buscas dentro dos Programas do Datasul.</p>
+	<p><span>u: </span> - Realiza as Buscas dentro de todos os Campos dos cadastros dos usuários.</p>
+	<p><span>:help </span> - Abre a Central de Ajuda.</p>
+	<p><span>:q </span> - Cancela o Comando Anterior.</p>
+	<p><span>:esc </span> - Cancela o Comando Anterior.</p>
+	<p><span>:exit </span> - Cancela o Comando Anterior.</p>
+	<p><span>#* </span> - Busca usuários pela Matrícula.</p>
+</div>

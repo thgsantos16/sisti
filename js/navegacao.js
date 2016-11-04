@@ -1,10 +1,33 @@
 /* Javascript Navegação */
 
 $(document).ready(function() {
-	$('#iniciar').click(function() {
-		$('#sombra').fadeIn();
-		$('#formBusca').fadeIn();
-	});
+
+    $(window).resize(function() {
+         $(function() {
+            var div = $('#profile');
+            var width = 10 + div.width();
+            
+            div.css('height', width);
+        });
+    });
+
+    $(function() {
+        var div = $('#profile');
+        var width = 10 + div.width();
+        
+        div.css('height', width);
+    });
+
+    $('#iniciar').click(function() {
+        $('#sombra').fadeIn();
+        $('#formBusca').fadeIn();
+        document.getElementById('matriculaGlobal').focus();
+    });
+
+    $('.feedback').click(function() {
+        $('#sombra').fadeIn();
+        $('#formFeedback').fadeIn();
+    });
 
 	$('#sombra').click(function() {
 		$('#sombra').fadeOut();
@@ -94,11 +117,16 @@ $(document).ready(function() {
 
 });
 
+function ajuda() {
+    $("#sombra").fadeIn();
+    $("#ajudaBusca").fadeIn();
+}
+
 function checkPesquisa() {
-    var botaoPesquisa = document.getElementById("inputBuscaGeral").value;
+    var botaoPesquisa = document.getElementById("inputBuscaGeral").value.toLowerCase();
     
 
-    if(botaoPesquisa == "p:" && document.getElementById("inputBuscaGeralTipo").value != "programa") {
+    if(botaoPesquisa == "p:" && document.getElementById("inputBuscaGeralTipo").value == "") {
         //alert("AQUI");
         document.getElementById("inputBuscaGeralBefore").innerHTML = "Programa:";
         document.getElementById("inputBuscaGeralBefore").className = "ativo";
@@ -107,12 +135,35 @@ function checkPesquisa() {
     }
     
 
-    if(botaoPesquisa == "u:" && document.getElementById("inputBuscaGeralTipo").value != "programa") {
+    if(botaoPesquisa == "u:" && document.getElementById("inputBuscaGeralTipo").value == "") {
         //alert("AQUI");
         document.getElementById("inputBuscaGeralBefore").innerHTML = "Usuário:";
         document.getElementById("inputBuscaGeralBefore").className = "ativo";
         document.getElementById("inputBuscaGeralTipo").value = "usuario";
         document.getElementById("inputBuscaGeral").value = "";
+    }
+    
+
+    if(botaoPesquisa == "#" && document.getElementById("inputBuscaGeralTipo").value == "") {
+        //alert("AQUI");
+        document.getElementById("inputBuscaGeralBefore").innerHTML = "Matrícula:";
+        document.getElementById("inputBuscaGeralBefore").className = "ativo";
+        document.getElementById("inputBuscaGeralTipo").value = "matricula";
+    }
+    
+
+    if(botaoPesquisa == "" && document.getElementById("inputBuscaGeralTipo").value == "matricula") {
+        //alert("AQUI");
+        document.getElementById("inputBuscaGeralBefore").innerHTML = "Matrícula:";
+        document.getElementById("inputBuscaGeralBefore").className = "";
+        document.getElementById("inputBuscaGeralTipo").value = "";
+    }
+    
+
+    if(botaoPesquisa == ":help") {
+        //alert("AQUI");
+        document.getElementById("inputBuscaGeral").value = "";
+        ajuda.call()
     }
 
     if((botaoPesquisa == ":q" || botaoPesquisa == ":esc" || botaoPesquisa == ":exit") && document.getElementById("inputBuscaGeralTipo").value != "") {
@@ -122,5 +173,37 @@ function checkPesquisa() {
         document.getElementById("inputBuscaGeral").value = "";
 
     }
+
+    if(botaoPesquisa.length > 3 && botaoPesquisa != ":exi" && document.getElementById("inputBuscaGeralTipo").value != "" && document.getElementById("inputBuscaGeralTipo").value != "matricula") {
+        //alert("AQUI");
+        
+        $("#resultadosBusca").fadeIn();
+        $("#resultadosBusca").html('<div class="spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
+        
+        if(document.getElementById("inputBuscaGeralTipo").value == "programa") {
+                // Faz requisição ajax e envia o ID da Categoria via método POST
+            $.post("dinamicos/programas.php", {ultimo: botaoPesquisa}, function(resposta) {
+
+               // Coloca a resposta na DIV
+               setTimeout(function() { $("#resultadosBusca").html(resposta); }, 1000);
+           
+            });
+        }
+
+        if(document.getElementById("inputBuscaGeralTipo").value == "usuario") {
+                // Faz requisição ajax e envia o ID da Categoria via método POST
+            $.post("dinamicos/usuarios.php", {usu: botaoPesquisa}, function(resposta) {
+
+               // Coloca a resposta na DIV
+               setTimeout(function() { $("#resultadosBusca").html(resposta); }, 1000);
+           
+            });
+        }
+
+    }
+
+    if(botaoPesquisa.length <= 3) $("#resultadosBusca").fadeOut();
+
+
 
 }
