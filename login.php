@@ -20,7 +20,7 @@ else {
 include "conexao.php";
 
 if(!empty($_POST)) {
-	$sql = "SELECT * FROM relatorios_usuarios WHERE login LIKE '".$_POST['usuario']."' AND senha LIKE '".$_POST['senha']."' COLLATE sql_latin1_general_cp1_cs_as";
+	$sql = "SELECT * FROM relatorios_usuarios WHERE login LIKE '".$_POST['usuario']."' AND senha LIKE '".base64_encode(base64_encode($_POST['senha']))."' COLLATE sql_latin1_general_cp1_cs_as";
 	$res = sqlsrv_query($con, $sql);
 	//echo $sql;
 	$num = sqlsrv_has_rows($res);

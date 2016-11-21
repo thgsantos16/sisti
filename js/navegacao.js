@@ -2,6 +2,18 @@
 
 $(document).ready(function() {
 
+    $(".abrir").click(function() {
+        //alert("AQUI");
+        var cod = this.dataset.cod;
+        if(document.getElementById('appList'+cod).style.height != 'auto') {
+            document.getElementById('appList'+cod).style.height = 'auto';
+        }
+
+        else {
+            document.getElementById('appList'+cod).style.height = '20px';
+        }
+    });
+
     $(window).resize(function() {
          $(function() {
             var div = $('#profile');
@@ -29,10 +41,63 @@ $(document).ready(function() {
         $('#formFeedback').fadeIn();
     });
 
-	$('#sombra').click(function() {
-		$('#sombra').fadeOut();
-		$('.modal').fadeOut();
-	});
+    $('#sombra').click(function() {
+        $('#sombra').fadeOut();
+        $('.modal').fadeOut();
+    });
+
+    $('#addRede').click(function() {
+        $('#sombraBranca').fadeIn();
+        $('#formRede').fadeIn();
+    });
+
+    $('#addRamal').click(function() {
+        $('#sombraBranca').fadeIn();
+        $('#formRamal').fadeIn();
+    });
+
+    $('#sombraBranca').click(function() {
+        $('#sombraBranca').fadeOut();
+        $('.modal').fadeOut();
+    });
+
+    $('.exibirMenu').click(function() {
+        $('.exibirMenu').css('width', '0');
+        $('body').css('padding', '0 0 0 5%');
+        $('#menuLeft').css('left', '0');
+    });
+
+    $('#fecharMenu').click(function() {
+        $('.exibirMenu').css('width', '60px');
+        $('body').css('padding', '0');
+        $('#menuLeft').css('left', '-5%');
+    });
+
+    $( window ).scroll(function() {
+        if($( window ).scrollTop() > 272) {
+            $('#menuOculto').css('top', '0');
+            $('#menuLeft').css('padding-top', '79px');
+            $('#fecharMenu').css('margin-bottom', '79px');
+        }
+
+        else { 
+            $('#menuOculto').css('top',  '-75px');
+            $('#menuLeft').css('padding-top', '0');
+            $('#fecharMenu').css('margin-bottom', '0');
+        }
+    });
+
+
+
+    $('.addUser').click(function() {
+        var cod = this.dataset.app;
+        document.getElementById('idApp').value = cod;
+        $('.selectUser').fadeOut(10, function() {
+            document.getElementById('selectUser'+cod).style.display = "block";            
+        });        
+        $('#sombraBranca').fadeIn();
+        $('#formRede').fadeIn();
+    });
 
 	$('#profile').click(function() {
 		var x = document.getElementsByTagName("nav");
@@ -122,8 +187,14 @@ function ajuda() {
     $("#ajudaBusca").fadeIn();
 }
 
+
+var checkValue = "";
+
 function checkPesquisa() {
+    if(checkValue == document.getElementById("inputBuscaGeral").value.toLowerCase());
+    else {
     var botaoPesquisa = document.getElementById("inputBuscaGeral").value.toLowerCase();
+    checkValue = botaoPesquisa;
     
 
     if(botaoPesquisa == "p:" && document.getElementById("inputBuscaGeralTipo").value == "") {
@@ -182,7 +253,7 @@ function checkPesquisa() {
         
         if(document.getElementById("inputBuscaGeralTipo").value == "programa") {
                 // Faz requisição ajax e envia o ID da Categoria via método POST
-            $.post("dinamicos/programas.php", {ultimo: botaoPesquisa}, function(resposta) {
+            $.post("http://lanpiasoa.pia.com.br/sisti/dinamicos/programas.php", {ultimo: botaoPesquisa}, function(resposta) {
 
                // Coloca a resposta na DIV
                setTimeout(function() { $("#resultadosBusca").html(resposta); }, 1000);
@@ -192,7 +263,7 @@ function checkPesquisa() {
 
         if(document.getElementById("inputBuscaGeralTipo").value == "usuario") {
                 // Faz requisição ajax e envia o ID da Categoria via método POST
-            $.post("dinamicos/usuarios.php", {usu: botaoPesquisa}, function(resposta) {
+            $.post("http://lanpiasoa.pia.com.br/sisti/dinamicos/usuarios.php", {usu: botaoPesquisa}, function(resposta) {
 
                // Coloca a resposta na DIV
                setTimeout(function() { $("#resultadosBusca").html(resposta); }, 1000);
@@ -203,6 +274,7 @@ function checkPesquisa() {
     }
 
     if(botaoPesquisa.length <= 3) $("#resultadosBusca").fadeOut();
+}
 
 
 

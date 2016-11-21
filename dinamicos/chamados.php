@@ -7,7 +7,7 @@ include_once "../con_glpi.php";
 	a.id = c.tickets_id
 	LEFT JOIN glpi_users b ON 
 	c.users_id = b.id
-	WHERE b.name = '".$_POST['ultimo']."' AND a.is_deleted = 0 AND c.type = 1 ORDER BY a.id DESC LIMIT 5";
+	WHERE b.name = '".$_POST['ultimo']."' AND a.is_deleted = 0 AND c.type = 1 ORDER BY a.id DESC LIMIT 16";
 	$resGLPI = mysqli_query($con2, $sqlGLPI);
 	//echo $sqlGLPI;
 	$existe = mysqli_num_rows($resGLPI);

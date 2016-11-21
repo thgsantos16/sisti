@@ -11,22 +11,47 @@ if(empty($_SESSION['usuario']) && !($_SESSION['acesso'] == 9 || $_SESSION['acess
 
 else {
 
+
 	include "conexao.php";
+	include "private/validar.php";
+	include "actions/add.php";
+	include "actions/mail.php";
 
 	if(isset($_POST['inputBuscaGeral']) && substr($_POST['inputBuscaGeral'], 0, 1) == "#") $_POST['matriculaGlobal'] = substr($_POST['inputBuscaGeral'], 1); 
 
 	if(empty($_POST['matriculaGlobal'])) {
-		// Incluindo Cabeçalho Padrão
-		include "includes/cabecalho.html";
 
-		// Incluindo Corpo
-		include "includes/conteudo.html";
+		if(empty($_GET['url'])) {
 
-		// Incluindo Scripts
-		include "includes/scripts.html";
+			// Incluindo Cabeçalho Padrão
+			include "includes/cabecalho.html";
 
-		// Incluindo rodapé Padrão
-		include "includes/rodape.html";
+			// Incluindo Corpo
+			include "includes/conteudo.html";
+
+			// Incluindo Scripts
+			include "includes/scripts.html";
+
+			// Incluindo rodapé Padrão
+			include "includes/rodape.html";
+		}
+
+		else {
+			// Incluindo Cabeçalho Padrão
+			include "includes/cabecalhoUsuario.html";
+
+			// Incluindo Corpo
+			if($ln != "./") $_GET['url'] = $explodirUrl[2];
+			
+			if(file_exists("pages/conteudo".$_GET['url'].".html")) include "pages/conteudo".$_GET['url'].".html";
+			else include "pages/conteudo404.html";
+			
+			// Incluindo Scripts
+			include "includes/scripts.html";
+
+			// Incluindo rodapé Padrão
+			include "includes/rodapeUsuario.html";	
+		}
 	}
 
 	else {

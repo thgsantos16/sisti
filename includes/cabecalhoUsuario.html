@@ -2,12 +2,31 @@
 
 // Arquivo de Cabeçalho
 
+include "con_glpi.php";
+
+if(empty($_SESSION['picture'])) {
+	$sql = "SELECT picture FROM glpi_users WHERE name = '".$_SESSION['usuario']."'";
+	$res = mysqli_query($con2, $sql);
+	$row = mysqli_fetch_array($res);
+
+	if(!empty($row['picture'])) $_SESSION['picture'] = "http://suporte.pia.com.br/ti/files/_pictures/".$row['picture'];
+	else $_SESSION['picture'] = 'empty';
+}
+
+$ln = "";
+
+$explodirUrl = explode("/", $_SERVER['REQUEST_URI']);
+
+for($x = 0; $x < count($explodirUrl) - 3; $x++) $ln .= "../";
+if($ln == "") $ln = "./";
+
 ?>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/estilosUsuario.css">
-<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-<link rel="icon" href="img/favicon.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="<?=$ln?>css/estilosUsuario.css">
+<link rel="shortcut icon" href="<?=$ln?>img/favicon.png" type="image/x-icon">
+<link rel="icon" href="<?=$ln?>img/favicon.png" type="image/x-icon">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 <title>Sistema Integrado de Soluções - TI</title>
 
@@ -15,13 +34,18 @@
 
 <header>
 
-<a href='./'><img src="img/logoInterno.png" id="logoInterno"></a><a id="iniciar">Iniciar Chamado</a><div id="preencher"></div><form id="buscaGeral" action="./" method="post" autocomplete="off"><input name="inputBuscaGeralTipo" type="hidden" id="inputBuscaGeralTipo"><span id="inputBuscaGeralBefore"></span><input onkeyup="checkPesquisa()" autocomplete="off" name="inputBuscaGeral" required placeholder="PESQUISAR" id="inputBuscaGeral"></form><div id="resultadosBusca"></div><a id="profile"></a>
+<a href='<?=$ln?>'><img src="<?=$ln?>img/logoInterno.png" id="logoInterno"></a><a id="iniciar">Iniciar Chamado</a><div id="preencher"><a id="exibirMenu" class="exibirMenu"></a></div><form id="buscaGeral" action="<?=$ln?>" method="post" autocomplete="off"><input name="inputBuscaGeralTipo" type="hidden" id="inputBuscaGeralTipo"><span id="inputBuscaGeralBefore"></span><input <?php if($_SESSION['provisionado'] == 1) { ?>onkeyup="checkPesquisa()"<?php } ?> autocomplete="off" name="inputBuscaGeral" required placeholder="PESQUISAR" id="inputBuscaGeral"></form><div id="resultadosBusca"></div><a id="profile2" <?php if(!empty($_SESSION['picture']) && $_SESSION['picture'] != 'empty') echo "style='background-image: url(".$_SESSION['picture'].")'"; ?>></a>
 	
 </header>
 
-<nav>
 
-</nav>
+<div id="menuOculto">
+
+<a href='<?=$ln?>'><img src="<?=$ln?>img/logoInterno.png" id="logoInterno"></a><a id="iniciar">Iniciar Chamado</a><a id="exibirMenu" class="exibirMenu"></a><a id="profile2" <?php if(!empty($_SESSION['picture']) && $_SESSION['picture'] != 'empty') echo "style='background-image: url(".$_SESSION['picture'].")'"; ?>></a><form id="buscaGeralOculto" action="<?=$ln?>" method="post" autocomplete="off"><input name="inputBuscaGeralTipo" type="hidden" id="inputBuscaGeralTipo"><span id="inputBuscaGeralBefore"></span><input <?php if($_SESSION['provisionado'] == 1) { ?>onkeyup="checkPesquisa2()"<?php } ?> autocomplete="off" name="inputBuscaGeral" required placeholder="PESQUISAR" id="inputBuscaGeral2"></form><div id="resultadosBusca"></div>
+	
+</div>
+
+
 
 
 
@@ -35,4 +59,25 @@
 	<p><span>:esc </span> - Cancela o Comando Anterior.</p>
 	<p><span>:exit </span> - Cancela o Comando Anterior.</p>
 	<p><span>#* </span> - Busca usuários pela Matrícula.</p>
+</div>
+
+
+<div id="menuLeft">
+
+<nav>
+
+
+<a href="<?=$ln;?>" id="menuHome">Home</a>
+<a href="<?=$ln;?>aplicativos" id="menuAplicativos">Aplicativos</a>
+<a href="<?=$ln;?>preferencias" id="menuPreferencias">Preferências</a>
+<a href="<?=$ln;?>portfolio-servicos" id="menuPortfolio">Portfólio de Serviços</a>
+<a href="<?=$ln;?>areas-negocio" id="menuAreas">Áreas de Negócio</a>
+<a id="menuAjuda">Ajuda</a>
+<a id="menuFeedback">Feedback</a>
+<a href="<?=$ln;?>logout.php" id="menuSair">Sair</a>
+
+<a id="fecharMenu"><<</a>
+
+</nav>
+
 </div>

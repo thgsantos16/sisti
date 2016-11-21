@@ -14,7 +14,7 @@ include "../conexao.php";
 
 $(function () {
 	var max = 0;
-$.getJSON("private/programas.json", function(result){
+$.getJSON("http://lanpiasoa.pia.com.br/sisti/private/programas.json", function(result){
 	$("#buscaDinamica").html("");
     $.each(result, function(i, field){
     	if((field.nome.indexOf("<?=$_POST['ultimo']?>") != '-1' || field.descricao.indexOf("<?=$_POST['ultimo']?>") != '-1' || field.nome_externo.indexOf("<?=$_POST['ultimo']?>") != '-1' || field.nome_menu.indexOf("<?=$_POST['ultimo']?>") != '-1') && max < 7) {

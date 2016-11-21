@@ -2,6 +2,20 @@
 
 // Arquivo de Cabeçalho
 
+include "con_glpi.php";
+
+if(empty($_SESSION['picture'])) {
+	$sql = "SELECT picture FROM glpi_users WHERE name = '".$_SESSION['usuario']."'";
+	$res = mysqli_query($con2, $sql);
+	$row = mysqli_fetch_array($res);
+
+	if(!empty($row['picture'])) $_SESSION['picture'] = "http://suporte.pia.com.br/ti/files/_pictures/".$row['picture'];
+	else $_SESSION['picture'] = 'empty';
+}
+
+ $ln = "./";
+
+
 ?>
 <head>
 <meta charset="utf-8">
@@ -17,21 +31,35 @@
 
 <img src="img/logoInterno.png" id="logoInterno">
 
-<a id="profile"></a>
+<a id="profile" <?php if(!empty($_SESSION['picture']) && $_SESSION['picture'] != 'empty') echo "style='background-image: url(".$_SESSION['picture'].")'"; ?>></a>
 	
 </header>
 
 <nav>
+
 <p><?=$_SESSION['nome'];?></p>
 <a class="menu">Últimos Chamados</a>
-<a class="menu">Preferências</a>
-<a class="menu">Desempenho</a>
-<a class="menu">Áreas de Atuação</a>
-<a class="menu">Ajuda do Sistema</a>
+<a href="preferencias" class="menu">Preferências</a>
+<a href="portfolio-servicos" class="menu">Portfólio de Serviços</a>
+<a href="areas-negocio" class="menu">Áreas de Negócio</a>
+<a onclick="ajuda()" class="menu">Ajuda do Sistema</a>
 
 <a class="feedback">Enviar Feedback</a>
 
 
 
-<a class="sair">Sair</a>
+<a href="logout.php" class="sair">Sair</a>
 </nav>
+
+
+<div id="ajudaBusca" class="modal">
+	<h2>Central de Ajuda - Buscas</h2>
+	<h3>Comandos:</h3>
+	<p><span>p: </span> - Realiza as Buscas dentro dos Programas do Datasul.</p>
+	<p><span>u: </span> - Realiza as Buscas dentro de todos os Campos dos cadastros dos usuários.</p>
+	<p><span>:help </span> - Abre a Central de Ajuda.</p>
+	<p><span>:q </span> - Cancela o Comando Anterior.</p>
+	<p><span>:esc </span> - Cancela o Comando Anterior.</p>
+	<p><span>:exit </span> - Cancela o Comando Anterior.</p>
+	<p><span>#* </span> - Busca usuários pela Matrícula.</p>
+</div>

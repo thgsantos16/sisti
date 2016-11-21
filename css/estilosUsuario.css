@@ -110,14 +110,17 @@ body {
     background: #EEE url(../img/fundoConteudo.jpg) center top;
     color: #434343;
     font-family: calibri;
-    background-size: cover;
-    background-position: 0px -205px;
+    background-position: 0 -385px;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
 }
 
 main {
     width: 100%;
     margin: 16px 0 4px;
-    padding: 25px 0;
+    padding: 25px 0 106px;
     background: #FFF;
 }
 
@@ -144,7 +147,7 @@ img#logoInterno {
     background: url(../img/fundoTopoInterno.jpg);
 }
 
-a#profile {
+a#profile2 {
     display: inline-block;
     float: right;
     height: 106px;
@@ -231,7 +234,7 @@ a#apps:hover {
     font-weight: bold;
 }
 
-div#sombra {
+div#sombra, div#sombraBranca {
     display: none;
     background: rgba(0,0,0,.79);
     width: 100%;
@@ -240,6 +243,10 @@ div#sombra {
     left: 0;
     position: fixed;
     z-index: 998;
+}
+
+div#sombraBranca {
+    background: rgba(255,255,255,.79);    
 }
 
 div#ajudaBusca {
@@ -294,6 +301,73 @@ form#buscaGeral input {
     padding: 0 16px;
 }
 
+form#formRede, form#formRamal {
+    width: 40%;
+    position: fixed;
+    left: 30%;
+    top: 50%;
+    z-index: 999;
+    margin-top: -128px;
+    display: none;
+}
+
+#formRede input[type="text"], form#formRamal input[type="text"] {
+    display: block;
+    width: 100%;
+    height: 52px;
+    margin-bottom: 7px;
+    color: #444;
+    padding: 0 12px;
+}
+
+#formRede h3, form#formRamal h3 {
+    width: 100%;
+    text-align: center;
+    background: #AAA;
+    color: #EEE;
+}
+
+input#submitRede {
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    padding: 14px 0;
+    background: #56779a;
+    color: #FFF;
+    font-size: 16px;
+}
+
+input#submitRede:hover {
+    background: #6788AB;
+}
+
+a.botaoRede {
+    padding: 16px;
+    display: block;
+    width: 180px;
+    margin: 25px auto;
+    color: #FFF;
+    background: #434343;
+}
+
+a.botaoRede:hover {
+    background: #354d67;
+}
+
+div#resultadoAcao {
+    width: 50%;
+    position: fixed;
+    font-size: 25px;
+    font-family: "Champagne";
+    z-index: 999;
+    background: #FFF;
+    padding: 52px 0;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+    border: 1px solid #5fb85e;
+    margin-top: -65px;
+}
 
 div#preencher {
     width: calc(100% - 897px);
@@ -301,6 +375,116 @@ div#preencher {
     display: inline-block;
     height: 106px;
     background: url(../img/fundoTopoInterno.jpg);
+}
+
+a#exibirMenu:hover {
+    opacity: 1;
+}
+
+a#exibirMenu {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background: url(../img/menu.png) center no-repeat;
+    margin: 24px 0 0 24px;
+    background-size: 40px;
+    opacity: .52;
+    overflow: hidden;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+div#menuLeft {
+    width: 5%;
+    position: fixed;
+    height: 100%;
+    background: #161616;
+    top: 0;
+    left: -5%;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+#menuLeft nav a {
+    display: block;
+    color: #EEE;
+    text-align: center;
+    font-size: 12px;
+    margin: 16px 0;
+    opacity: .61;
+}
+
+#menuLeft nav a:hover {
+    opacity: 1;
+}
+
+#menuLeft nav a:before {
+    content: "";
+    display: block;
+    width: 40%;
+    height: 30px;
+    background: url(../img/home.png) center no-repeat;
+    margin: 0 auto 7px;
+    background-size: 100%;
+}
+
+#menuLeft nav a#menuFeedback:before {
+    background: url(../img/feedback.png) center no-repeat;  
+    background-size: 100%;  
+}
+
+#menuLeft nav a#menuAjuda:before {
+    background: url(../img/ajuda.png) center no-repeat;  
+    background-size: 100%;  
+}
+
+#menuLeft nav a#menuSair:before {
+    background: url(../img/logout.png) right no-repeat;
+    background-size: 79%;
+}
+
+#menuLeft nav a#menuAplicativos:before {
+    background: url(../img/app.png) center no-repeat;
+    background-size: 100%;
+}
+
+#menuLeft nav a#menuPreferencias:before {
+    background: url(../img/star.png) center no-repeat;
+    background-size: 100%;
+}
+
+
+#menuLeft nav a#menuPortfolio:before {
+    background: url(../img/portfolio.png) center no-repeat;
+    background-size: 100%;
+}
+
+#menuLeft nav a#menuAreas:before {
+    background: url(../img/areas.png) center no-repeat;
+    background-size: 100%;
+}
+
+#menuLeft nav a#fecharMenu {
+    font-size: 25px;
+    font-family: "Champagne";
+    padding: 13px 0 10px;
+    width: 100%;
+    margin: 16px auto 0;
+    background: #711;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+#menuLeft nav a#fecharMenu:before {
+    display: none;
 }
 
 h2, h3 {
@@ -333,12 +517,12 @@ img#profileBusca {
 
 div#links {
     width: 70%;
-    margin: 7px auto;
+    margin: 43px auto 7px;
 }
 
 
 #links a {
-    width: 33.333333%;
+    width: 25%;
     display: inline-block;
     box-sizing: border-box;
     border: 1px solid #FFF;
@@ -418,6 +602,7 @@ a.abaRecurso {
     border: 1px solid #FFF;
     color: #FFF;
     font-size: 20px;
+    vertical-align: top;
 }
 
 a.abaRecurso.sim {
@@ -425,7 +610,7 @@ a.abaRecurso.sim {
 }
 
 a.abaRecurso.nao {
-    background: #ce4a3a;
+    background: #999;
     display: none;
 }
 
@@ -501,7 +686,41 @@ span#inputBuscaGeralBefore.ativo {
 }
 
 
+h4 {
+    width: 34.9%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #FFF;
+    background: #EEE;
+    color: #333;
+    padding: 0px 0 12px;
+    font-family: "Champagne";
+    letter-spacing: 1px;
+    font-size: 16px;
+    vertical-align: top;
+    margin-bottom: 7px;
+}
 
+h4 span {
+    display: block;
+    font-size: 22px;
+    background: #777;
+    color: #FFF;
+    padding: 16px 0;
+    margin-bottom: 12px;
+}
+
+h4 a {
+    display: block;
+    background: #88a7ca;
+    padding: 12px;
+    margin: -12px 0;
+    color: #FFF;
+}
+
+h4 a:hover {
+    background: #99b8DB;
+}
 
 
 
@@ -529,11 +748,11 @@ span#inputBuscaGeralBefore.ativo {
 
 
 ::-webkit-input-placeholder {
-   color: rgba(255,255,255,.52);
+   color: #CCC;
 }
 
 :-moz-placeholder {
-   color: rgba(255,255,255,.52);
+   color: #CCC;
 }
 
 
@@ -627,4 +846,359 @@ span#inputBuscaGeralBefore.ativo {
     transform: scaleY(1.0);
     -webkit-transform: scaleY(1.0);
   }
+}
+
+
+
+
+
+/* Aplicativos */
+
+main nav {
+    width: 80%;
+    margin: 25px auto;
+    display: block;
+}
+
+main nav a {
+    display: inline-block;
+    width: 24%;
+    background: #EEE;
+    margin: 7px 0.5%;
+    vertical-align: top;
+    height: 180px;
+    transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+main nav a .imagem {
+    background-color: #333;
+    width: 100%;
+    height: 124px;
+    margin-bottom: 20px;
+    z-index: 80;
+    background-position: center;
+    background-size: 100%;
+    transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+main nav a:hover {
+    color: #FFF;
+    background: #000;
+    font-size: 20px;
+}
+
+main nav a:hover .imagem {
+    height: 180px;
+    margin-bottom: -95px;
+    background-size: 115%;
+    opacity: 0.16;
+}
+
+main a span {
+    z-index: 9999;
+    display: block;
+    position: relative;
+}
+
+a.appList {
+    padding: 16px;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    color: #434343;
+    font-size: 20px;
+    height: 20px;
+    overflow: hidden;
+    z-index: 99;
+    position: relative;
+}
+
+a.appList:nth-child(even) {
+    background: #CCC;
+}
+
+div.interno {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid #AAA;
+}
+
+span.user {
+    display: inline-block;
+    width: 90%;
+}
+
+span.excluirUser {
+    background: rgba(205,70,52,.7);
+    padding: 5px 10px;
+    color: #FFF;
+    display: inline-block;
+}
+
+span.excluirUser:hover {
+    background: rgba(205,70,52,.52);
+}
+
+span.odd {
+    background: rgba(0,0,0,.07);
+}
+
+span.even, span.odd {
+    display: block;
+    padding: 16px 0;
+}
+
+span.addUser {
+    display: block;
+    margin-top: 12px;
+    padding: 12px;
+    background: #354d67;
+    color: #FFF;
+}
+
+span.addUser:hover {
+    background: #465E78;
+}
+
+select.selectUser {
+    width: 100%;
+    padding: 16px;
+    color: #434343;
+    margin-bottom: 16px;
+}
+
+main p {
+    font-size: 20px;
+    color: #999;
+    margin: 52px;
+}
+
+
+
+
+
+
+
+
+/* Preferencias */
+
+a#alterarSenha {
+    background: #777;
+    color: #FFF;
+    padding: 16px 34px;
+    display: block;
+    width: 7%;
+    margin: 52px auto;
+}
+
+
+a#alterarSenha:hover, #formAlterarSenha input[type='submit']:hover {
+    background-color: #364e68;
+    color: #FFF;
+}
+
+#formAlterarSenha {
+    padding: 0;
+    overflow: hidden;
+    height: 0;
+    transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+#formAlterarSenha input {
+    width: 30%;
+    display: block;
+    margin: 7px auto;
+    padding: 16px;
+}
+
+#formAlterarSenha input[type='submit'] {
+    background-color: #525252;
+    color: #EEE;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+div#sombra:after, div#sombraBranca:after {
+    content: "X";
+    position: fixed;
+    z-index: 99999;
+    top: 16px;
+    right: 16px;
+    font-size: 70px;
+    color: #777;
+    font-family: "Champagne";
+    cursor: pointer;
+}
+
+div#sombraBranca:after {
+    color: #444;
+}
+
+
+
+
+
+
+
+
+/* Portfolio de Negocios */
+
+a.portfolio {
+    overflow: hidden;
+}
+
+
+div#grafico {
+    background: #777;
+    height: 70px;
+    width: 70%;
+    margin: 43px auto;
+}
+
+span#preenchimento {
+    height: 70px;
+    display: inline-block;
+    float: left;
+    background: #38506a;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+div#unidades, div#centrosCusto {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div#unidades h3, div#centrosCusto h3 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div#unidades {
+    border-right: 1px solid #FFF;
+}
+
+div#centrosCusto {
+    border-left: 1px solid #FFF;
+}
+
+label {
+    display: block;
+    text-align: left;
+    padding: 7px 0 7px 43px;
+}
+
+div#usuariosDatasul, div#usuariosTotal {
+    width: 22%;
+    display: inline-block;
+    font-size: 28px;
+    font-family: "Champagne";
+    color: #777;
+    font-weight: 600;
+    vertical-align: top;
+    margin: -16px 0 52px;
+}
+
+#usuariosDatasul span {
+    color: #54789e;
+}
+
+
+small {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: -25px;
+}
+
+small a:hover {
+    color: #43679e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div#menuOculto {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    top: -75px;
+    height: 75px;
+    background: url(../img/fundoTopoInterno.jpg);
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+    left: 0;
+}
+
+#menuOculto a:nth-child(1) {
+    width: 5%;
+    display: inline-block;
+    text-align: center;
+}
+
+#menuOculto img#logoInterno {
+    padding: 16px;
+    height: 43px;
+}
+
+#menuOculto a#iniciar {
+    padding: 25px 25px 24px;
+}
+
+#menuOculto a#profile2 {
+    height: 75px;
+    width: 75px;
+}
+
+form#buscaGeralOculto {
+    display: inline-block;
+    float: right;
+}
+
+input#inputBuscaGeral2 {
+    vertical-align: top;
+    height: 75px;
+    border: none;
+    background: rgba(0,0,0,0.25);
+    padding: 0 25px;
+    color: #EEE;
+}
+
+
+#menuOculto a#exibirMenu {
+    width: 52px;
+    height: 52px;
+    margin: 12px 0 0 25px;
+    vertical-align: top;
 }

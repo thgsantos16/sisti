@@ -1,0 +1,33 @@
+<?php
+
+// Arquivo de Conteúdo dos Aplicativos
+
+?>
+
+
+<h1>Sistema Integrado de Soluções - TI</h1>
+
+<main>
+
+<h2>Aplicativos</h2>
+
+<nav>
+
+<?php
+
+$sql = "SELECT a.* FROM relatorios_aplicativos a 
+		LEFT JOIN relatorios_usuarios_aplicativos b ON 
+		a.id = b.id_aplicativo
+		WHERE b.id_usuario = ".$_SESSION['userId'];
+		//echo $sql;
+$res = sqlsrv_query($con, $sql);
+
+while($row = sqlsrv_fetch_array($res)) { ?><a target="_blank" href="<?=$row['link']?>">
+	<div class="imagem" style="background-image: url(img/<?=$row['img']?>)"></div>
+	<span><?=$row['nome']?></span>
+</a><?php } ?>
+
+</nav>
+
+
+</main>

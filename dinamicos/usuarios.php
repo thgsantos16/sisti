@@ -14,7 +14,7 @@ include "../conexao.php";
 
 $(function () {
 	var max = 0;
-$.getJSON("private/usuarios.json", function(result){
+$.getJSON("http://lanpiasoa.pia.com.br/sisti/private/usuarios.json", function(result){
 	$("#buscaDinamica").html("");
     $.each(result, function(i, field){
     	if((field.nome.toLowerCase().indexOf("<?=$_POST['usu']?>") != '-1' || field.matricula.toLowerCase().indexOf("<?=$_POST['usu']?>") != '-1') && max < 7) {

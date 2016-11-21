@@ -1,0 +1,77 @@
+<?php
+
+// Arquivo de Conteúdo das Preferências 
+
+if(!empty($_POST['senhaAtual'])) {
+	$sql = "SELECT * FROM relatorios_usuarios WHERE login LIKE '".$_SESSION['usuario']."' AND senha LIKE '".base64_encode(base64_encode($_POST['senhaAtual']))."' COLLATE sql_latin1_general_cp1_cs_as";
+	$res = sqlsrv_query($con, $sql);
+	//echo $sql;
+	$num = sqlsrv_has_rows($res);
+	if($num) {
+		$sqlNovo = "UPDATE relatorios_usuarios SET senha = '".base64_encode(base64_encode($_POST['senhaNova']))."' WHERE login LIKE '".$_SESSION['usuario']."'";
+		$resNovo = sqlsrv_query($con, $sqlNovo);
+			$resultado = "Senha Alterada com Sucesso!";
+	}
+
+	else $resultado = "Senha Atual Incorreta!";
+
+}
+
+?>
+
+
+<h1>Sistema Integrado de Soluções - TI</h1>
+
+<main>
+
+<h2>Preferências do Usuário</h2>
+
+<form id="formAlterarSenha" action="./preferencias" method="post" class="modal" autocomplete="off">
+
+<input type="password" name="senhaAtual" id="senhaAtual" placeholder="Senha Atual" autocomplete="off" required>
+<input type="password" name="senhaNova" id="senhaNova" placeholder="Nova Senha" autocomplete="off" required>
+<input type="password" name="senhaNova2" id="senhaNova2" placeholder="Repetir Nova Senha" autocomplete="off" oninput="validaSenha(this)" required>
+
+<input type="submit" value="Salvar">
+
+</form>
+
+<a onclick="document.getElementById('formAlterarSenha').style.height = '235px'; 
+			document.getElementById('formAlterarSenha').style.padding = '16px 0';" id="alterarSenha">Alterar Senha</a>
+
+
+</main>
+
+
+<?php
+
+if(isset($resultado)) { ?>
+
+<div id="resultadoAcao" class="modal"><?=$resultado;?></div>
+
+<style>
+
+div#sombraBranca {
+	display: block;
+}
+
+</style>
+
+<?php } ?>
+
+
+
+
+<script type="text/javascript">
+
+function validaSenha (input){ 
+    if (input.value != document.getElementById('senhaNova').value) {
+    input.setCustomValidity('Repita a senha corretamente');
+  } else {
+    input.setCustomValidity('');
+  }
+} 
+
+</script>
+
+

@@ -120,7 +120,7 @@ main {
 }
 
 header {
-    height: 205px;
+    height: 33%;
     z-index: 99;
     position: relative;
 }
@@ -129,6 +129,9 @@ footer {
     text-align: center;
     margin: 25px 0 12px;
     color: #FFF;
+    position: fixed;
+    bottom: 7px;
+    width: 100%;
 }
 
 img#logoInterno {
@@ -204,6 +207,16 @@ a#apps:hover {
     display: none;
 }
 
+form#formFeedback {
+    position: fixed;
+    width: 50%;
+    z-index: 999;
+    top: 16%;
+    height: 100%;
+    margin: 0 25%;
+    text-align: left;
+}
+
 #formBusca input[type="text"], #formFeedback input[type="text"] {
     height: 130px;
     width: 60%;
@@ -221,6 +234,53 @@ a#apps:hover {
     font-family: "Champagne";
     letter-spacing: 2px;
     font-weight: bold;
+}
+
+#formFeedback input[type="text"] {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    padding: 0 1.6%;
+    left: 0%;
+    position: relative;
+    top: 0;
+    display: block;
+    margin-top: 8px;
+    border: 1px solid #555;
+    box-shadow: 0px 0px 12px rgba(70,111,151,0.7);
+}
+
+#formFeedback textarea {
+    height: 205px;
+    width: 100%;
+    position: relative;
+    padding: 3%;
+    background: #000;
+    border: none;
+    box-shadow: 0px 0px 12px #466F97;
+    z-index: 999;
+    color: #EEE;
+    font-size: 24px;
+    font-family: "Champagne";
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: 0%;
+    margin-top: 8px;
+    resize: none;
+}
+
+#formFeedback input[type="submit"] {
+    width: 90%;
+    font-size: 22px;
+    height: 50px;
+    border: none;
+    display: block;
+    margin-left: 5%;
+    margin-top: 8px;
+    color: #FFF;
+    background: #3a5877;
+    font-family: "Champagne";
+    letter-spacing: 1px;
 }
 
 div#sombra {
@@ -306,6 +366,60 @@ nav p {
 }
 
 
+div#ajudaBusca {
+    display: none;
+    width: 800px;
+    background: #252525;
+    height: 80%;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    margin-left: -400px;
+    z-index: 999;
+    overflow: auto;
+    border: 1px solid #444;
+}
+
+#ajudaBusca h2 {
+    display: block;
+    max-width: 1608px;
+    margin: 16px auto;
+    width: 82%;
+    color: #BBB;
+    font-size: 52px;
+    font-family: "Champagne";
+    font-weight: normal;
+    text-align: center;
+    color: #EEE;
+}
+
+#ajudaBusca h3 {
+    display: block;
+    max-width: 1608px;
+    margin: 16px auto;
+    width: 82%;
+    color: #BBB;
+    font-size: 52px;
+    font-family: "Champagne";
+    font-weight: normal;
+    background: #333;
+    color: #DDD;
+    width: 90%;
+    padding-left: 2%;
+}
+
+#ajudaBusca p {
+    color: #AAA;
+    padding: 5px 5%;
+}
+
+#ajudaBusca span {
+    font-weight: bold;
+    color: #EEE;
+}
+
+
+
 @keyframes botaoIniciar {
     0% {background: url(../img/fundoBotaoVerde2.jpg);}
     50% {background: url(../img/fundoBotaoVerde.jpg);}
@@ -331,7 +445,21 @@ nav p {
 }
 
 
+div#sombra:after, div#sombraBranca:after {
+    content: "X";
+    position: fixed;
+    z-index: 99999;
+    top: 16px;
+    right: 16px;
+    font-size: 70px;
+    color: #777;
+    font-family: "Champagne";
+    cursor: pointer;
+}
 
+div#sombraBranca:after {
+    color: #444;
+}
 
 
 

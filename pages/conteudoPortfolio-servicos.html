@@ -1,0 +1,101 @@
+<?php
+
+// Arquivo de Conteúdo do Portfólio de Serviços
+
+if(empty($explodirUrl[3])) {
+
+?>
+
+
+<h1>Sistema Integrado de Soluções - TI</h1>
+
+<main>
+
+<h2>Portfólio de Serviços</h2>
+
+<nav>
+	
+<a href="portfolio-servicos/datasul" class="portfolio">
+	<div class="imagem" style="background-image: url(img/datasul.jpg)"></div>
+	<span>Datasul</span>
+</a><a href="portfolio-servicos/rede" class="portfolio">
+	<div class="imagem" style="background-image: url(img/rede.jpg)"></div>
+	<span>Rede</span>
+</a><a href="portfolio-servicos/equipamentos" class="portfolio">
+	<div class="imagem" style="background-image: url(img/equipamentos.jpg)"></div>
+	<span>Equipamentos</span>
+</a><a class="portfolio">
+	<div class="imagem" style="background-image: url(img/suporte.jpg)"></div>
+	<span>Suporte TI</span>
+</a><a class="portfolio">
+	<div class="imagem" style="background-image: url(img/fluig.jpg)"></div>
+	<span>Fluig</span>
+</a><a class="portfolio">
+	<div class="imagem" style="background-image: url(img/kw.jpg)"></div>
+	<span>KW</span>
+</a><a class="portfolio">
+	<div class="imagem" style="background-image: url(img/fulsoft.jpg)"></div>
+	<span>Fulsoft</span>
+</a>
+
+</nav>
+
+</main>
+
+<?php } else { 
+
+if($explodirUrl[3] == "datasul") {
+	$titulo = "Datasul";
+	$sql = "SELECT count(*) AS total FROM relatorios_funcionarios WHERE desligado = 0";
+	$res = sqlsrv_query($con, $sql);
+	$row = sqlsrv_fetch_array($res);
+	$totalUsuarios = $row['total'];
+
+	$sql = "SELECT count(*) AS total FROM relatorios_funcionarios WHERE usuarioDatasul IS NOT NULL AND usuarioDatasul NOT LIKE '' AND desligado = 0";
+	$res = sqlsrv_query($con, $sql);
+	$row = sqlsrv_fetch_array($res);
+	$totalDatasul = $row['total'];
+
+	$width = (100*$totalDatasul)/$totalUsuarios;
+}
+
+if($explodirUrl[3] == "rede") {
+	$titulo = "Rede - AD";
+	$sql = "SELECT count(*) AS total FROM relatorios_funcionarios WHERE desligado = 0";
+	$res = sqlsrv_query($con, $sql);
+	$row = sqlsrv_fetch_array($res);
+	$totalUsuarios = $row['total'];
+
+	$sql = "SELECT count(*) AS total FROM relatorios_funcionarios a
+	        INNER JOIN relatorios_usuarios_ad b ON 
+	        a.matricula = b.matricula WHERE a.desligado = 0";
+	$res = sqlsrv_query($con, $sql);
+	$row = sqlsrv_fetch_array($res);
+	$totalDatasul = $row['total'];
+
+	$width = (100*$totalDatasul)/$totalUsuarios;
+}
+
+if($explodirUrl[3] == "equipamentos") {
+	$titulo = "Equipamentos";
+}
+
+?>
+
+<h1>Sistema Integrado de Soluções - TI</h1>
+
+<main>
+
+<h2>Portfólio de Serviços - <?=$titulo;?> <small>(<a href="../portfolio-servicos">Voltar</a>)</small></h2>
+
+<?php if($titulo != 'Equipamentos') { ?><div id="grafico"><span id="preenchimento" style="width: <?=$width;?>%"></span><span id="valorGrafico"></span></div><?php } ?>
+
+<?php if($titulo == 'Datasul') include "portfolio/datasul.php"; ?>
+<?php if($titulo == 'Rede - AD') include "portfolio/rede.php"; ?>
+<?php if($titulo == 'Equipamentos') include "portfolio/equipamentos.php"; ?>
+
+</main>
+
+<div id="resultadosCheck"></div>
+
+<?php } ?>
