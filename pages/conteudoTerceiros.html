@@ -1,0 +1,262 @@
+<?php
+
+// Arquivo de Conteúdo dos Aplicativos
+
+
+
+if(empty($explodirUrl[3])) {
+
+$sql = "SELECT a.* FROM relatorios_aplicativos a 
+		LEFT JOIN relatorios_usuarios_aplicativos b ON 
+		a.id = b.id_aplicativo
+		WHERE b.id_aplicativo = 13 AND b.id_usuario = ".$_SESSION['userId'];
+		//echo $sql;
+$res = sqlsrv_query($con, $sql);
+$has = sqlsrv_has_rows($res);
+
+if(!$has) header('location: ./');
+else {
+
+	$sqlAcessos = "UPDATE relatorios_aplicativos SET ultimo = '".date('Y-m-d')."' WHERE id = 13";
+	$resAcessos = sqlsrv_query($con, $sqlAcessos);
+
+	$sqlAcessos = "SELECT * FROM relatorios_aplicativos_acessos WHERE id_aplicativo = 13 AND data = '".date('Y-m-d')."'";
+	$resAcessos = sqlsrv_query($con, $sqlAcessos);
+	$hasAcessos = sqlsrv_has_rows($resAcessos);
+
+	if($hasAcessos) {
+		$rowAcessos = sqlsrv_fetch_array($resAcessos);
+		$tot = $rowAcessos['total'] + 1;
+		$sqlAlterar = "UPDATE relatorios_aplicativos_acessos SET total = ".$tot." WHERE id = ".$rowAcessos['id'];
+	}
+
+	else $sqlAlterar = "INSERT INTO relatorios_aplicativos_acessos (id_aplicativo, data, total) VALUES (13, '".date('Y-m-d')."', 1)";
+
+	
+	//echo $sqlAlterar;
+	$resAlterar = sqlsrv_query($con, $sqlAlterar);
+
+?>
+
+
+<h1>Sistema Integrado de Soluções - TI</h1>
+
+<main>
+
+<h2>Gerenciamento de Terceiros</h2>
+
+<nav>
+
+<?php
+
+$sql = "SELECT * FROM relatorios_terceiros";
+$res = sqlsrv_query($con, $sql);
+$has = sqlsrv_has_rows($res);
+
+if(!$has) echo "<p>Nenhum Terceiro Cadastrado.</p>";
+
+$i = 0;
+while($row = sqlsrv_fetch_array($res)) {
+	$t[$i]['nome'] = $row['nome'];
+	$t[$i]['img'] = $row['img'];
+	$t[$i]['link'] = $row['link'];
+	$i++;
+}
+
+sort($t);
+	
+	for($i = 0; $i < count($t); $i++) {
+ ?><a target="_blank" href="terceiros/<?=$t[$i]['link']?>">
+	<div class="imagem" style="background-image: url(img/<?=$t[$i]['img']?>)"></div>
+	<span><?=$t[$i]['nome']?></span>
+</a><?php } ?>
+
+</nav>
+
+<a id='addRede' class='botaoRede'>Adicionar Terceiro</a>
+
+</main>
+
+
+<form id="formRede" action="..<?=$_SERVER['REQUEST_URI']?>" method="post" class="modal" autocomplete="off">
+
+<h3>Adicionar Terceiro</h3>
+<input type="hidden" name="terceiro" value="true">
+<input autocomplete="off" type="text" name="nomeTerceiro" placeholder="Nome da Empresa" required>
+<input autocomplete="off" type="text" name="cnpj" placeholder="CNPJ" required>
+
+<input type="submit" name="submitRede" id="submitRede">
+
+</form>
+
+<?php } ?>
+
+
+
+
+<?php } else { ?>
+
+
+<?php
+
+$sql = "SELECT * FROM relatorios_terceiros WHERE link LIKE '".$explodirUrl[3]."'";
+$res = sqlsrv_query($con, $sql);
+$row = sqlsrv_fetch_array($res);
+
+?>
+
+<style type="text/css">
+	.appList {
+	    padding: 16px 0;
+	    display: inline-block;
+	    width: 19%;
+    	margin: 6px .5%;
+	    color: #434343;
+	    font-size: 18px;
+	    height: auto;
+	    vertical-align: top;
+	    overflow: hidden;
+	    z-index: 99;
+	    position: relative;
+	    box-sizing: border-box;
+	    border: 1px solid #CCC;
+	    cursor: pointer;
+	    transition: all 0.43s;
+	    -o-transition: all 0.43s;
+	    -moz-transition: all 0.43s;
+	    -webkit-transition: all 0.43s;
+	}
+
+	.appList:nth-child(even) {
+	    background: #FFF;
+	}
+
+	div.appList:hover {
+	    color: #FFF;
+	    background: #13293e;
+	    box-shadow: 1px 1px 7px #555;
+	}
+
+	div.appList:hover .imgUsuario { 
+	    border: 1px solid #FFF;
+	}
+
+	.imgUsuario {
+	    width: 97px;
+	    height: 97px;
+	    border-radius: 100%;
+	    background: #333 url(../img/profile.jpg);
+	    margin: 2px auto 14px;
+	    background-size: cover;
+	    box-sizing: border-box;
+	    border: 1px solid #444;
+	}
+
+	.titulo {
+	    height: 61px;
+	    margin-top: 16px;
+	    margin-bottom: -16px;
+	}
+
+	.att {
+		display: inline-block;
+	    background: #333;
+		box-sizing: border-box;
+		border: 1px solid #AAA;
+		width: 33.333333%;
+		height: 61px;
+	    transition: all 0.43s;
+	    -o-transition: all 0.43s;
+	    -moz-transition: all 0.43s;
+	    -webkit-transition: all 0.43s;
+	}
+
+	div.appList:hover .att { 
+	    opacity: .61;
+	}
+
+	div.appList:hover .att:hover { 
+	    opacity: 1;
+	}
+
+</style>
+
+<script>
+
+$(function(){
+	$( window ).scroll(function() {
+        if($( window ).scrollTop() > 22) {
+        	var x = $( window ).scrollTop() - 22;
+        	var recuo = $( window ).scrollTop() / 2;
+        	var y = x/304;
+            $('#hidder').css('opacity',  y);
+            $('body').css('background-position-y',  -recuo);
+        }
+
+        else { 
+            $('#hidder').css('opacity',  '0');
+            $('body').css('background-position-y',  '0');
+        }
+    });
+});
+
+</script>
+
+<h1><?=$row['nome']?></h1>
+
+<main>
+
+<pre>
+</pre>
+
+<nav>
+	<a data-cod="<?=$row['id']?>" id="abaUsuariosT" class="abasAN selecionado">Usuários</a><a data-cod="<?=$row['id']?>" id="abaProcessosT" class="abasAN">Processos</a><a id="abaDetalhesT" data-cod="<?=$row['id']?>" class="abasAN">Detalhes</a>
+</nav>
+
+<div id="dinamicoAN" style="width: 70%; margin: 0 auto;">
+
+<?php
+
+$sql2 = "SELECT * FROM relatorios_terceiros_funcionarios WHERE id_empresa = '".$row['id']."'";
+$res2 = sqlsrv_query($con, $sql2);
+//echo $sql2;
+$i = 0;
+
+while($row2 = sqlsrv_fetch_array($res2)){ 
+$i++;
+?><div onclick="document.getElementById('buscaGeral').setAttribute('target', '_blank'); document.getElementById('inputBuscaGeral').value = '#<?=$row2['matricula']?>'; document.getElementById('buscaGeral').submit(); document.getElementById('buscaGeral').setAttribute('target', '_self'); document.getElementById('inputBuscaGeral').value = '';" class="appList"><div class='imgUsuario'></div><?=$row2['nome']?></div><?php }
+
+ if($i == 0) echo "<p>Nenhum usuário cadastrado!</p>"; ?>
+
+<form action="<?=$row['link']?>" method="post">
+<input type="hidden" name="hiddenUsuarioTerceiro" value="<?=$row['id'];?>">
+
+<input type="text" name="usuarioTerceiro" id="usuarioTerceiro" required placeholder="Nome do Funcionário">
+
+<input type="submit" value="Salvar">
+
+</form>
+
+</div>
+
+</main>
+
+<?php } ?>
+
+
+
+<?php
+
+if(isset($resultado)) { ?>
+
+<div id="resultadoAcao" class="modal"><?=$resultado;?></div>
+
+<style>
+
+div#sombraBranca {
+	display: block;
+}
+
+</style>
+
+<?php } ?>

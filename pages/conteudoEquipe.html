@@ -1,0 +1,62 @@
+<?php
+
+// Arquivo de Conteúdo dos Aplicativos
+
+?>
+
+
+<h1>Sistema Integrado de Soluções - TI</h1>
+
+<main>
+
+<h2>Equipe de TI</h2>
+
+<nav>
+
+<?php
+
+$sql = "SELECT a.* FROM relatorios_aplicativos a 
+		LEFT JOIN relatorios_usuarios_aplicativos b ON 
+		a.id = b.id_aplicativo
+		WHERE b.id_aplicativo = 16 AND b.id_usuario = ".$_SESSION['userId'];
+		//echo $sql;
+$res = sqlsrv_query($con, $sql);
+$has = sqlsrv_has_rows($res);
+
+if(!$has) header('location: ./');
+else {
+
+	$sqlAcessos = "UPDATE relatorios_aplicativos SET ultimo = '".date('Y-m-d')."' WHERE id = 16";
+	$resAcessos = sqlsrv_query($con, $sqlAcessos);
+
+	$sqlAcessos = "SELECT * FROM relatorios_aplicativos_acessos WHERE id_aplicativo = 16 AND data = '".date('Y-m-d')."'";
+	$resAcessos = sqlsrv_query($con, $sqlAcessos);
+	$hasAcessos = sqlsrv_has_rows($resAcessos);
+
+	if($hasAcessos) {
+		$rowAcessos = sqlsrv_fetch_array($resAcessos);
+		$tot = $rowAcessos['total'] + 1;
+		$sqlAlterar = "UPDATE relatorios_aplicativos_acessos SET total = ".$tot." WHERE id = ".$rowAcessos['id'];
+	}
+
+	else $sqlAlterar = "INSERT INTO relatorios_aplicativos_acessos (id_aplicativo, data, total) VALUES (16, '".date('Y-m-d')."', 1)";
+
+	
+	//echo $sqlAlterar;
+	$resAlterar = sqlsrv_query($con, $sqlAlterar);
+
+$sql = "SELECT * FROM relatorios_funcionarios WHERE centroCusto LIKE '4115509'";
+		//echo $sql;
+$res = sqlsrv_query($con, $sql);
+
+while($row = sqlsrv_fetch_array($res)) { ?><a target="_blank" href="<?=$row['link']?>">
+	<div class="imagem" style="background-image: url(img/<?=$row['img']?>)"></div>
+	<span><?=$row['nome']?></span>
+</a><?php } ?>
+
+</nav>
+
+
+</main>
+
+<?php } ?>

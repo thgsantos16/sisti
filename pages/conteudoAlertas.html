@@ -1,0 +1,53 @@
+<?php
+
+// Arquivo de Conteúdo das Preferências 
+
+$sql = "SELECT a.* FROM relatorios_aplicativos a 
+		LEFT JOIN relatorios_usuarios_aplicativos b ON 
+		a.id = b.id_aplicativo
+		WHERE b.id_aplicativo = 11 AND b.id_usuario = ".$_SESSION['userId'];
+		//echo $sql;
+$res = sqlsrv_query($con, $sql);
+$has = sqlsrv_has_rows($res);
+
+if(!$has) header('location: ./');
+else {
+
+	$sqlAcessos = "UPDATE relatorios_aplicativos SET ultimo = '".date('Y-m-d')."' WHERE id = 11";
+	$resAcessos = sqlsrv_query($con, $sqlAcessos);
+
+	$sqlAcessos = "SELECT * FROM relatorios_aplicativos_acessos WHERE id_aplicativo = 11 AND data = '".date('Y-m-d')."'";
+	$resAcessos = sqlsrv_query($con, $sqlAcessos);
+	$hasAcessos = sqlsrv_has_rows($resAcessos);
+
+	if($hasAcessos) {
+		$rowAcessos = sqlsrv_fetch_array($resAcessos);
+		$tot = $rowAcessos['total'] + 1;
+		$sqlAlterar = "UPDATE relatorios_aplicativos_acessos SET total = ".$tot." WHERE id = ".$rowAcessos['id'];
+	}
+
+	else $sqlAlterar = "INSERT INTO relatorios_aplicativos_acessos (id_aplicativo, data, total) VALUES (11, '".date('Y-m-d')."', 1)";
+
+	
+	//echo $sqlAlterar;
+	$resAlterar = sqlsrv_query($con, $sqlAlterar);
+
+?>
+
+
+<h1>Sistema Integrado de Soluções - TI</h1>
+
+<main>
+
+<h2 style="margin-bottom: 52px;">Alertas do Sistema</h2>
+
+<?php include "erros/desligadoGlpiAtivo.php"; ?>
+<?php include "erros/desligadoADAtivo.php"; ?>
+<?php include "erros/semDataAdmissao.php"; ?>
+<?php include "erros/desligadoSemDataDemissao.php"; ?>
+
+<p id="pDinamicos">Nenhum Alerta Encontrado.</p>
+
+</main>
+
+<?php } ?>

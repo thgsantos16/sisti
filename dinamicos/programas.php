@@ -13,6 +13,7 @@ include "../conexao.php";
 <script>
 
 $(function () {
+	 $.ajaxSetup({ cache: false });
 	var max = 0;
 $.getJSON("http://lanpiasoa.pia.com.br/sisti/private/programas.json", function(result){
 	$("#buscaDinamica").html("");

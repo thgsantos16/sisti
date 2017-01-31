@@ -1,0 +1,147 @@
+<?php
+
+// Arquivo de Conteúdo dos Usuários sisTI
+
+$sql = "SELECT a.* FROM relatorios_aplicativos a 
+		LEFT JOIN relatorios_usuarios_aplicativos b ON 
+		a.id = b.id_aplicativo
+		WHERE b.id_aplicativo = 10 AND b.id_usuario = ".$_SESSION['userId'];
+		//echo $sql;
+$res = sqlsrv_query($con, $sql);
+$has = sqlsrv_has_rows($res);
+
+if(!$has) header('location: ./');
+else {
+
+	$sqlAcessos = "UPDATE relatorios_aplicativos SET ultimo = '".date('Y-m-d')."' WHERE id = 10";
+	$resAcessos = sqlsrv_query($con, $sqlAcessos);
+
+	$sqlAcessos = "SELECT * FROM relatorios_aplicativos_acessos WHERE id_aplicativo = 10 AND data = '".date('Y-m-d')."'";
+	$resAcessos = sqlsrv_query($con, $sqlAcessos);
+	$hasAcessos = sqlsrv_has_rows($resAcessos);
+
+	if($hasAcessos) {
+		$rowAcessos = sqlsrv_fetch_array($resAcessos);
+		$tot = $rowAcessos['total'] + 1;
+		$sqlAlterar = "UPDATE relatorios_aplicativos_acessos SET total = ".$tot." WHERE id = ".$rowAcessos['id'];
+	}
+
+	else $sqlAlterar = "INSERT INTO relatorios_aplicativos_acessos (id_aplicativo, data, total) VALUES (10, '".date('Y-m-d')."', 1)";
+
+	
+	//echo $sqlAlterar;
+	$resAlterar = sqlsrv_query($con, $sqlAlterar);
+
+?>
+
+<style type="text/css">
+	main a span.colunaUsuarios, main div span.colunaUsuarios {
+	    display: inline-block;
+	    width: 45%;
+	    vertical-align: top;
+	}
+
+	main div span.colunaUsuarios {
+		color: #FFF;
+	}
+
+	main a span.colunaUsuarios:nth-child(1), main div span.colunaUsuarios:nth-child(1) {
+	    width: 10%;
+	}
+
+	a.appList, div.appList {
+	    padding: 16px;
+	    display: block;
+	    width: 50%;
+	    margin: 0 auto;
+	    color: #434343;
+	    font-size: 20px;
+	    height: 20px;
+	    overflow: hidden;
+	    z-index: 99;
+	    position: relative;
+	}
+
+	a#addRede {
+	    padding: 16px;
+	    display: block;
+	    width: 20%;
+	    margin: 52px auto 0 54%;
+	    background: #333;
+	    color: #FFF;
+	}
+
+	a#addRede:hover {
+		background-color: #3b536d;
+	}
+
+	div.appList {
+		margin-top: 16px;
+		background-color: #172f49;
+	}
+
+</style>
+
+<h1>Sistema Integrado de Soluções - TI</h1>
+
+<main>
+
+<h2>Gerenciar Usuários sisTI</h2>
+
+<a id="addRede">Adicionar Usuário</a>
+
+<div class="appList">
+<span class="colunaUsuarios">ID
+</span><span class="colunaUsuarios">Nome
+</span><span class="colunaUsuarios">Login
+</span></div>
+
+<?php 
+
+$sql = "SELECT * FROM relatorios_usuarios";
+$res = sqlsrv_query($con, $sql);
+
+while($row = sqlsrv_fetch_array($res)) {
+?><a id="appList<?=$row['id']?>" class="appList">
+<span class="colunaUsuarios"><?=$row['id']?>
+</span><span class="colunaUsuarios"><?=$row['nome']?>
+</span><span class="colunaUsuarios"><?=$row['login']?>
+</span></a><?php } ?>
+
+</main>
+
+<?php } ?>
+
+
+<form id="formRede" action="./usuarios-sisti" method="post" class="modal" autocomplete="off">
+
+<h3>Adicionar Usuário</h3>
+
+<input placeholder="Nome" type="text" name="novoUsuario" id="novoUsuario" required>
+<input placeholder="Login" type="text" name="novoLogin" id="novoLogin" required>
+<input placeholder="Senha Temporária" type="password" name="novoSenha" id="novoSenha" required>
+
+<input type="submit" name="submitRede" id="submitRede">
+
+</form>
+
+
+
+
+
+
+<?php
+
+if(isset($resultado)) { ?>
+
+<div id="resultadoAcao" class="modal"><?=$resultado;?></div>
+
+<style>
+
+div#sombraBranca {
+	display: block;
+}
+
+</style>
+
+<?php } ?>

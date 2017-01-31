@@ -1,0 +1,123 @@
+<?php
+
+// Arquivo de Conteúdo dos Aplicativos
+
+$sql = "SELECT a.* FROM relatorios_aplicativos a 
+		LEFT JOIN relatorios_usuarios_aplicativos b ON 
+		a.id = b.id_aplicativo
+		WHERE b.id_aplicativo = 1 AND b.id_usuario = ".$_SESSION['userId'];
+		//echo $sql;
+$res = sqlsrv_query($con, $sql);
+$has = sqlsrv_has_rows($res);
+
+if(!$has) header('location: ./');
+else {
+
+?>
+
+
+<h1>Sistema Integrado de Soluções - TI</h1>
+
+<main>
+
+<h2>Gerenciar Aplicativos</h2>
+
+<?php 
+
+$sql = "SELECT * FROM relatorios_aplicativos";
+$res = sqlsrv_query($con, $sql);
+
+while($row = sqlsrv_fetch_array($res)) {
+?><a id="appList<?=$row['id']?>" class="appList"><span class='abrir' data-cod="<?=$row['id']?>"><?=$row['nome']?></span>
+	<div class='interno' id='interno<?=$row['id']?>'>
+	<?php 
+
+	$sqlUsers = "SELECT c.* FROM relatorios_aplicativos a 
+		INNER JOIN relatorios_usuarios_aplicativos b ON 
+		a.id = b.id_aplicativo
+		INNER JOIN relatorios_usuarios c ON 
+		c.id = b.id_usuario
+		WHERE b.id_aplicativo = ".$row['id'];
+		//echo $sql;
+	$resUsers = sqlsrv_query($con, $sqlUsers);
+	$i = 0;
+
+	while($rowUsers = sqlsrv_fetch_array($resUsers)) { $i++; ?>
+	<?php if($i%2 == 1) { ?><span class='even'><?php
+	} else { ?><span class='odd'><?php } ?> 
+	<span class='user'><?=$rowUsers['nome'];?></span>
+	<span class='excluirUser' data-app='<?=$row['id'];?>' data-user='<?=$rowUsers['id'];?>'>X</span>
+	</span>
+	<?php } ?>
+	<span class="addUser" data-app="<?=$row['id'];?>">Adicionar Usuário</span>
+	</div>
+</a><?php } ?>
+
+</main>
+
+<?php } ?>
+
+
+<form id="formRede" action="./gerenciar" method="post" class="modal" autocomplete="off">
+
+<h3>Adicionar Usuário</h3>
+<input type="hidden" name="idApp" id="idApp">
+
+<?php 
+
+$sql = "SELECT * FROM relatorios_aplicativos";
+$res = sqlsrv_query($con, $sql);
+
+while($row = sqlsrv_fetch_array($res)) {
+
+?>
+
+<select name="selectUser<?=$row['id']?>" class="selectUser" id="selectUser<?=$row['id']?>" style="display: none">
+<option selected>Selecione um Usuário</option>
+
+<?php
+
+$sqlUser = "SELECT a.id, a.nome FROM relatorios_usuarios a";
+$resUser = sqlsrv_query($con, $sqlUser);
+
+while($rowUser = sqlsrv_fetch_array($resUser)) {
+
+	$sqlCompare = "SELECT * FROM relatorios_usuarios_aplicativos WHERE id_aplicativo = '".$row['id']."' AND id_usuario = ".$rowUser['id'];
+	$resCompare = sqlsrv_query($con, $sqlCompare);
+	$compare = sqlsrv_has_rows($resCompare);
+
+	if(!$compare) {
+?>
+
+<option value="<?=$rowUser['id']?>"><?=$rowUser['nome']?></option>
+
+<?php } } ?>
+
+</select>
+
+<?php } ?>
+
+<input type="submit" name="submitRede" id="submitRede">
+
+</form>
+
+
+
+
+
+
+<?php
+
+if(isset($resultado)) { ?>
+
+<div id="resultadoAcao" class="modal"><?=$resultado;?></div>
+
+<style>
+
+div#sombraBranca {
+	display: block;
+}
+
+</style>
+
+<?php } ?>

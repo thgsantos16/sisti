@@ -73,6 +73,11 @@ $(document).ready(function() {
         $('#menuLeft').css('left', '-5%');
     });
 
+    $('.abasAN').click(function() {
+        $('.abasAN').removeClass('selecionado');
+        $(this).addClass('selecionado');
+    });
+
     $( window ).scroll(function() {
         if($( window ).scrollTop() > 272) {
             $('#menuOculto').css('top', '0');
@@ -99,12 +104,12 @@ $(document).ready(function() {
         $('#formRede').fadeIn();
     });
 
-	$('#profile').click(function() {
-		var x = document.getElementsByTagName("nav");
-		//alert("XIS: " + x[0].style.marginRight);
-		if(x[0].style.marginRight != "0px") x[0].style.marginRight = "0px";
-		else x[0].style.marginRight = "-21%";
-	});
+    $('#profile').click(function() {
+        var x = document.getElementsByTagName("nav");
+        //alert("XIS: " + x[0].style.marginRight);
+        if(x[0].style.marginRight != "0px") x[0].style.marginRight = "0px";
+        else x[0].style.marginRight = "-21%";
+    });
 
 
     $("#equipamentos").click(function() {
@@ -155,19 +160,19 @@ $(document).ready(function() {
         });
     });
 
-	$("#recursos").click(function() {
-    	//alert("AQUI!");
+    $("#recursos").click(function() {
+        //alert("AQUI!");
 
-    	var elementos = document.getElementsByClassName("aba");
-    	
-	for (var x = 0; x < elementos.length; x++) {
-		elementos[x].className = "aba";
-	}
+        var elementos = document.getElementsByClassName("aba");
+        
+    for (var x = 0; x < elementos.length; x++) {
+        elementos[x].className = "aba";
+    }
 
-	this.className = "aba selecionado";
+    this.className = "aba selecionado";
 
-	var ultimo = this.dataset.cod;
-	var logon = this.dataset.logon;
+    var ultimo = this.dataset.cod;
+    var logon = this.dataset.logon;
 
         $("#dinamico").html('<div class="spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
 
@@ -176,6 +181,111 @@ $(document).ready(function() {
 
            // Coloca a resposta na DIV
            setTimeout(function() { $("#dinamico").html(resposta); }, 700);
+       
+        });
+    });
+
+    $("#processos").click(function() {
+        //alert("AQUI!");
+
+        var elementos = document.getElementsByClassName("aba");
+        
+    for (var x = 0; x < elementos.length; x++) {
+        elementos[x].className = "aba";
+    }
+
+    this.className = "aba selecionado";
+
+    var ultimo = this.dataset.cod;
+    var logon = this.dataset.logon;
+
+        $("#dinamico").html('<div class="spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
+
+        // Faz requisição ajax e envia o ID da Categoria via método POST
+        $.post("dinamicos/processos.php", {ultimo: ultimo, logon: logon}, function(resposta) {
+
+           // Coloca a resposta na DIV
+           setTimeout(function() { $("#dinamico").html(resposta); }, 700);
+       
+        });
+    });
+
+    $("#abaProgramasAN").click(function() {
+        //alert("AQUI!");
+
+    var ultimo = this.dataset.cod;
+
+        $("#dinamicoAN").html('<div class="spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
+
+        // Faz requisição ajax e envia o ID da Categoria via método POST
+        $.post("../dinamicos/programasAN.php", {ultimo: ultimo}, function(resposta) {
+
+           // Coloca a resposta na DIV
+           setTimeout(function() { $("#dinamicoAN").html(resposta); }, 700);
+       
+        });
+    });
+
+    $("#abaUsuariosAN").click(function() {
+        //alert("AQUI!");
+
+    var ultimo = this.dataset.cod;
+
+        $("#dinamicoAN").html('<div class="spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
+
+        // Faz requisição ajax e envia o ID da Categoria via método POST
+        $.post("../dinamicos/usuariosAN.php", {ultimo: ultimo}, function(resposta) {
+
+           // Coloca a resposta na DIV
+           setTimeout(function() { $("#dinamicoAN").html(resposta); }, 700);
+       
+        });
+    });
+
+    $("#abaProcessosAN").click(function() {
+        //alert("AQUI!");
+
+    var ultimo = this.dataset.cod;
+
+        $("#dinamicoAN").html('<div class="spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
+
+        // Faz requisição ajax e envia o ID da Categoria via método POST
+        $.post("../dinamicos/processosAN.php", {ultimo: ultimo}, function(resposta) {
+
+           // Coloca a resposta na DIV
+           setTimeout(function() { $("#dinamicoAN").html(resposta); }, 700);
+       
+        });
+    });
+
+    $("#abaDetalhesT").click(function() {
+        //alert("AQUI!");
+
+    var ultimo = this.dataset.cod;
+
+        $("#dinamicoAN").html('<div class="spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
+
+        // Faz requisição ajax e envia o ID da Categoria via método POST
+        $.post("../dinamicos/detalhesT.php", {ultimo: ultimo}, function(resposta) {
+
+           // Coloca a resposta na DIV
+           setTimeout(function() { $("#dinamicoAN").html(resposta); }, 700);
+       
+        });
+    });
+
+    $("#abaUsuariosT").click(function() {
+        //alert("AQUI!");
+
+    var ultimo = this.dataset.cod;
+
+        $("#dinamicoAN").html('<div class="spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
+
+        // Faz requisição ajax e envia o ID da Categoria via método POST
+        $.post("../dinamicos/usuariosT.php", {ultimo: ultimo}, function(resposta) {
+
+           // Coloca a resposta na DIV
+           setTimeout(function() { $("#dinamicoAN").html(resposta); }, 700);
        
         });
     });

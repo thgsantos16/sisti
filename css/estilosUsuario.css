@@ -242,7 +242,7 @@ div#sombra, div#sombraBranca {
     top: 0;
     left: 0;
     position: fixed;
-    z-index: 998;
+    z-index: 99998;
 }
 
 div#sombraBranca {
@@ -306,12 +306,12 @@ form#formRede, form#formRamal {
     position: fixed;
     left: 30%;
     top: 50%;
-    z-index: 999;
+    z-index: 99999;
     margin-top: -128px;
     display: none;
 }
 
-#formRede input[type="text"], form#formRamal input[type="text"] {
+#formRede input[type="text"], #formRede input[type="password"], form#formRamal input[type="text"] {
     display: block;
     width: 100%;
     height: 52px;
@@ -325,6 +325,19 @@ form#formRede, form#formRamal {
     text-align: center;
     background: #AAA;
     color: #EEE;
+}
+
+.desligado h3 {
+    background: #A55;
+    color: #FFF;
+}
+
+.desligado img#profileBusca {
+    border-color: #A55;
+}
+
+.desligado a.adicionar {
+    display: none;
 }
 
 input#submitRede {
@@ -359,7 +372,7 @@ div#resultadoAcao {
     position: fixed;
     font-size: 25px;
     font-family: "Champagne";
-    z-index: 999;
+    z-index: 99999;
     background: #FFF;
     padding: 52px 0;
     top: 50%;
@@ -498,12 +511,24 @@ h2, h3 {
     font-weight: normal;
 }
 
+main h2 {
+    margin: 34px auto 70px;
+}
+
 h3 {
     background: #CCC;
     font-size: 34px;
     padding: 13px 0;
     color: #777;
     width: 70%;
+}
+
+strong.navUser {
+    cursor: pointer;
+}
+
+strong.navUser:hover {
+    color: #a78e34;
 }
 
 img#profileBusca {
@@ -518,6 +543,84 @@ img#profileBusca {
 div#links {
     width: 70%;
     margin: 43px auto 7px;
+}
+
+#alertasDinamicos {
+    width: 100px;
+    height: 70px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    background: url(../img/iconeAlerta.png) center no-repeat;
+    background-size: 43px;
+    opacity: .7;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+
+div#menuRight {
+    width: 250px;
+    position: fixed;
+    right: -250px;
+    background: rgba(0,0,0,.88);
+    height: 100%;
+    top: 106px;
+    color: #EEE;
+    z-index: 99999;
+    padding-top: 34px;
+    text-align: center;
+    transition: padding 0.43s;
+    -o-transition: padding 0.43s;
+    -moz-transition: padding 0.43s;
+    -webkit-transition: padding 0.43s;
+    transition: right 0.43s;
+    -o-transition: right 0.43s;
+    -moz-transition: right 0.43s;
+    -webkit-transition: right 0.43s;
+}
+
+#menuRight p {
+    color: #EEE;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Champagne";
+    margin-bottom: 16px;
+}
+
+#menuRight a {
+    background: #222;
+    display: block;
+    width: 75%;
+    margin: 1px auto;
+    padding: 12px 0;
+    color: #EEE;
+    text-align: center;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+#menuRight a:hover {
+    background: #444;
+}
+
+#alertasDinamicos:hover {
+    opacity: 1;
+}
+
+span#spanAlerta {
+    background: url(../img/texturaAlerta.jpg);
+    color: #FFF;
+    padding: 6px 9px;
+    border-radius: 28%;
+    font-size: 14px;
+    margin-top: 4px;
+    display: inline-block;
+    margin-left: 13px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.7);
 }
 
 
@@ -592,7 +695,7 @@ div.coluna:nth-child(3) {
 }
 
 a.abaRecurso {
-    width: 14%;
+    width: 20%;
     display: inline-block;
     text-align: center;
     margin-top: 7px;
@@ -723,8 +826,38 @@ h4 a:hover {
 }
 
 
+pre {
+    width: 70%;
+    margin: -34px auto 34px;
+    color: #666;
+    font-family: calibri;
+    white-space: pre-line;
+    font-size: 18px;
+    text-align: left;
+    line-height: 25px;
+}
 
+main nav a.abasAN {
+    width: 30%;
+    margin: 0;
+    height: 25px;
+    padding: 20px 0;
+    background: #777;
+    color: #FFF;
+    font-size: 25px;
+    font-family: "Champagne";
+}
 
+main nav a.abasAN:hover {
+    background: #333;
+    font-size: 25px;
+}
+
+main nav a.abasAN.selecionado {
+    background: #10263b;
+    padding: 25px 0;
+    margin-top: -5px;
+}
 
 
 
@@ -906,7 +1039,7 @@ main a span {
     position: relative;
 }
 
-a.appList {
+.appList {
     padding: 16px;
     display: block;
     width: 30%;
@@ -919,8 +1052,12 @@ a.appList {
     position: relative;
 }
 
-a.appList:nth-child(even) {
+.appList:nth-child(even) {
     background: #CCC;
+}
+
+a.abaRecurso.adicionar:hover {
+    background: #304c6b;
 }
 
 div.interno {
@@ -978,6 +1115,14 @@ main p {
     color: #999;
     margin: 52px;
 }
+
+div#mainRecursos {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
 
 
 
@@ -1110,6 +1255,11 @@ label {
     padding: 7px 0 7px 43px;
 }
 
+label:hover {
+    background: #eee;
+}
+
+
 div#usuariosDatasul, div#usuariosTotal {
     width: 22%;
     display: inline-block;
@@ -1147,7 +1297,7 @@ small a:hover {
 
 
 
-div#menuOculto {
+div#menuOculto, div#menuMobile {
     position: fixed;
     z-index: 99999;
     width: 100%;
@@ -1161,24 +1311,28 @@ div#menuOculto {
     left: 0;
 }
 
-#menuOculto a:nth-child(1) {
+#menuOculto a:nth-child(1), #menuMobile a:nth-child(1) {
     width: 5%;
     display: inline-block;
     text-align: center;
 }
 
-#menuOculto img#logoInterno {
+#menuOculto img#logoInterno, #menuMobile img#logoInterno {
     padding: 16px;
     height: 43px;
 }
 
-#menuOculto a#iniciar {
+#menuOculto a#iniciar, #menuMobile a#iniciar {
     padding: 25px 25px 24px;
 }
 
-#menuOculto a#profile2 {
+#menuOculto a#profile2, #menuMobile a#profile2 {
     height: 75px;
     width: 75px;
+}
+
+#menuMobile {
+    display: none;
 }
 
 form#buscaGeralOculto {
@@ -1201,4 +1355,398 @@ input#inputBuscaGeral2 {
     height: 52px;
     margin: 12px 0 0 25px;
     vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Alertas */
+
+
+
+
+.alertaSistema {
+    display: block;
+    width: 70%;
+    margin: 12px auto;
+    border: 1px solid #CCC;
+    padding: 16px;
+    transition: all 0.25s;
+    -o-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+
+.alertaSistema:hover {
+    box-shadow: 1px 1px 3px #777;
+}
+
+div.criticidade {
+    display: inline-block;
+    width: 10%;
+    height: 100;
+}
+
+div.criticidade {
+    display: inline-block;
+    width: 10%;
+    box-sizing: border-box;
+    height: 124px;
+    background: #d4b957 url(../img/alert.png) no-repeat center;
+    background-size: 79%;
+    vertical-align: top;
+    margin-top: 12px;
+    border: 3px solid #a78e34;
+}
+
+.conteudoAlerta {
+    display: inline-block;
+    width: 83%;
+    text-align: left;
+    color: #525252;
+    margin: 0 1%;
+}
+
+.excluirAlerta {
+    width: 4%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    font-family: "Champagne";
+    font-size: 25px;
+    color: #BBB;
+    cursor: pointer;
+}
+
+.excluirAlerta:hover{
+    color: #777;
+}
+
+.tituloAlerta {
+    font-size: 24px;
+    font-family: "Champagne";
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.conteudoAlerta span {
+    color: #666;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+.linkAlerta {
+    display: block;
+    width: 20%;
+    padding: 16px;
+    background: #d4b957;
+    text-align: center;
+    margin: 12px 0;
+    float: right;
+    border: 2px solid #a78e34;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+    cursor: pointer;
+}
+
+.linkAlerta:hover {
+    background: #214b73;
+    border: 2px solid #0b1e2f;
+    color: #FFF;
+}
+
+h4.menor {
+    width: 20%;
+}
+
+h4.menor2 {
+    width: 29.5%;
+}
+
+#dinamicoAN .ultimosChamados.titulo {
+    height: auto;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+#dinamicoAN a.ultimosChamados {
+    width: 100%;
+}
+
+select#usuarioAreaNegocio, input#usuarioTerceiro, select#programaAreaNegocio, select#ProcessoAreaNegocio {
+    padding: 16px 34px;
+    width: 30%;
+    color: #434343;
+    border: 1px solid #CCC;
+    margin-top: 70px;
+}
+
+input[type="submit"] {
+    color: #FFF;
+    font-family: "Champagne";
+    padding: 16px 43px;
+    background: #1C2D3E;
+    font-size: 22px;
+    margin: 16px auto;
+    letter-spacing: 1px;
+    display: block;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    animation: botaoApps 1.2s infinite;
+}
+
+#pDinamicos {
+    display: none;
+}
+
+input#dataAdmissao {
+    width: 90%;
+    padding: 16px;
+    color: #444;
+}
+
+
+/* Terceiros */
+
+
+h2.terceirosDetalhes {
+    margin-bottom: 12px;
+}
+
+label.terceirosDetalhes {
+    display: inline-block;
+    padding: 4px 0;
+    width: 19%;
+    margin: 7px 0.5%;
+}
+
+label.terceirosDetalhes:hover {
+    background-color: transparent;
+}
+
+label.terceirosDetalhes.descricao {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.terceirosDetalhes textarea {
+    width: 80%;
+    display: block;
+    margin: 7px auto;
+    border: 1px solid #CCC;
+    padding: 12px;
+    font-family: arial;
+}
+
+h4.terceirosDetalhes {
+    width: 100%;
+    display: block;
+    padding: 12px 0;
+    margin: 34px 0 16px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.terceirosDetalhes input {
+    display: block;
+    width: 100%;
+    color: #555;
+    padding: 12px 4%;
+    border: 1px solid #CCC;
+    margin-top: 7px;
+}
+
+img#profileOculto {
+    float: left;
+    position: absolute;
+    left: 15%;
+    margin-top: -174px;
+    opacity: 0;
+    border: 1px solid #CCC;
+    max-height: 150px;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+
+#apps {
+    width: 80%;
+    margin: 0px auto;
+}
+
+a.appGrid {
+    width: 23%;
+    display: inline-block;
+    margin: 12px 1%;
+    box-sizing: border-box;
+    border: 1px solid #CCC;
+    padding-bottom: 16px;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+a.appGrid:hover {
+    box-shadow: 2px 2px 7px #999;
+}
+
+.imgApp {
+    height: 124px;
+    background-color: #333;
+    background-size: cover;
+    border-bottom: 4px solid #10263b;
+}
+
+.iconeApp {
+    width: 88px;
+    height: 88px;
+    border: 1px solid #CCC;
+    border-radius: 100%;
+    margin: -46px auto 16px;
+    background-color: #FFF;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+span.abrir {
+    padding: 7px 12px;
+    color: #777;
+}
+
+span.abrir.tituloApp {
+    font-size: 22px;
+}
+
+span.botaoGerenciar {
+    background: #777;
+    color: #FFF;
+    width: 80%;
+    margin: 7px auto;
+    padding: 16px 0;
+    transition: all 0.43s;
+    -o-transition: all 0.43s;
+    -moz-transition: all 0.43s;
+    -webkit-transition: all 0.43s;
+}
+
+span.botaoGerenciar:hover {
+    background: #091f34;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 1000px) {
+    main nav a {
+        width: 100%;
+    }
+
+    #menuOculto, header {
+        display: none;
+    }
+
+    div#menuMobile {
+        display: block;
+        top: 0;
+        z-index: 99999;
+    }
+
+    #menuMobile img#logoInterno {
+        padding: 0 16px;
+        width: 48px;
+        background: none;
+        margin-top: 16px;
+        vertical-align: top;
+    }
+
+    a#exibirMenuMobile {
+        width: 50px;
+        height: 50px;
+        float: right;
+        margin: 12px 16px;
+        opacity: .7;
+        transition: all .43s;
+        -o-transition: all .43s;
+        -moz-transition: all .43s;
+        -webkit-transition: all .43s;
+    }
+
+    a#exibirMenuMobile:hover {
+        opacity: 1;
+    }
+
+    a#exibirMenuMobile span {
+        display: block;
+        height: 9px;
+        background: #FFF;
+        margin: 6px 0;
+        border-radius: 2px;
+    }
+
+    h1 {
+        margin: 133px 0 61px;
+    }
+
+    #menuLeft nav a {
+        font-size: 16px;
+    }
+
+    div#menuLeft {
+        width: 100%;
+        position: fixed;
+        z-index: 99998;
+        height: 100%;
+        background: #161616;
+        top: 0;
+        left: -100%;
+        padding-top: 79px;
+        transition: all 0.43s;
+        -o-transition: all 0.43s;
+        -moz-transition: all 0.43s;
+        -webkit-transition: all 0.43s;
+    }
+
+    #menuLeft nav a:before {
+        content: "";
+        display: inline-block;
+        width: 7%;
+        height: 25px;
+        background: url(../img/home.png) center no-repeat;
+        margin: 0 16px 7px 0;
+        background-size: 100%;
+        vertical-align: middle;
+    }
+}
+
+
+
+a#addRamal.edit {
+    display: inline-block;
+    float: right;
+    background: #333 url(../img/editRamal.png) center no-repeat;
+    background-size: 25px;
+    height: 16px;
+    width: 16px;
+}
+
+a#addRamal.edit:hover {
+    opacity: .79;
 }

@@ -34,7 +34,7 @@ if($ln == "") $ln = "./";
 
 <header>
 
-<a href='<?=$ln?>'><img src="<?=$ln?>img/logoInterno.png" id="logoInterno"></a><a id="iniciar">Iniciar Chamado</a><div id="preencher"><a id="exibirMenu" class="exibirMenu"></a></div><form id="buscaGeral" action="<?=$ln?>" method="post" autocomplete="off"><input name="inputBuscaGeralTipo" type="hidden" id="inputBuscaGeralTipo"><span id="inputBuscaGeralBefore"></span><input <?php if($_SESSION['provisionado'] == 1) { ?>onkeyup="checkPesquisa()"<?php } ?> autocomplete="off" name="inputBuscaGeral" required placeholder="PESQUISAR" id="inputBuscaGeral"></form><div id="resultadosBusca"></div><a id="profile2" <?php if(!empty($_SESSION['picture']) && $_SESSION['picture'] != 'empty') echo "style='background-image: url(".$_SESSION['picture'].")'"; ?>></a>
+<a href='<?=$ln?>'><img src="<?=$ln?>img/logoInterno.png" id="logoInterno"></a><a id="iniciar">Iniciar Chamado</a><div id="preencher"><a id="exibirMenu" class="exibirMenu"></a><a href="<?=$ln;?>alertas" id="alertasDinamicos"><?php include "erros/alertasDinamicos.php"; ?></a></div><form id="buscaGeral" action="<?=$ln?>" method="post" autocomplete="off"><input name="inputBuscaGeralTipo" type="hidden" id="inputBuscaGeralTipo"><span id="inputBuscaGeralBefore"></span><input <?php if($_SESSION['provisionado'] == 1) { ?>onkeyup="checkPesquisa()"<?php } ?> autocomplete="off" name="inputBuscaGeral" required placeholder="PESQUISAR" id="inputBuscaGeral"></form><div id="resultadosBusca"></div><a id="profile2" <?php if(!empty($_SESSION['picture']) && $_SESSION['picture'] != 'empty') echo "style='background-image: url(".$_SESSION['picture'].")'"; ?>></a>
 	
 </header>
 
@@ -46,6 +46,11 @@ if($ln == "") $ln = "./";
 </div>
 
 
+<div id="menuMobile">
+
+<a href='<?=$ln?>'><img src="<?=$ln?>img/logoInterno.png" id="logoInterno"></a><a id="exibirMenuMobile"><span></span><span></span><span></span></a>
+	
+</div>
 
 
 
@@ -59,6 +64,26 @@ if($ln == "") $ln = "./";
 	<p><span>:esc </span> - Cancela o Comando Anterior.</p>
 	<p><span>:exit </span> - Cancela o Comando Anterior.</p>
 	<p><span>#* </span> - Busca usuários pela Matrícula.</p>
+</div>
+
+<div id="menuRight">
+
+<nav>
+
+<p><?=$_SESSION['nome'];?></p>
+<a class="menu">Últimos Chamados</a>
+<a href="preferencias" class="menu">Preferências</a>
+<a href="portfolio-servicos" class="menu">Portfólio de Serviços</a>
+<a href="areas-negocio" class="menu">Áreas de Negócio</a>
+<a onclick="ajuda()" class="menu">Ajuda do Sistema</a>
+
+<a class="feedback">Enviar Feedback</a>
+
+
+
+<a href="logout.php" class="sair">Sair</a>
+</nav>
+
 </div>
 
 

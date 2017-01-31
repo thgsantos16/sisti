@@ -12,7 +12,8 @@ include "../conexao.php";
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script>
 
-$(function () {
+$(function () {	
+	$.ajaxSetup({ cache: false });
 	var max = 0;
 $.getJSON("http://lanpiasoa.pia.com.br/sisti/private/usuarios.json", function(result){
 	$("#buscaDinamica").html("");

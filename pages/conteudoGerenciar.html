@@ -13,6 +13,24 @@ $has = sqlsrv_has_rows($res);
 if(!$has) header('location: ./');
 else {
 
+$sqlAcessos = "UPDATE relatorios_aplicativos SET ultimo = '".date('Y-m-d')."' WHERE id = 1";
+$resAcessos = sqlsrv_query($con, $sqlAcessos);
+
+$sqlAcessos = "SELECT * FROM relatorios_aplicativos_acessos WHERE id_aplicativo = 1 AND data = '".date('Y-m-d')."'";
+$resAcessos = sqlsrv_query($con, $sqlAcessos);
+$hasAcessos = sqlsrv_has_rows($resAcessos);
+
+if($hasAcessos) {
+	$rowAcessos = sqlsrv_fetch_array($resAcessos);
+	$tot = $rowAcessos['total'] + 1;
+	$sqlAlterar = "UPDATE relatorios_aplicativos_acessos SET total = ".$tot." WHERE id = ".$rowAcessos['id'];
+}
+
+else $sqlAlterar = "INSERT INTO relatorios_aplicativos_acessos (id_aplicativo, data, total) VALUES (1, '".date('Y-m-d')."', 1)";
+
+//echo $sqlAlterar;
+$resAlterar = sqlsrv_query($con, $sqlAlterar);
+
 ?>
 
 
@@ -22,36 +40,52 @@ else {
 
 <h2>Gerenciar Aplicativos</h2>
 
+<div id="apps">
+
 <?php 
 
-$sql = "SELECT * FROM relatorios_aplicativos";
+$sql = "SELECT a.id, a.ultimo, CAST(a.nome AS CHAR) AS nomeApp, a.categoria AS categoriaApp, CAST(a.img AS CHAR) AS imgApp, COUNT(b.id) as total, AVG(c.total) as media FROM relatorios_aplicativos a LEFT JOIN 
+		relatorios_usuarios_aplicativos b ON 
+		a.id = b.id_aplicativo
+		LEFT JOIN relatorios_aplicativos_acessos c ON
+		a.id = c.id_aplicativo
+		GROUP BY a.id, a.ultimo, a.categoria, CAST(a.nome AS CHAR), CAST(a.img AS CHAR)";
 $res = sqlsrv_query($con, $sql);
 
+//echo $sql;
+
 while($row = sqlsrv_fetch_array($res)) {
-?><a id="appList<?=$row['id']?>" class="appList"><span class='abrir' data-cod="<?=$row['id']?>"><?=$row['nome']?></span>
-	<div class='interno' id='interno<?=$row['id']?>'>
-	<?php 
+	if($row['categoriaApp'] == 1) {
+		$bg = "cog.png";
+		$title = "Administrativo";
+	}
+	else if($row['categoriaApp'] == 2) {
+		$bg = "ti.png";
+		$title = "Aplicativo Interno - TI";
+	}
+	else if($row['categoriaApp'] == 3) {
+		$bg = "area.png";
+		$title = "Aplicativo para Área de Negócio";
+	}
+	else {
+		$bg = "mundo.png";
+		$title = "Aplicativo Externo";
+	}
+?><a id="appGrid<?=$row['id']?>" class="appGrid">
+<div class="imgApp" style="background-image: url(img/<?=$row['imgApp']?>)"></div>
+<div class="iconeApp" title="<?=$title?>" style="background-image: url(img/<?=$bg?>)"></div>
 
-	$sqlUsers = "SELECT c.* FROM relatorios_aplicativos a 
-		INNER JOIN relatorios_usuarios_aplicativos b ON 
-		a.id = b.id_aplicativo
-		INNER JOIN relatorios_usuarios c ON 
-		c.id = b.id_usuario
-		WHERE b.id_aplicativo = ".$row['id'];
-		//echo $sql;
-	$resUsers = sqlsrv_query($con, $sqlUsers);
-	$i = 0;
+<span class='abrir tituloApp'><?=$row['nomeApp']?></span>
 
-	while($rowUsers = sqlsrv_fetch_array($resUsers)) { $i++; ?>
-	<?php if($i%2 == 1) { ?><span class='even'><?php
-	} else { ?><span class='odd'><?php } ?> 
-	<span class='user'><?=$rowUsers['nome'];?></span>
-	<span class='excluirUser' data-app='<?=$row['id'];?>' data-user='<?=$rowUsers['id'];?>'>X</span>
-	</span>
-	<?php } ?>
-	<span class="addUser" data-app="<?=$row['id'];?>">Adicionar Usuário</span>
-	</div>
+<span class='abrir dadosApp'>Número de Usuários: <?=$row['total']?></span>
+<span class='abrir dadosApp'>Último Acesso: <?=$row['ultimo']->format('d/m/Y')?></span>
+<span class='abrir dadosApp'>Média de Acessos: <?=$row['media']?>/dia</span>
+
+<span class="botaoGerenciar" data-cod="<?=$row['id']?>">Gerenciar Acessos</span>
+
 </a><?php } ?>
+
+</div>
 
 </main>
 

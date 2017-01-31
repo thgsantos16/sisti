@@ -13,9 +13,10 @@ else {
 
 
 	include "conexao.php";
-	include "private/validar.php";
+	include "function/urls.php";
 	include "actions/add.php";
 	include "actions/mail.php";
+	include "private/validar.php";
 
 	if(isset($_POST['inputBuscaGeral']) && substr($_POST['inputBuscaGeral'], 0, 1) == "#") $_POST['matriculaGlobal'] = substr($_POST['inputBuscaGeral'], 1); 
 

@@ -15,13 +15,25 @@
 
 $matricula = str_replace("#", "", $_POST['matriculaGlobal']);
 
-$sql = "SELECT a.*, b.logon, c.nome AS cc, c.codigo AS codigo FROM relatorios_funcionarios a 
+$sql = "SELECT a.*, b.logon, b.email, c.nome AS cc, c.codigo AS codigo FROM relatorios_funcionarios a 
 LEFT JOIN relatorios_usuarios_ad b ON 
 a.matricula = b.matricula 
 LEFT JOIN relatorios_centro_custo c ON  
-a.centroCusto = c.codigo WHERE b.ou LIKE 'OU=Usuarios Pia,OU=OU_Users' AND a.matricula = ".$matricula;
+a.centroCusto = c.codigo WHERE a.matricula = ".$matricula;
 $res = sqlsrv_query($con, $sql);
 $existe = sqlsrv_has_rows($res);
+
+
+if(!$existe) { 
+	$sql = "SELECT a.*, b.logon, b.email, c.nome AS cc, c.codigo AS codigo FROM relatorios_funcionarios a 
+	LEFT JOIN relatorios_usuarios_ad b ON 
+	a.matricula = b.matricula 
+	LEFT JOIN relatorios_centro_custo c ON  
+	a.centroCusto = c.codigo WHERE b.categoria LIKE 'coletor' AND a.matricula = ".$matricula;
+	$res = sqlsrv_query($con, $sql);
+	$existe = sqlsrv_has_rows($res);
+}
+
 
 if($existe) { 
 	$row = sqlsrv_fetch_array($res);
@@ -44,29 +56,53 @@ if($existe) {
 	$rowUnidade = sqlsrv_fetch_array($resUnidade);
 
 
-
-
-	$sqlTelefone = "SELECT a.*, c.numero FROM relatorios_telefones a
-					INNER JOIN relatorios_chips b ON
-					a.id_chip = b.id
-					INNER JOIN relatorios_linhas c ON
-					b.id_linha = c.id WHERE matricula LIKE '".$matricula."'";
+	$sqlTelefone = "SELECT * FROM relatorios_linhas WHERE matricula LIKE '".$matricula."'";
 	$resTelefone = sqlsrv_query($con, $sqlTelefone);
 	$rowTelefone = sqlsrv_fetch_array($resTelefone);
 
 	//echo $sqlTelefone;
 
 	?>
+<div <?php if($row['desligado'] == 1 && $row['dataDemissao']->format('Ymd') < date('Ymd')) echo "class='desligado'";?>>
 
-<h3><img src="img/profile.jpg" id='profileBusca'><?=ucwords(strtolower($row['nome']));?></h3>
+<?php
+
+	$sqlPic = "SELECT picture FROM glpi_users WHERE name = '".$logon."'";
+	$resPic = mysqli_query($con2, $sqlPic);
+	$rowPic = mysqli_fetch_array($resPic);
+
+	if(!empty($rowPic['picture'])) $pic = "http://suporte.pia.com.br/ti/files/_pictures/".$rowPic['picture'];
+	else $pic = 'img/profile.jpg';
+
+
+?>
+
+<h3><?php if($pic != 'img/profile.jpg') echo '<img src="'.$pic.'" id="profileOculto">'; ?><img src="<?=$pic;?>" id='profileBusca' onmouseenter='aparecer()' onmouseleave='sumir()'><?=ucwords(strtolower($row['nome']));?><?php if($row['desligado'] == 1 && $row['dataDemissao'] !== null && $row['dataDemissao']->format('Ymd') < date('Ymd')) echo " <small>(Desligado em ".$row['dataDemissao']->format('d/m/Y').")</small>";?></h3>
 
 <h4><span>Unidade</span><?=$rowUnidade['nome'];?></h4>
 <h4><span>Centro de Custo</span><?=$row['codigo'];?> - <?=$row['cc'];?></h4>
-<h4><span>Matrícula RH</span><?=$matricula;?></h4>
-<h4><span>Cadastro de Emitente</span><?php if($row['emitente']) echo$row['emitente']; else echo "<a id='addRede'>Vincular Cadastro</a>";?></h4>
-<h4><span>Ramal</span><?php if($row['ramal']) echo $row['ramal']; else echo "<a id='addRamal'>Vincular Ramal</a>";?></h4>
-<h4><span>Celular</span><?php if(!empty($rowTelefone['numero'])) echo $rowTelefone['numero']; else echo "<a target='_blank' href='../telefonia/' id='addNumero'>Adicionar Número</a>"; ?></h4>
+<h4><span>Alocação Atual</span><?=$row['codigo'];?> - <?=$row['cc'];?></h4>
+<h4><span>Data de Admissão</span><?php if(!empty($row['dataAdmissao'])) echo $row['dataAdmissao']->format('d/m/Y'); else echo "<a>Cadastrar Data de Admissão</a>"; ?></h4>
+<div><h4 class="menor"><span>Matrícula RH</span><?=$matricula;?></h4>
+<h4 class="menor"><span>Cadastro de Emitente</span><?php if($row['emitente']) echo$row['emitente']; else echo "<a id='addRede'>Vincular Cadastro</a>";?></h4>
+<h4 class="menor2"><span>Expediente</span><?php if($row['expediente']) echo $row['expediente']; else echo "<a id='addExp'>Cadastrar</a>";?></h4></div>
 
+<div><h4 class="menor"><span>Ramal</span><?php if($row['ramal']) echo $row['ramal']."<a id='addRamal' class='edit'></a>"; else echo "<a id='addRamal'>Vincular Ramal</a>";?></h4>
+<h4 class="menor"><span>Celular</span><?php if(!empty($rowTelefone['numero'])) echo $rowTelefone['numero']; else echo "<a target='_blank' href='../telefonia/' id='addNumero'>Adicionar Número</a>"; ?></h4>
+<h4 class="menor2"><span>E-mail</span><?php if(!empty($row['email'])) echo $row['email']; else echo "<a id='addEmail'>Vincular E-mail</a>"; ?></h4></div>
+
+
+<script>
+
+function aparecer() {
+	$("#profileOculto").css('opacity', '1');
+}
+
+function sumir() {
+	$("#profileOculto").css('opacity', '0');
+}
+
+</script>
 
 
 
@@ -76,7 +112,7 @@ if($existe) {
 </a><a data-cod="<?=$matricula?>" data-logon="<?=$logon?>" class="aba selecionado" id="recursos">Recursos
 </a><a data-cod="<?=$matricula?>" class="aba" id="equipamentos">Equipamentos
 </a><a id="chamados" data-cod="<?=$logon?>" class="aba">Últimos Chamados
-</a><a id="processos" data-cod="<?=$matricula?>" class="aba">Processos
+</a><a id="processos" data-logon="<?=$logon?>" data-cod="<?=$matricula?>" class="aba">Áreas de Negócio
 </a>
 </div>
 
@@ -103,15 +139,23 @@ $row = sqlsrv_fetch_array($res);
 if(!empty($row["usuarioDatasul"]) && $row["usuarioDatasul"] != null && $row["nomeDatasul"] != "                                                   ") $datasul = "sim";
 else $datasul = "nao";
 
+$sqlrede = "SELECT * FROM relatorios_usuarios_ad WHERE matricula = '".$matricula."' AND categoria LIKE 'usuario' AND ativo = 1";
+$resrede = sqlsrv_query($con, $sqlrede);
 
-if(!empty($row["logon"]) && $row["logon"] != null) $rede = "sim";
+//print_r($con3);
+$existeRede = sqlsrv_has_rows($resrede);
+
+if($existeRede) {
+	$rede = "sim";
+	$rowRede = sqlsrv_fetch_array($resrede);
+}
 else $rede = "nao";
 
 
 
 include_once "./con_glpi.php";
 
-$sqlGLPI = "SELECT a.* FROM glpi_users a WHERE a.name = '".$logon."'";
+$sqlGLPI = "SELECT a.* FROM glpi_users a WHERE a.is_active = 1 AND a.name = '".$logon."'";
 $resGLPI = mysqli_query($con2, $sqlGLPI);
 //echo $sqlGLPI;
 $existe2 = mysqli_num_rows($resGLPI);
@@ -138,7 +182,7 @@ else $fluig = "nao";
 
 
 
-$sqlcoletor = "SELECT * FROM relatorios_usuarios_ad WHERE matricula = '".$matricula."' AND ou LIKE 'OU=Usuarios Coletores,OU=OU_Users'";
+$sqlcoletor = "SELECT * FROM relatorios_usuarios_ad WHERE matricula = '".$matricula."' AND categoria LIKE 'coletor' AND ativo = 1";
 $rescoletor = sqlsrv_query($con, $sqlcoletor);
 //print_r($con3);
 $existe4 = sqlsrv_has_rows($rescoletor);
@@ -157,14 +201,15 @@ else $kw = "nao";
 
 	?>
 
+	<div id="mainRecursos">
 	<a class="abaRecurso <?=$datasul;?>">Datasul <span><?php if($datasul == "sim") echo $row['usuarioDatasul']; else echo "Sem Acesso"; ?></span>
-	</a><a class="abaRecurso <?=$rede;?>">Rede <span><?php if($rede == "sim") echo $logon; else echo "Sem Acesso"; ?></span>
+	</a><a class="abaRecurso <?=$rede;?>">Rede <span><?php if($rede == "sim") echo $rowRede['logon']; else echo "Sem Acesso"; ?></span>
 	</a><a class="abaRecurso <?=$glpi;?>">GLPI <span><?php if($glpi == "sim") echo $logon; else echo "Sem Acesso"; ?></span>
 	</a><a class="abaRecurso <?=$fluig;?>">Fluig <span><?php if($fluig == "sim") echo $logon; else echo "Sem Acesso"; ?></span>
 	</a><a class="abaRecurso <?=$kw;?>">KW <span><?php if($kw == "sim") echo $matricula; else echo "Sem Acesso"; ?></span>
 	</a><a class="abaRecurso <?=$coletor;?>">Coletores <span><?php if($coletor == "sim") echo str_replace('@pia.com.br', '', $rowColetor['logon']); else echo "Sem Acesso"; ?></span>
 	</a><a class="abaRecurso adicionar"><span>Adicionar Recurso</span>
-	</a>
+	</a></div>
 
 	<?php
 	
@@ -189,7 +234,10 @@ else {
 }
 ?>
 
-	
+
+
+</div>
+
 </main>
 
 

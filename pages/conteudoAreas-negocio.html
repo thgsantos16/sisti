@@ -1,0 +1,261 @@
+<?php
+
+// Arquivo de Conteúdo das Preferências 
+
+if(empty($explodirUrl[3])) {
+
+?>
+
+
+<h1>Sistema Integrado de Soluções - TI</h1>
+
+<main>
+
+<h2>Áreas de Negócio</h2>
+
+<nav>
+
+<?php
+
+$sql = "SELECT * FROM relatorios_areas_negocio ORDER BY id";
+$res = sqlsrv_query($con, $sql);
+
+while($row = sqlsrv_fetch_array($res)) {
+	?><a href='areas-negocio/<?=$row['link'];?>'><div class='imagem' style="background-image: url('./img/thumb_<?=$row['img'];?>')"></div><span><?=$row['nome'];?></span></a><?php }
+
+?>
+
+</nav>
+
+</main>
+
+<?php } else { ?>
+
+
+<?php
+
+$sql = "SELECT * FROM relatorios_areas_negocio WHERE link LIKE '".$explodirUrl[3]."'";
+$res = sqlsrv_query($con, $sql);
+$row = sqlsrv_fetch_array($res);
+
+?>
+
+<div id="hidder"></div>
+
+<style type="text/css">
+	body {
+		background-image: url('../img/<?=$row['img']?>');
+		background-position-y: 0;
+	}
+
+	div#hidder {
+	    width: 100%;
+	    height: 500px;
+	    background: #FFF;
+	    margin-top: -405px;
+	    margin-bottom: -39px;
+	    opacity: 0;
+	    display: block;
+	}
+
+	header {
+	    height: 405px;
+	    z-index: 99;
+	    position: relative;
+	}
+
+	h1 {
+	    color: #FFF;
+	    font-family: "Champagne";
+	    font-size: 48px;
+	    text-align: center;
+	    font-weight: normal;
+	    margin: -234px 0 161px;
+	    text-shadow: 1px 1px 7px #000;
+	}
+	main {
+	    min-height: 700px;
+        padding-top: 88px;
+	}
+
+	.appList {
+	    padding: 16px 0;
+	    display: inline-block;
+	    width: 19%;
+    	margin: 6px .5%;
+	    color: #434343;
+	    font-size: 18px;
+	    height: auto;
+	    vertical-align: top;
+	    overflow: hidden;
+	    z-index: 99;
+	    position: relative;
+	    box-sizing: border-box;
+	    border: 1px solid #CCC;
+	    cursor: pointer;
+	    transition: all 0.43s;
+	    -o-transition: all 0.43s;
+	    -moz-transition: all 0.43s;
+	    -webkit-transition: all 0.43s;
+	}
+
+	.appList:nth-child(even) {
+	    background: #FFF;
+	}
+
+	div.appList:hover {
+	    color: #FFF;
+	    background: #13293e;
+	    box-shadow: 1px 1px 7px #555;
+	}
+
+	div.appList:hover .imgUsuario { 
+	    border: 1px solid #FFF;
+	}
+
+	.imgUsuario {
+	    width: 97px;
+	    height: 97px;
+	    border-radius: 100%;
+	    background: #333 url(../img/profile.jpg);
+	    margin: 2px auto 14px;
+	    background-size: cover;
+	    box-sizing: border-box;
+	    border: 1px solid #444;
+	}
+
+	.titulo {
+	    height: 61px;
+	    margin-top: 16px;
+	    margin-bottom: -16px;
+	}
+
+	.att {
+		display: inline-block;
+	    background: #333;
+		box-sizing: border-box;
+		border: 1px solid #AAA;
+		width: 33.333333%;
+		height: 61px;
+	    transition: all 0.43s;
+	    -o-transition: all 0.43s;
+	    -moz-transition: all 0.43s;
+	    -webkit-transition: all 0.43s;
+	}
+
+	div.appList:hover .att { 
+	    opacity: .61;
+	}
+
+	div.appList:hover .att:hover { 
+	    opacity: 1;
+	}
+
+</style>
+
+<script>
+
+$(function(){
+	$( window ).scroll(function() {
+        if($( window ).scrollTop() > 22) {
+        	var x = $( window ).scrollTop() - 22;
+        	var recuo = $( window ).scrollTop() / 2;
+        	var y = x/304;
+            $('#hidder').css('opacity',  y);
+            $('body').css('background-position-y',  -recuo);
+        }
+
+        else { 
+            $('#hidder').css('opacity',  '0');
+            $('body').css('background-position-y',  '0');
+        }
+    });
+});
+
+</script>
+
+<h1><?=$row['nome']?></h1>
+
+<main>
+
+<pre>
+	<?=$row['descricao'];?>
+</pre>
+
+<nav>
+	<a data-cod="<?=$row['id']?>" id="abaUsuariosAN" class="abasAN selecionado">Usuários</a><a data-cod="<?=$row['id']?>" id="abaProcessosAN" class="abasAN">Processos</a><a id="abaProgramasAN" data-cod="<?=$row['id']?>" class="abasAN">Programas</a>
+</nav>
+
+<div id="dinamicoAN" style="width: 70%; margin: 0 auto;">
+
+<?php
+
+$sql2 = "SELECT a.*, b.nome FROM relatorios_usuarios_an a
+         LEFT JOIN relatorios_funcionarios b ON 
+         a.matricula = b.matricula WHERE id_area = '".$row['id']."'";
+$res2 = sqlsrv_query($con, $sql2);
+$i = 0;
+
+while($row2 = sqlsrv_fetch_array($res2)){ 
+$i++;
+?><div onclick="document.getElementById('buscaGeral').setAttribute('target', '_blank'); document.getElementById('inputBuscaGeral').value = '#<?=$row2['matricula']?>'; document.getElementById('buscaGeral').submit(); document.getElementById('buscaGeral').setAttribute('target', '_self'); document.getElementById('inputBuscaGeral').value = '';" class="appList"><div class='imgUsuario'></div><?=$row2['nome']?><div class="titulo"><div class="att"></div><div class="att"></div><div class="att"></div></div></div><?php }
+
+ if($i == 0) echo "Nenhum usuário cadastrado!"; ?>
+
+<form action="<?=$row['link']?>" method="post">
+<input type="hidden" name="hiddenUsuarioAreaNegocio" value="<?=$row['id'];?>">
+
+<select name="usuarioAreaNegocio" id="usuarioAreaNegocio" required>
+	<option value="" selected>Selecione um Usuário</option>
+
+	<?php
+	$sql3 = "SELECT * FROM relatorios_funcionarios";
+	$res3 = sqlsrv_query($con, $sql3);
+
+	sort($res3);
+
+	$i = 0;
+
+	while($row3 = sqlsrv_fetch_array($res3)){ 
+		$usu[$i]['nome'] = $row3['nome'];
+		$usu[$i]['matricula'] = $row3['matricula'];
+		$i++;
+	}
+
+	sort($usu);
+
+	for($i = 0; $i < count($usu); $i++) {
+
+	?>
+
+	<option value="<?=$usu[$i]['matricula']?>"><?=$usu[$i]['nome']?></option>
+
+	<?php } ?>
+	
+</select>
+
+<input type="submit" value="Salvar">
+
+</form>
+
+</div>
+
+</main>
+
+<?php } ?>
+
+<?php
+
+if(isset($resultado)) { ?>
+
+<div id="resultadoAcao" class="modal"><?=$resultado;?></div>
+
+<style>
+
+div#sombraBranca {
+	display: block;
+}
+
+</style>
+
+<?php } ?>
