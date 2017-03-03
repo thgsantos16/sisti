@@ -1,637 +1,652 @@
 ﻿"sAMAccountName","Enabled","created","LastLogonDate","Company","department","homephone","Mail"
-"mateus.mattiuz","True","22/07/2015 10:23:01","26/12/2016 11:18:38","F12 - Vila Flores","1253305 - AGROPEC F12","131036","mateus.mattiuz@pia.com.br"
-"angelica.neta","True","03/03/2016 19:34:05","23/08/2016 14:29:58","F08 - Morro Reuter","3853305 - AGROPEC COM F8","106059",
-"fabiano.souza","True","16/11/2016 14:38:32","30/01/2017 11:54:26","F01 - Usina","1114406 - EXPED SECOS","94383","fabiano.souza"
-"fernanda.dentz","True","04/03/2016 14:02:49","16/01/2017 18:53:36","F01 - Usina","4115513 - SEGURANCA DO TRABALHO","135422","fernanda.dentz@pia.com.br"
-"airton","True","10/10/2005 13:56:29","30/01/2017 07:32:22","F09 - Industria Racoes","2833301 - COMERCIAL INS/F. RACOES NP F9","5808","airton@pia.com.br"
-"marco.link","True","23/03/2011 08:34:54","27/01/2017 09:05:27","F01 - Usina","1113301 - VENDAS ALIMENTOS","19336","marco.link@pia.com.br"
-"sandra.thome","True","17/01/2003 08:48:15","26/01/2017 09:41:25","F01 - Usina","1113303 - MARKETING ALIM","78982","sandra.thome@pia.com.br"
-"ana.souza","True","05/11/2013 16:23:53","26/01/2017 09:17:31","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","119704","ana.souza@pia.com.br"
-"verno","True","17/12/2002 12:28:26","23/01/2017 16:54:14","F11 - Taquara","3953305 - AGROPEC COM F11","17378","verno@pia.com.br"
-"luciane","True","08/03/2004 16:49:58","02/11/2016 19:33:43","F11 - Taquara","3953305 - AGROPEC COM F11","23490","luciane@pia.com.br"
-"silvia","True","27/02/2009 09:38:45","30/01/2017 07:35:06","F01 - Usina","1111122 - MEIO AMBIENTE (EFLUENTES-LIXO-IBAMA)","43393","silvia@pia.com.br"
-"djonata.griep","True","29/07/2015 07:47:57","29/01/2017 11:34:32","F01 - Usina","1113301 - VENDAS ALIMENTOS","99885","djonata.griep@pia.com.br"
-"jessica.linz","True","23/05/2016 16:55:22","23/01/2017 07:24:09","F13 - Fazenda Piraja","3141129 - RECEP/EXPED F13 -AGRO","120749","jessica.linz@pia.com.br"
-"volnei.santos","True","11/11/2010 07:37:12","26/01/2017 06:41:06","F11 - Taquara","3953305 - AGROPEC COM F11","81171","volnei.santos@pia.com.br"
-"ivete.schwade","True","29/08/2003 18:03:44","27/09/2016 15:37:37","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","17324","ivete.schwade@pia.com.br"
-"henrique.steffen","True","29/07/2015 09:15:40","20/01/2017 09:41:50","F14 - Tupandi","3453305 - AGROPEC COM F14","126771","henrique.steffen@pia.com.br"
-"catia.reuse","True","23/08/2012 11:16:38","23/01/2017 07:55:33","F14 - Tupandi","3453305 - AGROPEC COM F14","93453","catia.reuse@pia.com.br"
-"perlita","True","24/09/2014 10:43:03","30/01/2017 07:48:14","F11 - Taquara","3953305 - AGROPEC COM F11","125190","perlita@pia.com.br"
-"ademilson.ribeiro","True","23/12/2015 16:05:35","18/11/2016 14:48:03","F01 - Usina","1113303 - MARKETING ALIM","133878","ademilson.ribeiro@pia.com.br"
-"everton.schwantes","True","22/11/2016 10:19:39","28/01/2017 22:00:22","F01 - Usina","1111130 - BALANCA","140859",
-"patricia.marques","True","24/12/2015 08:56:26","23/01/2016 10:37:40","F01 - Usina","1122203 - DOCE FRUTA POTE","129672",
-"roneide.rambo","True","09/03/2016 08:09:21","30/01/2017 07:38:22","F01 - Usina","1121111 - SUPERVISAO DOCES","136012","roneide.rambo@pia.com.br"
-"yara.regina","True","14/08/2013 17:01:41","26/01/2017 10:58:04","F01 - Usina","1111109 - QUALIDADE NP","117686","yara.regina@pia.com.br"
-"Ana","True","05/02/2001 08:54:34","26/01/2017 16:32:54","F01 - Usina","4115506 - CONTAS RECEBER","17398","ana.arend@pia.com.br"
-"luciane.servelin","True","09/03/2016 09:39:17","24/01/2017 09:33:49","F12 - Vila Flores","1111206 - RECEP LEITE V. FLORES","135918","luciane.servelin@pia.com.br"
-"xico","True","09/04/2009 16:41:13","24/01/2017 07:31:37","F01 - Usina","4115506 - CONTAS RECEBER","6506","xico@pia.com.br"
-"vanessa.iop","True","07/07/2014 11:35:54","29/01/2017 20:01:35","F01 - Usina","1111109 - QUALIDADE NP","123230","vanessa.iop@pia.com.br"
-"regis","True","20/12/2010 07:50:05","24/01/2017 07:30:32","F01 - Usina","4115504 - FINANCEIRO GERAL","82745","regis@pia.com.br"
-"cledis.melo","True","25/09/2014 15:09:35","13/01/2017 07:55:33","F01 - Usina","1111109 - QUALIDADE NP","124933","cledis.melo@pia.com.br"
-"viviane.jung","True","09/08/2011 15:59:48","23/01/2017 07:35:22","F01 - Usina","4115506 - CONTAS RECEBER","95093","viviane.jung@pia.com.br"
-"cristina.gonzaga","True","10/03/2016 14:49:46","23/01/2017 07:39:00","F01 - Usina","1111131 - PCP INDUSTRIA","135888","cristina.gonzaga@pia.com.br"
-"karen.souza","True","09/10/2014 13:59:25","23/01/2017 07:35:50","F01 - Usina","1111109 - QUALIDADE NP","125637","karen.souza@pia.com.br"
-"flavia.santos","True","11/02/2013 17:17:03","19/01/2017 08:44:10","F01 - Usina","4115505 - CONTAS PAGAR","113784","flavia.santos@pia.com.br"
-"fernanda.schrank","True","10/03/2015 07:51:52","23/01/2017 07:39:13","F01 - Usina","4115505 - CONTAS PAGAR","128514","fernanda.schrank@pia.com.br"
-"karine.piazer","True","29/01/2015 16:39:42","26/01/2017 07:55:22","F01 - Usina","1111110 - DESENVOLV PRODUTOS","127649","karine.piazer@pia.com.br"
-"adrianar","True","30/11/2004 15:33:50","12/01/2017 11:09:20","F01 - Usina","1114403 - EXPED REFRIGERADOS","43964","adriana@pia.com.br"
-"huillder.almeida","True","08/10/2015 11:55:08","25/01/2017 08:44:38","F01 - Usina","1111109 - QUALIDADE NP","132555","huillder.almeida@pia.com.br"
-"maiara.filipetto","True","18/02/2015 14:15:10","26/01/2017 12:04:55","F01 - Usina","1111109 - QUALIDADE NP","128131","maiara.filipetto@pia.com.br"
-"luiza.junkes","True","20/05/2015 14:48:59","30/01/2017 07:57:19","F01 - Usina","4115506 - CONTAS RECEBER","129934","luiza.junkes@pia.com.br"
-"cristiane.bauer","True","04/08/2011 07:48:47","18/01/2017 14:27:34","F06 - Picada Cafe ","3641107 - GERENCIA F6","55973","cristiane.bauer@pia.com.br"
-"bruna.tamires","True","28/04/2010 16:28:35","23/01/2017 07:31:23","F01 - Usina","4115510 - MARKETING","93795","bruna.tamires@pia.com.br"
-"rafaela.santos","True","19/08/2013 08:15:50","30/01/2017 00:03:47","F01 - Usina","1113303 - MARKETING ALIM","110851","rafaela.santos@pia.com.br"
-"fernanda.schneider","True","20/08/2013 17:42:06","30/01/2017 07:48:16","F01 - Usina","1113303 - MARKETING ALIM","111191","fernanda.schneider@pia.com.br"
-"janaina","True","22/06/2009 16:49:54","19/01/2017 07:37:16","F01 - Usina","4115509 - TECNOL INFORMACAO","87406","janaina@pia.com.br"
-"edson.wingert","True","29/12/2015 17:17:45","30/12/2015 07:35:01","F01 - Usina","1112202 - UHT SIG","132507",
-"gislaine.diederich","True","16/03/2016 14:17:01","22/01/2017 14:56:10","F01 - Usina","1111105 - ALMOXARIFADO","135890",
-"pendencia_aprovacao","True","03/08/2015 15:31:05",,,,,"pendencia_aprovacao@pia.com.br"
-"gean.spiering","True","27/09/2016 13:45:42","26/01/2017 13:50:33","F01 - Usina","4115514 - MENOR APRENDIZ","134921","gean.spiering@pia.com.br"
-"silmara.oliveira","True","24/11/2016 07:43:14","14/01/2017 06:09:46","F22 - Ivoti","1513303 - EXPEDICAO F22","128859",
-"rossano.silva","True","07/08/2012 16:16:40","29/01/2017 23:56:05","F22 - Ivoti","1513303 - EXPEDICAO F22","94119","rossano.silva@pia.com.br"
-"adriana.acker","True","10/05/2007 15:39:01","26/01/2017 04:03:21","F03 - Feliz","3341107 - GERENCIA F3","81050","adriana.acker@pia.com.br"
-"zoraia.petry","True","22/11/2012 09:23:16","30/01/2017 07:22:46","F01 - Usina","1114401 - LOGISTICA ALIM","55979","zoraia.petry@pia.com.br"
-"cassiano","True","08/08/2016 08:24:01","23/01/2017 10:52:08",,"4115507 - RECURSOS HUMANOS",,"cassiano@pia.com.br"
-"caroline.scherer","True","15/10/2009 08:45:53","23/01/2017 07:50:28","F08 - Morro Reuter","3845501 - ADMIN F8","89384","caroline.scherer@pia.com.br"
-"sofia","True","17/02/2011 07:49:00","23/01/2017 07:48:00","F01 - Usina","4115502 - CONTROLADORIA","100102","sofia@pia.com.br"
-"maira","True","10/11/2008 08:20:57","25/01/2017 07:38:52","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","95838","maira@pia.com.br"
-"anderson.weber","True","22/02/2012 10:00:23","23/01/2017 17:13:57","F08 - Morro Reuter","3841107 - GERENCIA F8","53787","anderson.weber@pia.com.br"
-"joao.frederico","True","27/07/2012 14:00:33","26/01/2017 08:00:15","F01 - Usina","1111131 - PCP INDUSTRIA","110308","joao.frederico@pia.com.br"
-"joel.martins","True","23/07/2013 11:15:30","12/01/2017 08:27:54","F22 - Ivoti","1513303 - EXPEDICAO F22","110250","joel.martins@pia.com.br"
-"jose.junior","True","29/09/2016 11:04:52","20/01/2017 21:52:31","F01 - Usina","1111105 - ALMOXARIFADO","139866","jose.junior@pia.com.br"
-"marceli.fritzen","True","14/03/2013 16:51:57","27/01/2017 07:37:08","F01 - Usina","4115513 - SEGURANCA DO TRABALHO","107125","marceli.fritzen@pia.com.br"
-"nuna.vale","True","17/03/2016 14:34:03","20/12/2016 11:36:39","F01 - Usina","1111122 - MEIO AMBIENTE (EFLUENTES-LIXO-IBAMA)","138282","nuna.vale@pia.com.br"
-"atecnica.marau","True","07/02/2013 11:05:17","27/12/2013 08:58:38",,"1111302 - VETERINARIOS MARAU",,
-"tiele.muller","True","04/01/2016 15:43:35","30/01/2017 08:05:07","F11 - Taquara","3953305 - AGROPEC COM F11","128399","tiele.muller@pia.com.br"
-"bruna.pereira","True","18/03/2016 11:02:07","30/01/2017 05:04:50","F01 - Usina","1111131 - PCP INDUSTRIA","135911","bruna.pereira@pia.com.br"
-"valber.subtil","True","09/08/2016 13:47:50","23/01/2017 07:22:18","F01 - Usina","4115515 - CUSTOS","139018","valber.subtil@pia.com.br"
-"william.strossi","True","18/03/2016 11:06:04","25/01/2017 19:55:40","F01 - Usina","1111131 - PCP INDUSTRIA","135897","william.strossi@pia.com.br"
-"quesia.amorin","True","21/03/2014 11:14:43","02/01/2017 22:13:42","F22 - Ivoti","1513303 - EXPEDICAO F22","121835","quesia.amorin@pia.com.br"
+"luiz.arenhart","True","07/12/2015 11:28:12","02/03/2017 11:12:13","F11 - Taquara","3953305 - AGROPEC COM F11","133927","luiz.arenhart@pia.com.br"
+"juliane.bohn","True","06/05/2015 16:51:45","27/02/2017 12:02:13","F01 - Usina","4115513 - SEGURANCA DO TRABALHO","129753","juliane.bohn@pia.com.br"
+"danieli.cristine","True","16/03/2011 15:24:25","28/02/2017 07:30:55","F01 - Usina","4115508 - PLANOS DE SAUDE","101020","danieli.cristine@pia.com.br"
+"daniela.carvalho","True","11/11/2015 08:16:12","24/02/2017 13:32:25","F01 - Usina","1113301 - VENDAS ALIMENTOS","133297","daniela.carvalho@pia.com.br"
+"renata.farias","True","20/01/2016 16:29:43","23/02/2017 08:52:30","F01 - Usina","4115509 - TECNOL INFORMACAO","134760","renata.farias@pia.com.br"
+"silmara.oliveira","True","24/11/2016 07:43:14","21/02/2017 00:03:35","F22 - Ivoti","1513303 - EXPEDICAO F22","128859",
+"luciano","True","01/11/2007 08:19:06","27/02/2017 08:02:49","F01 - Usina","1121101 - ASS TECNICA FRUTAS","56035","luciano@pia.com.br"
+"bruna.santos","True","20/01/2016 16:28:02","27/02/2017 07:41:13","F01 - Usina","1113301 - VENDAS ALIMENTOS","134759","bruna.santos@pia.com.br"
+"luciano.bastianello","True","21/08/2015 15:49:21","02/03/2017 12:03:15","F01 - Usina","1113301 - VENDAS ALIMENTOS","131936","luciano.bastianello@pia.com.br"
+"jessica.kny","True","16/09/2010 08:28:58","28/02/2017 07:39:47","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","94277","jessica.kny@pia.com.br"
+"monica.foss","True","27/01/2016 08:20:00","27/02/2017 13:37:28","F13 - Fazenda Piraja","3141125 - RECEP/EXPED F13 MERCADO","134765","monica.foss@pia.com.br"
+"cleiton.ismael","True","06/04/2011 08:12:52","25/02/2017 00:31:31","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","99901","cleiton.ismael@pia.com.br"
+"greice.brackmann","True","11/10/2012 11:36:20","25/02/2017 08:28:48","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","93711",
+"janete.osterkamp","True","07/08/2015 11:15:53","23/02/2017 07:24:16","F01 - Usina","1113301 - VENDAS ALIMENTOS","131218","janete.osterkamp@pia.com.br"
+"alexandre.schenkel","True","09/11/2012 08:14:05","01/03/2017 18:05:47","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","111667","alexandre.schenkel@pia.com.br"
+"gabriel.rosa","True","13/09/2016 09:31:15","27/02/2017 07:39:58","F01 - Usina","1113303 - MARKETING ALIM","139756","gabriel.rosa@pia.com.br"
+"janice.strey","True","28/01/2013 17:36:30","27/02/2017 07:42:21","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","61634","janice.strey@pia.com.br"
+"rosilei.mewius","True","19/07/2016 10:12:04","12/12/2016 18:43:05","F01 - Usina","1111114 - TETRA TOP FERMENTACAO","85989",
+"jaqueline.maahs","True","11/05/2016 19:00:28","27/02/2017 07:40:23","F06 - Picada Cafe ","3643303 - MERCADO F6","65865","jaqueline.maahs@pia.com.br"
+"mauricio.dalmas","True","08/10/2014 16:56:44","23/02/2017 11:07:59","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","129514","mauricio.dalmas@pia.com.br"
 "pedro.ribeiro","True","01/06/2016 09:37:33","01/06/2016 09:59:07",,,,"pedro.ribeiro@pia.com.br"
-"nelson.santos","True","29/05/2014 11:30:28","27/01/2017 07:53:01","F22 - Ivoti","1513303 - EXPEDICAO F22","123053","nelson.santos@pia.com.br"
-"priscilla.zeni","True","10/08/2016 08:07:50","26/01/2017 07:31:43","F01 - Usina","1115501 - ADM ALIMENTOS","138871","priscilla.zeni@pia.com.br"
+"ladair.pessutto","True","16/03/2015 11:57:59","27/02/2017 08:08:44","F12 - Vila Flores","1253305 - AGROPEC F12","128874","ladair.pessutto@pia.com.br"
+"bruna.freitas","True","10/09/2014 14:29:50","22/02/2017 03:25:22","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","118303","bruna.freitas@pia.com.br"
+"fernanda.sabrine","True","16/08/2016 09:08:06","02/03/2017 07:38:44","F01 - Usina","4115506 - CONTAS RECEBER","138840","fernanda.sabrine@pia.com.br"
+"felipe.todescatto","True","31/08/2016 11:44:40","31/08/2016 11:47:16","F12 - Vila Flores","1253305 - AGROPEC F12","104150","felipe.todescatto@pia.com.br"
+"gisela","True","05/10/2009 15:30:47","27/02/2017 11:23:09","F01 - Usina","4115502 - CONTROLADORIA","89955","gisela@pia.com.br"
+"isabel.zucco","True","16/08/2016 07:11:47","01/03/2017 07:23:05","F01 - Usina","4115516 - MEDICINA DO TRABALHO","139138","isabel.zucco@pia.com.br"
 "oficina.agro","True","23/01/2017 11:33:30","23/01/2017 13:27:39","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO",,
-"haislana.lima","True","02/03/2015 09:59:23","26/01/2017 08:34:05","F01 - Usina","1113301 - VENDAS ALIMENTOS","128374","haislana.lima@pia.com.br"
-"miriam.borusewsky","True","10/06/2014 08:25:19","27/01/2017 08:47:17","F22 - Ivoti","1513303 - EXPEDICAO F22","123367","miriam.borusewsky@pia.com.br"
-"joice.schaefer","True","07/01/2016 17:02:01","26/01/2017 20:12:26","F01 - Usina","1114406 - EXPED SECOS","134494","joice.schaefer@pia.com.br"
-"andreia.queiroz","True","30/03/2015 14:41:11","23/01/2017 07:33:54","F01 - Usina","1114403 - EXPED REFRIGERADOS","129116","andreia.queiroz@pia.com.br"
+"smaniotto","True","02/05/2011 10:55:05","23/02/2017 14:39:49","F01 - Usina","4115501 - ADM GERAL","19534","smaniotto@pia.com.br"
+"gerson.rafael","True","16/03/2011 09:06:35","27/02/2017 07:32:09","F01 - Usina","4115502 - CONTROLADORIA","95169","gerson.rafael@pia.com.br"
+"beto","True","10/10/2011 10:17:26","16/11/2012 10:38:12","F01 - Usina","4115501 - ADM GERAL","101774","gilberto@pia.com.br"
+"sofia","True","17/02/2011 07:49:00","23/02/2017 07:20:40","F01 - Usina","4115502 - CONTROLADORIA","100102","sofia@pia.com.br"
+"hadassa.nascimento","True","24/10/2016 09:08:10","30/01/2017 13:09:19","F01 - Usina","4115514 - MENOR APRENDIZ","134904",
 "uilian.vicente","True","28/11/2016 08:05:57","30/11/2016 11:19:29","F01 - Usina","1112202 - UHT SIG","138297",
-"carlos.raimundo","True","30/05/2001 16:01:25","23/01/2017 07:35:06","F01 - Usina","4115512 - LOGISTICA","30453","carlos.raimundo@pia.com.br"
-"diego.csouza","True","04/11/2014 07:40:18","26/01/2017 08:16:21","F01 - Usina","4115509 - TECNOL INFORMACAO","126222","diego.csouza@pia.com.br"
-"luciano.eckert","True","14/07/2014 15:28:52","30/01/2017 07:29:27","F22 - Ivoti","1513303 - EXPEDICAO F22","121892","luciano.eckert@pia.com.br"
-"janete.osterkamp","True","07/08/2015 11:15:53","22/01/2017 16:02:24","F01 - Usina","1113301 - VENDAS ALIMENTOS","131218","janete.osterkamp@pia.com.br"
+"nilson","True","10/10/2011 10:24:14","20/02/2017 07:52:24","F01 - Usina","4115501 - ADM GERAL","63501","nilson@pia.com.br"
+"avelino","True","12/05/2003 08:04:57","21/02/2017 11:26:56","F01 - Usina","4115517 - ASSOCIADOS","31432","avelino@pia.com.br"
+"cilene.rossato","True","18/12/2014 17:34:10","23/02/2017 12:18:22","F15 - Marau","3753305 - AGROPEC COM F15","124578","cilene.rossato@pia.com.br"
+"lisete","True","14/09/2004 15:33:03","24/02/2017 09:40:52","F01 - Usina","4115517 - ASSOCIADOS","111335","lisete@pia.com.br"
+"tiago.sousa","True","17/10/2016 08:37:34","02/03/2017 03:47:10","F01 - Usina","4115513 - SEGURANCA DO TRABALHO","140394","tiago.sousa@pia.com.br"
+"candida","True","18/01/2006 18:23:58","02/03/2017 07:34:57","F01 - Usina","4115501 - ADM GERAL","54831","candida@pia.com.br"
+"elisa.michalski","True","20/10/2016 13:59:50","26/01/2017 13:46:34","F01 - Usina","4115514 - MENOR APRENDIZ","134903","elisa.michalski@pia.com.br"
+"xico","True","09/04/2009 16:41:13","23/02/2017 07:33:49","F01 - Usina","4115506 - CONTAS RECEBER","6506","xico@pia.com.br"
+"gean.spiering","True","27/09/2016 13:45:42","26/01/2017 13:50:33","F01 - Usina","4115514 - MENOR APRENDIZ","134921","gean.spiering@pia.com.br"
 "ricardo.goncalves","True","24/01/2017 16:06:35","25/01/2017 07:34:57",,"1113302 - TRADE MARKETING","68739","ricardo.goncalves@pia.com.br"
-"volmir","True","07/01/2010 10:26:20","30/01/2017 09:20:59","F01 - Usina","1115503 - DEPTO DE PROJETOS ALIMENTOS","28935","volmir@pia.com.br"
-"samuel.schmitt","True","04/07/2014 14:42:22","20/01/2017 15:30:03","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","123768","samuel.schmitt@pia.com.br"
-"douglas.padilha","True","14/07/2014 10:30:58","19/01/2017 23:25:56","F22 - Ivoti","1513303 - EXPEDICAO F22","112781","douglas.padilha@pia.com.br"
-"regina","True","31/01/2007 17:14:48","26/01/2017 08:12:39","F01 - Usina","4115507 - RECURSOS HUMANOS","43845","regina@pia.com.br"
-"tiago.silva","True","22/09/2014 10:40:23","26/01/2017 08:03:25","F01 - Usina","1111105 - ALMOXARIFADO","125346",
-"raquel.juwer","True","14/07/2014 15:53:48","21/01/2017 07:24:27","F01 - Usina","1114403 - EXPED REFRIGERADOS","123055","raquel.juwer@pia.com.br"
-"diana.ponath","True","06/01/2015 17:25:16","30/01/2017 06:47:01","F01 - Usina","1111135 - GESTAO DO LEITE","127096","diana.ponath@pia.com.br"
-"denise.dietrich","True","06/12/2010 09:25:44","19/01/2017 07:41:39","F01 - Usina","4115503 - CONTABILIDADE","99110","denise.dietrich@pia.com.br"
-"karla.pintro","True","04/05/2015 15:42:27","26/01/2017 13:04:31","F01 - Usina","4115507 - RECURSOS HUMANOS","129756","karla.pintro@pia.com.br"
-"marcio.goncalves","True","07/01/2015 07:32:18","22/01/2017 09:50:45","F01 - Usina","1111105 - ALMOXARIFADO","127084","marcio.goncalves@pia.com.br"
-"carlos.reinoldo","True","19/07/2013 10:53:38","21/11/2016 11:18:13","F01 - Usina","1111102 - VETERINARIOS","17401","carlos.reinoldo@pia.com.br"
-"ana.kroessin","True","23/03/2015 07:48:30","29/12/2016 04:23:40","F01 - Usina","1111105 - ALMOXARIFADO","127985","ana.kroessin@pia.com.br"
-"alex.rambor","True","17/09/2013 09:11:33","26/01/2017 08:09:38","F01 - Usina","4115512 - LOGISTICA","118347","alex.rambor@pia.com.br"
-"jonathan.borges","True","22/03/2016 16:53:55","29/01/2017 20:47:44","F01 - Usina","4115507 - RECURSOS HUMANOS","136280","jonathan.borges@pia.com.br"
-"lais.bender","True","13/02/2015 13:46:20","26/01/2017 07:43:40","F01 - Usina","4115503 - CONTABILIDADE","128130","lais.bender@pia.com.br"
-"alexandre.rutzen","True","24/06/2015 08:42:50","21/09/2016 16:51:52","F01 - Usina","1114403 - EXPED REFRIGERADOS","127700","alexandre.rutzen@pia.com.br"
-"marcos.soares","True","04/10/2016 14:51:31","25/01/2017 19:51:01","F01 - Usina","1113301 - VENDAS ALIMENTOS","140152","marcos.soares@pia.com.br"
-"claudio.farias","True","14/04/2015 09:44:25","30/01/2017 07:32:49","F01 - Usina","1115505 - COMPRAS","129458","claudio.farias@pia.com.br"
-"dalva.savi","True","11/08/2015 09:32:59","30/01/2017 07:30:44","F01 - Usina","4115507 - RECURSOS HUMANOS","131599","dalva.savi@pia.com.br"
-"jair.oliveira","True","04/10/2016 15:41:49","30/01/2017 13:38:57","F01 - Usina","1113302 - TRADE MARKETING","140171","jair.oliveira@pia.com.br"
-"alessandro.silva","True","27/04/2015 16:07:56","16/01/2017 22:27:33","F01 - Usina","1111105 - ALMOXARIFADO","129515","alessandro.silva@pia.com.br"
-"andressa.malheiros","True","24/03/2016 14:14:07","23/01/2017 11:42:33","F01 - Usina","1114406 - EXPED SECOS","136266","andressa.malheiros@pia.com.br"
-"bernardo.muniz","True","05/10/2016 13:43:47","29/12/2016 14:00:14","F12 - Vila Flores","1111201 - POLITICA LEITE V FLORES","123004","bernardo.muniz@pia.com.br"
-"angelo.teixeira","True","24/03/2016 15:45:16",,"F01 - Usina","1111112 - PASTEURIZACAO","133914",
-"anderson.favretto","True","05/10/2016 13:54:25","26/12/2016 08:47:27","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","122121","anderson.favretto@pia.com.br"
-"juliano.fassina","True","14/10/2011 11:55:50","22/01/2017 17:32:09","F01 - Usina","1113301 - VENDAS ALIMENTOS","139772","juliano.fassina@pia.com.br"
-"joao.mellos","True","24/03/2016 15:47:22",,"F01 - Usina","1111116 - MASSA DOCE LT (TACHOS)","80361",
-"nilto.dalmolin","True","05/10/2016 14:11:12","14/01/2017 13:29:47","F01 - Usina","1111102 - VETERINARIOS","47911","nilton.dalmolin@pia.com.br"
-"marcelo.kunst","True","10/03/2015 08:29:25",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121901",
-"maiara.panzenhagen","True","11/09/2013 09:17:16","25/01/2017 13:32:56","F01 - Usina","4115509 - TECNOL INFORMACAO","118274","maiara.panzenhagen@pia.com.br"
-"leuzivane.sherer","True","24/03/2016 16:29:44",,"F01 - Usina","1112211 - FERMENT COPOS","131545",
-"isabel.zucco","True","16/08/2016 07:11:47","18/01/2017 12:19:55","F01 - Usina","4115516 - MEDICINA DO TRABALHO","139138","isabel.zucco@pia.com.br"
-"salete.ruechel","True","24/03/2016 16:32:05",,"F01 - Usina","1112205 - REQUEIJAO","127559",
-"fernanda.sabrine","True","16/08/2016 09:08:06","30/01/2017 07:32:54","F01 - Usina","4115506 - CONTAS RECEBER","138840","fernanda.sabrine@pia.com.br"
-"exp.secos","True","09/06/2016 08:34:38","13/09/2016 18:46:10",,,,
-"claudia.regina","True","12/08/2015 10:52:15","24/01/2017 07:38:15","F01 - Usina","1113301 - VENDAS ALIMENTOS","131539","claudia.regina@pia.com.br"
-"lucas.heineck","True","24/03/2016 16:34:14",,"F01 - Usina","1111116 - MASSA DOCE LT (TACHOS)","116294",
-"suelen.cortes","True","09/06/2016 11:24:51","27/01/2017 08:06:45","F01 - Usina","1111105 - ALMOXARIFADO","137734","suelen.cortes@pia.com.br"
-"laura.anschau","True","16/08/2016 13:35:06","22/01/2017 00:07:57","F01 - Usina","4115514 - MENOR APRENDIZ","134905","laura.anschau@pia.com.br"
-"regis.araujo","True","13/08/2015 08:33:51","23/08/2015 10:42:56","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","131677","regis.araujo@pia.com.br"
-"jeremy.schmitz","True","29/10/2015 14:07:35","22/01/2017 20:09:29","F01 - Usina","1111105 - ALMOXARIFADO","133092",
-"Daiane.Calsing","False","22/01/2015 19:12:44","02/05/2015 08:45:06",,,,
-"vanusa.terra","False","26/04/2013 17:17:54","07/02/2015 12:24:44",,,,
-"luis.gustavo","False","20/02/2014 09:08:17","16/02/2015 08:23:04",,,,"luis.gustavo@pia.com.br"
-"cleiton.lorenz","False","23/03/2015 08:47:31","28/10/2015 09:15:21",,,,
-"eduarda.lara","False","03/08/2016 11:54:49","01/09/2016 13:48:25","F01 - Usina","4115514 - MENOR APRENDIZ",,
-"isabel.lauc","False","12/02/2008 15:27:49",,,,,"isabel.lauc@pia.com.br"
-"filial5","False","23/06/2001 15:07:07",,,,,"filial5@pia.com.br"
+"Rosane","True","08/12/2003 14:33:12","24/02/2017 16:25:39","F05 - Santa Maria do Herval","3553305 - AGROPEC COM F5","74953","rosane@pia.com.br"
+"viviane.jung","True","09/08/2011 15:59:48","28/02/2017 07:45:41","F01 - Usina","4115506 - CONTAS RECEBER","95093","viviane.jung@pia.com.br"
+"laura.anschau","True","16/08/2016 13:35:06","27/02/2017 00:01:36","F01 - Usina","4115514 - MENOR APRENDIZ","134905","laura.anschau@pia.com.br"
+"luizia.eberle","True","27/04/2011 10:08:35","23/02/2017 07:37:28","F01 - Usina","4115517 - ASSOCIADOS","101655","luizia.eberle@pia.com.br"
+"flavia.santos","True","11/02/2013 17:17:03","02/03/2017 08:14:31","F01 - Usina","4115505 - CONTAS PAGAR","113784","flavia.santos@pia.com.br"
+"candida.schmitt","True","29/08/2016 09:06:21","23/02/2017 13:42:47",,"1113302 - TRADE MARKETING",,"candida.schmitt@pia.com.br"
+"canisio","True","29/10/2002 08:35:52","27/02/2017 06:00:38","F05 - Santa Maria do Herval","3553305 - AGROPEC COM F5","7472","canisio.roldo@pia.com.br"
+"claudio.roberto","True","05/09/2012 08:22:09","01/03/2017 07:59:54","F01 - Usina","4115502 - CONTROLADORIA","111095","claudio.roberto@pia.com.br"
+"rubenson.martins","True","15/06/2016 07:57:19","20/02/2017 12:03:03","F01 - Usina","1111130 - BALANCA","137733",
+"giovani.backes","True","26/10/2011 08:39:56","23/02/2017 11:39:46","F05 - Santa Maria do Herval","3553305 - AGROPEC COM F5","79343","giovani.backes@pia.com.br"
+"fernanda.schrank","True","10/03/2015 07:51:52","28/02/2017 08:09:21","F01 - Usina","4115505 - CONTAS PAGAR","128514","fernanda.schrank@pia.com.br"
+"nilson.schamrek","True","14/07/2016 19:36:38","02/03/2017 07:39:06","F01 - Usina","1115505 - COMPRAS","138549","nilson.schamrek@pia.com.br"
+"juliana.kunzler","True","27/01/2012 15:39:45","24/02/2017 04:23:01","F05 - Santa Maria do Herval","3545501 - ADMIN F5","113415","juliana.kunzler@pia.com.br"
+"felix.alles","True","16/07/2013 17:07:39","23/02/2017 13:42:53","F05 - Santa Maria do Herval","3541107 - GERENCIA F5","72364","felix.alles@pia.com.br"
+"cristiane.bauer","True","04/08/2011 07:48:47","24/02/2017 11:27:39","F06 - Picada Cafe ","3641107 - GERENCIA F6","55973","cristiane.bauer@pia.com.br"
+"jonatan.rosa","True","14/07/2016 19:35:03","27/02/2017 07:58:05","F01 - Usina","1115505 - COMPRAS","138710",
+"luis.fraga","True","09/11/2016 08:09:41","22/02/2017 09:23:12","F01 - Usina","1113301 - VENDAS ALIMENTOS","140701","luis.fraga@pia.com.br"
+"diego.berle","True","08/04/2014 15:13:32","13/02/2017 08:43:40","F05 - Santa Maria do Herval","3553305 - AGROPEC COM F5","115677","diego.berle@pia.com.br"
+"maira","True","10/11/2008 08:20:57","28/02/2017 01:10:16","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","95838","maira@pia.com.br"
+"geisa.lamas","True","07/07/2016 09:22:25","25/02/2017 21:45:47","F01 - Usina","1111108 - LABOR MICROB LATIC NP","129373","geisa.lamas@pia.com.br"
+"carina.silva","True","09/11/2016 16:36:24","23/02/2017 06:01:14","F12 - Vila Flores","1111230 - BALANCA V FLORES","140255",
+"neiva.kroetz","True","04/08/2014 10:52:36","02/03/2017 10:02:14","F05 - Santa Maria do Herval","3553305 - AGROPEC COM F5","104922","neiva.kroetz@pia.com.br"
+"david.santos","True","15/06/2016 07:53:46","27/02/2017 03:43:51","F01 - Usina","1111130 - BALANCA","137737",
+"tamires.ribas","True","11/05/2016 09:05:53","22/02/2017 12:04:44","F01 - Usina","1111131 - PCP INDUSTRIA","137065","tamires.ribas@pia.com.br"
+"relogioponto","True","28/05/2015 11:05:31","20/02/2017 09:58:39",,"4115507 - RECURSOS HUMANOS",,
+"valber.subtil","True","09/08/2016 13:47:50","23/02/2017 07:43:12","F01 - Usina","4115515 - CUSTOS","139018","valber.subtil@pia.com.br"
+"andre.heissler","True","19/03/2003 17:12:19","02/03/2017 01:47:29","F01 - Usina","1114403 - EXPED REFRIGERADOS","69414","andre.heissler@pia.com.br"
+"queren.silva","True","10/10/2016 10:07:43","21/02/2017 04:03:26","F01 - Usina","1111130 - BALANCA","140159",
+"claiton.soares","True","12/07/2013 11:37:54","27/02/2017 00:15:50","F01 - Usina","1114403 - EXPED REFRIGERADOS","91871","claiton.soares@pia.com.br"
+"rossano.silva","True","07/08/2012 16:16:40","19/02/2017 23:45:41","F22 - Ivoti","1513303 - EXPEDICAO F22","94119","rossano.silva@pia.com.br"
+"rejanes","True","14/10/2002 17:00:37","02/03/2017 07:20:38","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","17214","rejanes@pia.com.br"
+"ricardo.weber","True","07/07/2016 07:54:56","23/02/2017 10:31:57","F11 - Taquara","3953305 - AGROPEC COM F11","138310","ricardo.weber@pia.com.br"
+"alexandra","True","31/05/2004 09:42:49","02/03/2017 07:58:23","F02 - Nova Petropolis","3243303 - MERCADO F2","37173","alexandra@pia.com.br"
+"angelica.hoffmeister","True","31/08/2016 07:40:32","27/02/2017 07:38:21","F11 - Taquara","3953305 - AGROPEC COM F11","138541","angelica.hoffmeister@pia.com.br"
+"joel.martins","True","23/07/2013 11:15:30","21/02/2017 09:30:14","F22 - Ivoti","1513303 - EXPEDICAO F22","110250","joel.martins@pia.com.br"
+"gisele","True","13/09/2005 11:24:25","27/02/2017 08:32:54","F02 - Nova Petropolis","3243303 - MERCADO F2","78238","gisele@pia.com.br"
+"tiago.kleemann","True","26/10/2016 09:17:49","23/02/2017 14:04:48","F01 - Usina","1114403 - EXPED REFRIGERADOS","128224",
+"nelson.santos","True","29/05/2014 11:30:28","06/02/2017 08:43:52","F22 - Ivoti","1513303 - EXPEDICAO F22","123053","nelson.santos@pia.com.br"
+"agropec.f2","True","01/02/2008 15:38:01","21/02/2017 08:35:24",,"3253305 - AGROPEC COMERCIAL F2",,"agropec.f2@pia.com.br"
+"edmar.bressan","True","26/10/2016 09:06:01","16/01/2017 02:37:20","F01 - Usina","1114403 - EXPED REFRIGERADOS","134190",
+"andreia.queiroz","True","30/03/2015 14:41:11","23/02/2017 07:47:12","F01 - Usina","1114403 - EXPED REFRIGERADOS","129116","andreia.queiroz@pia.com.br"
+"atecnica","True","12/11/2002 09:35:29","25/02/2017 03:36:15",,"1111102 - VETERINARIOS",,"atecnica@pia.com.br"
+"edson.almeida","True","26/10/2016 09:09:11","08/02/2017 12:54:11","F01 - Usina","1114403 - EXPED REFRIGERADOS","116295",
+"renata","True","15/05/2009 16:42:12","25/02/2017 11:39:35","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","113193","renata@pia.com.br"
+"jose.alves","True","26/10/2016 09:10:36","23/02/2017 05:00:04","F01 - Usina","1114403 - EXPED REFRIGERADOS","135425",
+"juliano.padilha","True","26/10/2016 09:11:10","27/02/2017 22:37:54","F01 - Usina","1114403 - EXPED REFRIGERADOS","119720",
+"carin.ponath","True","05/06/2013 14:01:07","02/03/2017 08:09:39","F01 - Usina","1111103 - INSEMINACAO ARTIFICIAL","115993","carin.ponath@pia.com.br"
+"jair.oliveira","True","04/10/2016 15:41:49","02/03/2017 11:27:50","F01 - Usina","1113302 - TRADE MARKETING","140171","jair.oliveira@pia.com.br"
+"anderson.jesus","True","30/01/2017 15:17:17","20/02/2017 16:05:23","F01 - Usina","1111111 - SUPERV LATIC NP","142162",
+"marcelo.wittmann","True","02/09/2013 14:21:31","24/02/2017 14:26:10","F01 - Usina","1111102 - VETERINARIOS","25455","marcelo.witmann@pia.com.br"
+"edson.wingert","True","29/12/2015 17:17:45","30/12/2015 07:35:01","F01 - Usina","1112202 - UHT SIG","132507",
+"marcos.soares","True","04/10/2016 14:51:31","25/02/2017 08:39:49","F01 - Usina","1113301 - VENDAS ALIMENTOS","140152","marcos.soares@pia.com.br"
 "posto.marau","False","01/09/2009 17:31:43","02/02/2013 07:34:50",,,,"posto.marau@pia.com.br"
-"Filial3","False","31/10/2000 17:33:45",,,,,"filial3@pia.com.br"
-"tamara","False","17/04/2012 14:39:19","26/09/2013 08:10:24",,,,"tamara@pia.com.br"
-"filial8","False","26/08/2003 18:21:38","15/01/2013 07:51:32",,,,"filial8@pia.com.br"
-"dionathas","False","09/07/2012 14:10:12","22/04/2013 08:43:21",,,,"dionathas@pia.com.br"
-"cintia.martins","False","14/11/2013 14:20:19","14/01/2014 07:48:25",,,,
-"maria.campos","False","30/05/2012 10:42:31","29/04/2015 07:25:33",,,,
-"marcia.rodrigues","False","05/10/2015 13:40:45","09/01/2017 07:38:55","F01 - Usina","4115507 - RECURSOS HUMANOS","132666","marcia.rodrigues@pia.com.br"
-"liara.schuh","False","26/12/2013 10:56:28","28/10/2016 02:18:04",,,"99913","liara.schuh@pia.com.br"
-"alice.alves","False","06/10/2015 13:57:02","09/01/2017 07:25:17","F01 - Usina","4115504 - FINANCEIRO GERAL","132626","alice.alves@pia.com.br"
-"militao","False","08/07/2010 17:17:12","24/10/2016 08:30:34",,,,"militao@pia.com.br"
-"rodrigo.soares","False","29/09/2014 09:39:53","16/05/2016 15:00:59","F01 - Usina","1113301 - VENDAS ALIMENTOS",,
-"DCS_LANPIA02","False","07/07/2008 00:12:16",,,,,
+"eliel","False","28/09/2009 14:44:44","08/02/2017 11:27:13","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","63861","eliel@pia.com.br"
+"vanessa.ramos","False","29/07/2011 11:49:37","17/05/2014 10:26:17",,,,"vanessa.ramos@pia.com.br"
+"adriane.rauch","False","30/05/2008 17:35:21","28/07/2014 13:49:24",,,,"adriane.rauch@pia.com.br"
+"delmar.luchesi","False","16/06/2011 10:26:12","23/10/2014 08:30:22",,,,"delmar.luchesi@pia.com.br"
+"renato.boaretto","False","08/09/2016 14:05:05","30/12/2016 11:52:28","F12 - Vila Flores","1253305 - AGROPEC F12","139572","renato.boaretto@pia.com.br"
+"adriane.pooter","False","07/07/2014 14:26:00","16/01/2017 08:07:24","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","122367","adriane.pooter@pia.com.br"
+"marcio.petry","False","13/05/2015 15:35:10","25/05/2015 07:36:46",,,,
+"romulo.machado","False","14/05/2015 10:48:35","14/05/2015 10:53:59",,,,
+"suelen.gusmao","False","05/09/2016 07:51:19","08/02/2017 11:22:46",,,,"suelen.gusmao@pia.com.br"
+"cintia.orlandin","False","10/05/2016 13:59:43","08/02/2017 14:46:55","F01 - Usina","4115513 - SEGURANCA DO TRABALHO","137245","cintia.orlandin@pia.com.br"
+"pablo.santos","False","18/07/2016 10:06:06","10/09/2016 06:00:13",,,,
+"paulo.brito","False","15/05/2015 09:14:43",,,,,
+"suelen.cortes","False","09/06/2016 11:24:51","10/02/2017 05:47:15","F01 - Usina","1111105 - ALMOXARIFADO","137734","suelen.cortes@pia.com.br"
 "kelly.werlang","False","17/12/2013 09:19:43","30/03/2015 07:49:27",,,,"kelly.werlang@pia.com.br"
-"rita.santos","False","29/12/2015 17:15:39","30/12/2015 07:33:10",,,,
-"edegar.falcade","False","23/01/2015 11:00:05","05/07/2015 21:45:38",,,,
-"pablo.poletto","False","23/01/2015 10:59:10","21/02/2015 10:13:08",,,,
-"joao.campos","False","23/11/2016 09:29:58","16/01/2017 07:33:29","F01 - Usina","4115515 - CUSTOS","141063",
+"alexandre.machado","False","24/06/2015 18:20:28","29/09/2016 11:41:27",,,,"alexandre.machado@pia.com.br"
+"fabiano.souza","False","16/11/2016 14:38:32","30/01/2017 11:54:26","F01 - Usina","1114406 - EXPED SECOS","94383","fabiano.souza"
+"fernanda.silva","False","12/03/2015 07:56:24","28/05/2015 12:41:05",,,,
+"carla.buttenbender","False","09/07/2014 15:59:17","08/02/2017 11:10:51","F22 - Ivoti","1513303 - EXPEDICAO F22","121904","carla.buttebender@pia.com.br"
+"fabio.lopes","False","01/08/2012 11:23:26","15/12/2016 03:56:04","F01 - Usina","1114403 - EXPED REFRIGERADOS","109545","fabio.lopes@pia.com.br"
+"solange.gomes","False","12/09/2016 08:24:09","05/12/2016 10:12:11","F01 - Usina","1113302 - TRADE MARKETING","139557","solange.gomes@pia.com.br"
+"filial5","False","23/06/2001 15:07:07",,,,,"filial5@pia.com.br"
+"patricia.rieger","False","08/12/2015 14:34:05","29/12/2016 07:31:27","F22 - Ivoti","1513302 - LOGISTICA F22","133976","patricia.rieger@pia.com.br"
+"Filial3","False","31/10/2000 17:33:45",,,,,"filial3@pia.com.br"
+"filial8","False","26/08/2003 18:21:38","15/01/2013 07:51:32",,,,"filial8@pia.com.br"
+"camila.braun","False","18/06/2014 15:38:02","09/04/2015 08:59:28",,,,"camila.braun@pia.com.br"
+"ronaldo.paz","False","02/09/2014 16:18:11","24/06/2016 12:19:17","F02 - Nova Petropolis","3243303 - MERCADO F2","124624","ronaldo.paz@pia.com.br"
+"cassiano","False","08/08/2016 08:24:01","02/02/2017 11:35:50",,"4115507 - RECURSOS HUMANOS",,"cassiano@pia.com.br"
+"eliane","False","13/12/2004 12:54:27","17/09/2011 09:07:48",,,,"eliane@pia.com.br"
+"emilia.rabelo","False","27/05/2015 08:33:16","16/07/2015 12:36:23","F16 - Marau","1111302 - VETERINARIOS MARAU","129193","emilia.rabelo@pia.com.br"
+"cristiane","False","08/09/2010 13:12:22","27/09/2016 09:48:55","F06 - Picada Cafe ","3641107 - GERENCIA F6",,"cristiane@pia.com.br"
+"andrea.schneider","False","10/10/2014 10:35:06","16/04/2015 07:45:31",,,,"andrea.schneider@pia.com.br"
+"maria.campos","False","30/05/2012 10:42:31","29/04/2015 07:25:33",,,,
+"diego.kellermann","False","06/06/2013 08:20:38","04/08/2016 10:58:27",,,,"diego.kellermann@pia.com.br"
+"querle","False","09/04/2012 10:02:06","20/10/2016 08:46:00",,,"85603","querle@pia.com.br"
+"ewerton.batista","False","07/06/2014 08:18:48","25/08/2016 10:26:15","F01 - Usina","1112202 - UHT SIG","125193",
+"geovane.nienow","False","14/08/2013 11:07:53","15/09/2015 08:41:09",,,,"geovane.nienow@pia.com.br"
+"gilberto.santos","False","28/01/2011 16:11:56",,,,,"gilberto.santos@pia.com.br"
+"militao","False","08/07/2010 17:17:12","24/10/2016 08:30:34",,,,"militao@pia.com.br"
 "wilson","False","28/04/2011 14:58:37","24/10/2016 08:37:09",,,,"wilson@pia.com.br"
-"carla.buttenbender","False","09/07/2014 15:59:17","12/12/2016 07:27:11","F22 - Ivoti","1513303 - EXPEDICAO F22","121904","carla.buttebender@pia.com.br"
+"danilo","False","13/08/2010 13:46:43","23/10/2015 08:58:01","F01 - Usina","1113301 - VENDAS ALIMENTOS","113195","danilo@pia.com.br"
+"ederson.soares","False","22/01/2016 15:32:26","05/02/2016 20:03:37",,,,
+"liara.schuh","False","26/12/2013 10:56:28","28/10/2016 02:18:04",,,"99913","liara.schuh@pia.com.br"
+"andrea","False","29/04/2003 09:41:03","19/03/2013 07:41:21",,,,"andrea@pia.com.br"
+"fabiane","False","22/06/2009 08:43:34","17/10/2016 17:38:09",,,"57380","fabiane@pia.com.br"
+"camila","False","11/05/2011 17:17:13","01/12/2011 20:41:21",,,,"camila@pia.com.br"
+"paulo.agrippa","False","29/10/2002 16:23:51",,,,,"pauloagrippa@pia.com.br"
+"ismael.rosa","False","06/06/2014 16:14:47","04/09/2016 16:23:54","F01 - Usina","1113301 - VENDAS ALIMENTOS","95225",
+"tarciso","False","10/07/2006 14:37:34","23/12/2016 13:37:22","F01 - Usina","1114403 - EXPED REFRIGERADOS","77462","tarciso.silva@pia.com.br"
+"isolete","False","17/09/2008 09:27:41","13/02/2017 07:37:42","F01 - Usina","1114401 - LOGISTICA ALIM","66104","isolete@pia.com.br"
+"marieli.simon","False","18/12/2013 08:21:02","30/01/2017 07:09:32","F01 - Usina","4115512 - LOGISTICA","56702","marieli.simon@pia.com.br"
+"alex.lima","False","15/06/2015 16:40:19","08/02/2017 14:38:42","F01 - Usina","1114403 - EXPED REFRIGERADOS","128004","alex.lima@pia.com.br"
+"eduarda.lara","False","03/08/2016 11:54:49","01/09/2016 13:48:25","F01 - Usina","4115514 - MENOR APRENDIZ",,
+"samuel.braun","False","12/07/2013 09:58:58","08/02/2017 11:20:01",,,"116152","almoxarifado@pia.com.br"
+"debora.bossle","False","12/08/2015 10:48:42","12/12/2016 14:59:41","F01 - Usina","1114405 - CONTROLE DEVOL","131316","debora.bossle@pia.com.br"
+"dionei.carvalho","False","24/03/2016 16:33:10","08/02/2017 14:35:01","F01 - Usina","1112202 - UHT SIG","122831",
+"DCS_LANPIA02","False","07/07/2008 00:12:16",,,,,
+"adair.seibt","False","16/05/2012 08:16:07","04/11/2012 12:10:13",,,,
+"paola.neuberger","False","14/07/2014 15:47:45","08/02/2017 14:25:17","F22 - Ivoti","1513303 - EXPEDICAO F22","121895",
+"tamara","False","17/04/2012 14:39:19","26/09/2013 08:10:24",,,,"tamara@pia.com.br"
+"sidinei.omizzollo","False","28/05/2014 14:56:28","11/07/2014 18:57:23",,,,"sidinei.omizzollo@pia.com.br"
+"tais.heineck","False","26/11/2012 10:06:10","23/10/2013 06:10:32",,,,
+"jociely.machado","False","07/01/2016 16:57:18","15/12/2016 08:09:11","F01 - Usina","1114406 - EXPED SECOS","134495","jociely.machado@pia.com.br"
+"tainara.bressan","False","14/07/2014 16:09:09",,,,,
+"suelen.canossa","False","06/05/2013 10:26:29","06/08/2013 18:14:40",,,,
+"simone.silva","False","26/11/2012 10:04:38","22/04/2014 02:23:25",,,,
+"pablo.poletto","False","23/01/2015 10:59:10","21/02/2015 10:13:08",,,,
+"samuel.goncalves","False","14/07/2014 16:00:49",,,,,
+"carina.lawal","False","30/01/2014 11:56:41","31/10/2014 18:16:46",,,,
+"roselei.rauch","False","17/07/2015 11:47:29",,"F12 - Vila Flores","1111207 - LABOR V FLORES","112006",
+"elisiano.souza","False","14/07/2014 10:34:08",,,,,
+"cintia.martins","False","14/11/2013 14:20:19","14/01/2014 07:48:25",,,,
+"nilson.santos","False","14/07/2014 15:44:53",,,,,
+"merpia","False","09/07/2015 10:52:13","09/07/2015 14:31:28",,,,
+"marcelo.lussi","False","19/12/2016 11:03:05","30/12/2016 10:51:47","F16 - Marau","1111306 - RECEP LEITE MARAU",,
+"radio.f2","False","05/02/2014 08:18:44","27/02/2014 10:20:34",,,,
+"dionathas","False","09/07/2012 14:10:12","22/04/2013 08:43:21",,,,"dionathas@pia.com.br"
+"fabiana.perini","False","11/12/2013 11:35:38","27/06/2014 08:53:54",,,,"fabiana.perini@pia.com.br"
+"rodrigo.soares","False","29/09/2014 09:39:53","16/05/2016 15:00:59","F01 - Usina","1113301 - VENDAS ALIMENTOS",,
+"mateus.ludwig","False","12/09/2012 10:06:40","21/02/2013 07:29:56",,,,
+"queitt.sarton","False","18/07/2016 10:07:38","04/11/2016 11:16:42",,,"125935",
+"felipe.flor","False","14/07/2014 10:47:24",,,,,
+"marlon.cesar","False","30/06/2011 09:12:49","12/11/2013 10:29:18",,,,"marlon.cesar@pia.com.br"
+"elisandro.silva","False","24/03/2016 17:29:57",,"F01 - Usina","1111116 - MASSA DOCE LT (TACHOS)","130978",
+"gustavo.boff","False","07/02/2013 14:21:39","20/12/2016 16:30:32","F15 - Marau","3753305 - AGROPEC COM F15","82469","gustavo_boff@pia.com.br"
+"marcelo.knust","False","14/07/2014 15:34:31",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121901",
+"francisco.pehls","False","14/07/2014 10:48:44",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121907",
+"francisco.raube","False","17/05/2012 13:51:07","07/10/2012 14:51:41",,,,
+"ana.souza","False","05/11/2013 16:23:53","06/02/2017 07:47:43","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","119704","ana.souza@pia.com.br"
+"anderson.favretto","False","05/10/2016 13:54:25","26/12/2016 08:47:27","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","122121","anderson.favretto@pia.com.br"
+"gabrielly.cegoni","False","06/05/2013 11:15:22","30/05/2013 19:51:16",,,,
+"alice.alves","False","06/10/2015 13:57:02","09/01/2017 07:25:17","F01 - Usina","4115504 - FINANCEIRO GERAL","132626","alice.alves@pia.com.br"
+"manoel.dias","False","04/06/2012 17:02:58","29/10/2012 07:54:46",,,,"manuel.dias@pia.com.br"
+"admdaniel","False","31/03/2015 14:42:34","07/07/2016 11:27:45",,,,
+"angelica.rui","False","17/07/2015 11:45:17","12/07/2016 16:18:26",,,,
+"isabel.lauc","False","12/02/2008 15:27:49",,,,,"isabel.lauc@pia.com.br"
+"jacinta","False","04/04/2006 15:46:20","20/08/2014 07:59:33",,,,"jacinta@pia.com.br"
+"cassiana.lauck","False","14/10/2011 09:52:40","14/06/2012 07:28:31",,,,"cassiana.lauck@pia.com.br"
+"jeferson.soares","False","14/07/2014 11:25:35",,,,,
+"nestor.reinheimer","False","05/12/2014 13:32:04","30/01/2017 20:13:42","F01 - Usina","1111111 - SUPERV LATIC NP","26927","nestor.reinheimer@pia.com.br"
+"josleine.vieira","False","06/06/2011 14:47:38","15/01/2013 14:53:33",,,,"josleine.vieira@pia.com.br"
+"edegar.falcade","False","23/01/2015 11:00:05","05/07/2015 21:45:38",,,,
+"jonas.ponath","False","02/03/2009 17:04:39","15/07/2014 08:34:36",,,,"jonas.ponath@pia.com.br"
+"andrea.ferraz","False","26/07/2010 15:01:55","01/06/2016 07:16:46",,,,"andrea.ferraz@pia.com.br"
+"clovis.welter","False","09/05/2015 11:10:21","12/12/2016 08:22:20","F06 - Picada Cafe","3653305 - AGROPEC COM F6","113345",
+"gabriel.castro","False","13/04/2015 17:11:56","18/12/2016 12:04:46","F01 - Usina","1111131 - PCP INDUSTRIA","129372","gabriel.castro@pia.com.br"
+"aline.oliveira","False","12/12/2014 09:02:07","13/02/2017 07:41:26","F01 - Usina","1113301 - VENDAS ALIMENTOS","126933","aline.oliveira@pia.com.br"
+"filial6","False","31/10/2000 17:33:45",,,,,"filial6@pia.com.br"
+"angelica.campos","False","09/05/2013 13:47:17","06/12/2013 11:34:45",,,,
+"libera.silva","False","16/05/2014 15:43:04","19/12/2014 04:46:14",,,,"libera.silva@pia.com.br"
+"marly.sitta","False","18/12/2012 11:53:53","19/12/2014 11:55:56",,,,"marly.sitta@pia.com.br"
+"jenifer.kehl","False","02/03/2015 10:01:17","18/08/2015 23:39:35",,,,
+"renan.schuck","False","06/07/2011 17:12:02","18/05/2015 07:33:44",,,,"renan.schuck@pia.com.br"
+"andre.leivas","False","18/07/2014 09:22:02","27/11/2014 18:06:21",,,,"andre.leivas@pia.com.br"
 "Valdir","False","31/10/2000 17:33:45","09/01/2017 07:27:00","F01 - Usina","4115506 - CONTAS RECEBER","90496","valdir@pia.com.br"
 "marcio.rodrigues","False","28/01/2011 16:14:04","02/01/2017 09:43:04","F22 - Ivoti","1513302 - LOGISTICA F22","99989","marcio.rodrigues@pia.com.br"
-"fabio.lopes","False","01/08/2012 11:23:26","15/12/2016 03:56:04","F01 - Usina","1114403 - EXPED REFRIGERADOS","109545","fabio.lopes@pia.com.br"
-"eduardo","False","31/10/2000 17:33:45","02/12/2016 10:16:26",,,,"eduardo@pia.com.br"
-"andrea.schneider","False","10/10/2014 10:35:06","16/04/2015 07:45:31",,,,"andrea.schneider@pia.com.br"
+"greice.finger","False","16/04/2014 11:23:32","25/05/2015 07:04:42",,,,"greice.finger@pia.com.br"
 "iliane.hermes","False","21/03/2014 10:36:39","29/12/2016 17:14:45","F22 - Ivoti","1513302 - LOGISTICA F22","121767","iliane.hermes@pia.com.br"
+"jorge.joris","False","22/12/2014 07:39:07","07/11/2016 07:28:24",,,"127097","jorge.joris@pia.com.br"
 "israel.parma","False","21/03/2014 10:49:21","15/10/2015 07:39:23",,,,"israel.parma@pia.com.br"
-"jociely.machado","False","07/01/2016 16:57:18","15/12/2016 08:09:11","F01 - Usina","1114406 - EXPED SECOS","134495","jociely.machado@pia.com.br"
-"jenifer.kehl","False","02/03/2015 10:01:17","18/08/2015 23:39:35",,,,
-"vanessa.osterkamp","False","07/08/2015 11:05:01",,,,,
+"site","False","23/01/2015 11:55:31","23/01/2015 16:46:04",,,,
+"quesia.amorin","False","21/03/2014 11:14:43","08/02/2017 14:10:58","F22 - Ivoti","1513303 - EXPEDICAO F22","121835","quesia.amorin@pia.com.br"
+"felipe.marcellino","False","10/09/2014 17:07:59","29/01/2015 14:55:04",,,,"felipe.marcellino@pia.com.br"
 "Daniel.Ferreira","False","12/01/2015 07:59:56","14/11/2016 08:47:26",,,,
-"camila.braun","False","18/06/2014 15:38:02","09/04/2015 08:59:28",,,,"camila.braun@pia.com.br"
-"tatiana.benemann","False","13/12/2011 15:23:24","12/01/2017 07:50:57","F01 - Usina","4115505 - CONTAS PAGAR","106321","tatiana.benemann@pia.com.br"
-"debora.bossle","False","12/08/2015 10:48:42","12/12/2016 14:59:41","F01 - Usina","1114405 - CONTROLE DEVOL","131316","debora.bossle@pia.com.br"
-"dionei.carvalho","False","24/03/2016 16:33:10","10/01/2017 20:13:29","F01 - Usina","1112202 - UHT SIG","122831",
-"paulo.agrippa","False","29/10/2002 16:23:51",,,,,"pauloagrippa@pia.com.br"
-"tarciso","False","10/07/2006 14:37:34","23/12/2016 13:37:22","F01 - Usina","1114403 - EXPED REFRIGERADOS","77462","tarciso.silva@pia.com.br"
+"vanusa.terra","False","26/04/2013 17:17:54","07/02/2015 12:24:44",,,,
+"elisangela.camargo","False","04/11/2016 17:12:04","17/01/2017 06:53:30",,"1113301 - VENDAS ALIMENTOS","140723","elisangela.camargo@pia.com.br"
+"luis.gustavo","False","20/02/2014 09:08:17","16/02/2015 08:23:04",,,,"luis.gustavo@pia.com.br"
 "caroline.albert","False","07/04/2015 08:40:48","14/11/2016 08:07:09",,,"129249","caroline.albert@pia.com.br"
-"fernanda.silva","False","12/03/2015 07:56:24","28/05/2015 12:41:05",,,,
-"jessica.wurzius","False","01/10/2012 17:11:25","21/09/2015 07:37:10",,,,"jessica.wurzius@pia.com.br"
-"cristiane","False","08/09/2010 13:12:22","27/09/2016 09:48:55","F06 - Picada Cafe ","3641107 - GERENCIA F6",,"cristiane@pia.com.br"
-"elisandro.silva","False","24/03/2016 17:29:57",,"F01 - Usina","1111116 - MASSA DOCE LT (TACHOS)","130978",
+"tatiana.benemann","False","13/12/2011 15:23:24","12/01/2017 07:50:57","F01 - Usina","4115505 - CONTAS PAGAR","106321","tatiana.benemann@pia.com.br"
 "lucinara.silva","False","27/02/2012 16:32:01","03/10/2016 11:53:08","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","107396","lucinara.silva@pia.com.br"
 "bruna.strossi","False","29/05/2015 08:31:55","25/02/2016 07:05:16",,,,
-"eder","False","07/01/2005 08:53:26","13/06/2011 15:08:15",,,,"eder@pia.com.br"
-"fabiane","False","22/06/2009 08:43:34","17/10/2016 17:38:09",,,"57380","fabiane@pia.com.br"
-"geovane.nienow","False","14/08/2013 11:07:53","15/09/2015 08:41:09",,,,"geovane.nienow@pia.com.br"
-"ederson.soares","False","22/01/2016 15:32:26","05/02/2016 20:03:37",,,,
+"eduardo","False","31/10/2000 17:33:45","02/12/2016 10:16:26",,,,"eduardo@pia.com.br"
 "andrea.roncatto","False","05/10/2011 14:28:10","21/08/2015 18:26:21",,,,"andrea.roncatto@pia.com.br"
-"adair.seibt","False","16/05/2012 08:16:07","04/11/2012 12:10:13",,,,
 "adriana.gabrielli","False","28/05/2014 09:05:22","06/10/2015 09:21:25",,,,"adriana.gabrielli@pia.com.br"
 "patricia.juswiak","False","28/05/2014 11:05:50","12/06/2015 15:36:00",,,,"patricia.juswiak@pia.com.br"
 "daniela.tondo","False","12/09/2014 11:25:48","30/05/2016 14:18:01",,,,"daniela.tondo@pia.com.br"
 "eli.tadiotto","False","12/09/2014 11:34:19","02/01/2017 16:44:26","F12 - Vila Flores","1111230 - BALANCA V FLORES","124753","eli.tadiotto@pia.com.br"
-"cassiana.lauck","False","14/10/2011 09:52:40","14/06/2012 07:28:31",,,,"cassiana.lauck@pia.com.br"
+"isabel.postay","False","07/07/2010 17:41:37","23/05/2015 17:57:32",,,,"isabel.postay@pia.com.br"
 "celso.rauch","False","12/09/2014 11:37:58","19/01/2017 06:34:50","F12 - Vila Flores","1111206 - RECEP LEITE V. FLORES","8468","celso.rauch@pia.com.br"
 "maryna.zancan","False","08/10/2014 16:51:09","12/02/2016 08:05:41",,,,"maryna.zancan@pia.com.br"
 "karyna.zancan","False","25/11/2014 16:46:23","03/12/2015 09:39:24",,,,"karyna.zancan@pia.com.br"
-"tais.heineck","False","26/11/2012 10:06:10","23/10/2013 06:10:32",,,,
-"tainara.bressan","False","14/07/2014 16:09:09",,,,,
-"suelen.canossa","False","06/05/2013 10:26:29","06/08/2013 18:14:40",,,,
-"ivanete","False","31/10/2000 17:33:45","03/11/2016 07:24:50","F01 - Usina","4115507 - RECURSOS HUMANOS","25609","ivanete@pia.com.br"
-"simone.silva","False","26/11/2012 10:04:38","22/04/2014 02:23:25",,,,
-"samuel.braun","False","12/07/2013 09:58:58","04/11/2016 19:45:36",,,"116152","almoxarifado@pia.com.br"
-"nei.silva","False","27/01/2016 09:58:37","12/12/2016 20:41:07","F01 - Usina","1111131 - PCP INDUSTRIA","134803","nei.silva@pia.com.br"
-"sidinei.omizzollo","False","28/05/2014 14:56:28","11/07/2014 18:57:23",,,,"sidinei.omizzollo@pia.com.br"
-"gabriel.castro","False","13/04/2015 17:11:56","18/12/2016 12:04:46","F01 - Usina","1111131 - PCP INDUSTRIA","129372","gabriel.castro@pia.com.br"
-"filial6","False","31/10/2000 17:33:45",,,,,"filial6@pia.com.br"
-"candida.lechmann","False","06/01/2011 08:49:18","25/07/2011 08:33:16",,,,
-"isabel.postay","False","07/07/2010 17:41:37","23/05/2015 17:57:32",,,,"isabel.postay@pia.com.br"
-"samuel.goncalves","False","14/07/2014 16:00:49",,,,,
-"carina.lawal","False","30/01/2014 11:56:41","31/10/2014 18:16:46",,,,
-"nelson.miguel","False","24/06/2013 14:51:55","05/01/2017 07:35:05","F01 - Usina","4115507 - RECURSOS HUMANOS","116496","nelson.miguel@pia.com.br"
-"andrea","False","29/04/2003 09:41:03","19/03/2013 07:41:21",,,,"andrea@pia.com.br"
-"camila","False","11/05/2011 17:17:13","01/12/2011 20:41:21",,,,"camila@pia.com.br"
+"rita.santos","False","29/12/2015 17:15:39","30/12/2015 07:33:10",,,,
+"admmonrou","False","20/02/2009 15:21:03","22/02/2016 07:32:16",,,,"monrou@pia.com.br"
 "marcelo.oliveira","False","20/05/2013 11:56:00","19/07/2015 20:44:22",,,,
-"gilberto.santos","False","28/01/2011 16:11:56",,,,,"gilberto.santos@pia.com.br"
-"danilo","False","13/08/2010 13:46:43","23/10/2015 08:58:01","F01 - Usina","1113301 - VENDAS ALIMENTOS","113195","danilo@pia.com.br"
-"andre.leivas","False","18/07/2014 09:22:02","27/11/2014 18:06:21",,,,"andre.leivas@pia.com.br"
-"celito","False","12/09/2013 08:18:09","13/11/2016 05:06:48",,,"116517","celito@pia.com.br"
-"radio.f2","False","05/02/2014 08:18:44","27/02/2014 10:20:34",,,,
-"greice.finger","False","16/04/2014 11:23:32","25/05/2015 07:04:42",,,,"greice.finger@pia.com.br"
-"ismael.rosa","False","06/06/2014 16:14:47","04/09/2016 16:23:54","F01 - Usina","1113301 - VENDAS ALIMENTOS","95225",
-"elisiano.souza","False","14/07/2014 10:34:08",,,,,
-"nilson.santos","False","14/07/2014 15:44:53",,,,,
-"fabiana.perini","False","11/12/2013 11:35:38","27/06/2014 08:53:54",,,,"fabiana.perini@pia.com.br"
-"ronaldo.paz","False","02/09/2014 16:18:11","24/06/2016 12:19:17","F02 - Nova Petropolis","3243303 - MERCADO F2","124624","ronaldo.paz@pia.com.br"
-"suelen.gusmao","False","05/09/2016 07:51:19","15/09/2016 09:09:43",,,,"suelen.gusmao@pia.com.br"
+"gislaine.diederich","False","16/03/2016 14:17:01","12/02/2017 12:14:35","F01 - Usina","1111105 - ALMOXARIFADO","135890",
+"cristiane.weippert","False","05/06/2014 16:23:10","05/12/2016 07:36:27","F01 - Usina","4115507 - RECURSOS HUMANOS","116722","cristiane.weippert@pia.com.br"
+"cesar","False","13/03/2007 07:53:51","12/06/2015 15:01:03",,,,"cesar@pia.com.br"
 "gustavo.gossler","False","21/01/2015 14:46:27","16/04/2015 19:40:53",,,,
-"felipe.flor","False","14/07/2014 10:47:24",,,,,
-"alexandre.machado","False","24/06/2015 18:20:28","29/09/2016 11:41:27",,,,"alexandre.machado@pia.com.br"
-"marlon.cesar","False","30/06/2011 09:12:49","12/11/2013 10:29:18",,,,"marlon.cesar@pia.com.br"
+"vanessa.osterkamp","False","07/08/2015 11:05:01",,,,,
 "joceli.rumpel","False","23/12/2010 08:21:16","30/06/2015 06:03:34",,,,"joceli.rumpel@pia.com.br"
 "renan.schumann","False","06/05/2013 10:02:35","07/07/2015 13:42:33",,,,"renan.schumann@pia.com.br"
-"emilia.rabelo","False","27/05/2015 08:33:16","16/07/2015 12:36:23","F16 - Marau","1111302 - VETERINARIOS MARAU","129193","emilia.rabelo@pia.com.br"
-"vanessa.ramos","False","29/07/2011 11:49:37","17/05/2014 10:26:17",,,,"vanessa.ramos@pia.com.br"
-"marcelo.knust","False","14/07/2014 15:34:31",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121901",
-"adriane.rauch","False","30/05/2008 17:35:21","28/07/2014 13:49:24",,,,"adriane.rauch@pia.com.br"
-"francisco.pehls","False","14/07/2014 10:48:44",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121907",
-"delmar.luchesi","False","16/06/2011 10:26:12","23/10/2014 08:30:22",,,,"delmar.luchesi@pia.com.br"
-"francisco.raube","False","17/05/2012 13:51:07","07/10/2012 14:51:41",,,,
-"gabrielly.cegoni","False","06/05/2013 11:15:22","30/05/2013 19:51:16",,,,
-"ronei.lermen","False","10/09/2014 17:22:59","22/06/2015 08:19:45",,,,"ronei.lermen@pia.com.br"
-"marcelo.lussi","False","19/12/2016 11:03:05","30/12/2016 10:51:47","F16 - Marau","1111306 - RECEP LEITE MARAU",,
-"manoel.dias","False","04/06/2012 17:02:58","29/10/2012 07:54:46",,,,"manuel.dias@pia.com.br"
-"admdaniel","False","31/03/2015 14:42:34","07/07/2016 11:27:45",,,,
-"andrea.ferraz","False","26/07/2010 15:01:55","01/06/2016 07:16:46",,,,"andrea.ferraz@pia.com.br"
-"diego.kellermann","False","06/06/2013 08:20:38","04/08/2016 10:58:27",,,,"diego.kellermann@pia.com.br"
-"keemberly.taugen","False","25/04/2016 13:42:20","05/01/2017 12:24:39","F01 - Usina","1121107 - LABORATORIO DOCES","136938","keemberly.taugen@pia.com.br"
-"clovis.welter","False","09/05/2015 11:10:21","12/12/2016 08:22:20","F06 - Picada Cafe","3653305 - AGROPEC COM F6","113345",
-"jacinta","False","04/04/2006 15:46:20","20/08/2014 07:59:33",,,,"jacinta@pia.com.br"
-"jeferson.soares","False","14/07/2014 11:25:35",,,,,
-"pablo.santos","False","18/07/2016 10:06:06","10/09/2016 06:00:13",,,,
-"josleine.vieira","False","06/06/2011 14:47:38","15/01/2013 14:53:33",,,,"josleine.vieira@pia.com.br"
-"jorge.joris","False","22/12/2014 07:39:07","07/11/2016 07:28:24",,,"127097","jorge.joris@pia.com.br"
-"queitt.sarton","False","18/07/2016 10:07:38","04/11/2016 11:16:42",,,"125935",
-"jonas.ponath","False","02/03/2009 17:04:39","15/07/2014 08:34:36",,,,"jonas.ponath@pia.com.br"
-"merpia","False","09/07/2015 10:52:13","09/07/2015 14:31:28",,,,
-"cesar","False","13/03/2007 07:53:51","12/06/2015 15:01:03",,,,"cesar@pia.com.br"
-"libera.silva","False","16/05/2014 15:43:04","19/12/2014 04:46:14",,,,"libera.silva@pia.com.br"
-"renato.boaretto","False","08/09/2016 14:05:05","30/12/2016 11:52:28","F12 - Vila Flores","1253305 - AGROPEC F12","139572","renato.boaretto@pia.com.br"
-"marly.sitta","False","18/12/2012 11:53:53","19/12/2014 11:55:56",,,,"marly.sitta@pia.com.br"
-"admmonrou","False","20/02/2009 15:21:03","22/02/2016 07:32:16",,,,"monrou@pia.com.br"
-"renan.schuck","False","06/07/2011 17:12:02","18/05/2015 07:33:44",,,,"renan.schuck@pia.com.br"
-"mateus.ludwig","False","12/09/2012 10:06:40","21/02/2013 07:29:56",,,,
-"eliel","False","28/09/2009 14:44:44","29/09/2016 09:57:51","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","63861","eliel@pia.com.br"
-"patricia.rieger","False","08/12/2015 14:34:05","29/12/2016 07:31:27","F22 - Ivoti","1513302 - LOGISTICA F22","133976","patricia.rieger@pia.com.br"
-"solange.gomes","False","12/09/2016 08:24:09","05/12/2016 10:12:11","F01 - Usina","1113302 - TRADE MARKETING","139557","solange.gomes@pia.com.br"
-"marcio.petry","False","13/05/2015 15:35:10","25/05/2015 07:36:46",,,,
-"elisangela.camargo","False","04/11/2016 17:12:04","17/01/2017 06:53:30",,"1113301 - VENDAS ALIMENTOS","140723","elisangela.camargo@pia.com.br"
-"ewerton.batista","False","07/06/2014 08:18:48","25/08/2016 10:26:15","F01 - Usina","1112202 - UHT SIG","125193",
-"eliane","False","13/12/2004 12:54:27","17/09/2011 09:07:48",,,,"eliane@pia.com.br"
-"romulo.machado","False","14/05/2015 10:48:35","14/05/2015 10:53:59",,,,
-"cintia.orlandin","False","10/05/2016 13:59:43","05/01/2017 07:36:51","F01 - Usina","4115513 - SEGURANCA DO TRABALHO","137245","cintia.orlandin@pia.com.br"
+"eder","False","07/01/2005 08:53:26","13/06/2011 15:08:15",,,,"eder@pia.com.br"
 "jaqueline.raquel","False","13/11/2012 16:52:39","18/06/2015 07:49:44",,,,"jaqueline.raquel@pia.com.br"
-"rocela.rosa","False","11/05/2016 14:14:59","12/05/2016 07:46:09",,,,
-"paulo.brito","False","15/05/2015 09:14:43",,,,,
-"angelica.rui","False","17/07/2015 11:45:17","12/07/2016 16:18:26",,,,
-"roselei.rauch","False","17/07/2015 11:47:29",,"F12 - Vila Flores","1111207 - LABOR V FLORES","112006",
-"site","False","23/01/2015 11:55:31","23/01/2015 16:46:04",,,,
-"felipe.marcellino","False","10/09/2014 17:07:59","29/01/2015 14:55:04",,,,"felipe.marcellino@pia.com.br"
-"querle","False","09/04/2012 10:02:06","20/10/2016 08:46:00",,,"85603","querle@pia.com.br"
-"gustavo.boff","False","07/02/2013 14:21:39","20/12/2016 16:30:32","F15 - Marau","3753305 - AGROPEC COM F15","82469","gustavo_boff@pia.com.br"
 "icaro","False","02/10/2012 07:36:57","01/09/2016 07:24:31","F01 - Usina","1111131 - PCP INDUSTRIA",,"icaro@pia.com.br"
-"angelica.campos","False","09/05/2013 13:47:17","06/12/2013 11:34:45",,,,
-"inacio.ludwig","True","30/08/2003 16:48:40","27/01/2017 08:03:43","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","7169","inacio@pia.com.br"
-"elemar","True","14/05/2007 16:46:18","29/01/2017 21:46:14","F01 - Usina","1111111 - SUPERV LATIC NP","64161","elemar@pia.com.br"
-"jeferson.simon","True","19/02/2014 16:39:05","24/01/2017 02:16:11","F01 - Usina","1114406 - EXPED SECOS","71490","jeferson.simon@pia.com.br"
-"sirleib","True","23/02/2005 16:30:47","30/01/2017 07:16:29","F20 - Vale Real","5241107 - GERENCIA F20","40116","sirleib@pia.com.br"
-"Goreti.Vanoni","True","23/10/2002 13:43:07","27/01/2017 07:40:34","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","17520","goreti.vanoni@pia.com.br"
-"ivan.mafalda","True","18/06/2014 15:23:53","21/01/2017 19:12:03","F01 - Usina","1114406 - EXPED SECOS","110742","ivan.mafalda@pia.com.br"
-"joice.petry","True","28/04/2014 11:50:58","23/01/2017 09:01:00","F19 - Vila Rica","5141107 - GERENCIA F19","121853","joice.petry@pia.com.br"
-"alexandre.motta","True","18/06/2014 15:25:08","26/01/2017 07:33:22","F01 - Usina","1114401 - LOGISTICA ALIM","99513","alexandre.motta@pia.com.br"
-"david.santos","True","15/06/2016 07:53:46","24/01/2017 04:02:10","F01 - Usina","1111130 - BALANCA","137737",
-"luciano.finato","True","16/02/2015 14:44:24","24/01/2017 11:16:38","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","115062",
-"bruna.santos","True","20/01/2016 16:28:02","23/01/2017 07:34:13","F01 - Usina","1113301 - VENDAS ALIMENTOS","134759","bruna.santos@pia.com.br"
-"rubenson.martins","True","15/06/2016 07:57:19","21/01/2017 02:03:24","F01 - Usina","1111130 - BALANCA","137733",
-"jair.eduardo","True","11/12/2002 10:00:05","30/01/2017 07:27:49","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD MERC F13","17207","jair@pia.com.br"
-"alex.lima","True","15/06/2015 16:40:19","20/12/2016 03:01:57","F01 - Usina","1114403 - EXPED REFRIGERADOS","128004","alex.lima@pia.com.br"
-"mariane.simon","True","24/06/2015 10:56:18","23/01/2017 15:28:06","F20 - Vale Real","5241106 - CAIXA F20","128717","mariane.simon@pia.com.br"
-"renata.farias","True","20/01/2016 16:29:43","23/01/2017 07:35:31","F01 - Usina","4115509 - TECNOL INFORMACAO","134760","renata.farias@pia.com.br"
-"daniela","True","27/02/2009 07:54:14","23/01/2017 07:36:26","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","82188","daniela@pia.com.br"
-"queren.silva","True","10/10/2016 10:07:43","29/01/2017 19:46:05","F01 - Usina","1111130 - BALANCA","140159",
-"oliveira","True","15/10/2009 14:03:14","29/01/2017 19:33:27","F01 - Usina","1114406 - EXPED SECOS","136371","oliveira@pia.com.br"
-"joao.junior","True","27/12/2012 09:36:04","23/01/2017 07:29:59","F06 - Picada Cafe ","3643303 - MERCADO F6","86564","joao.junior@pia.com.br"
-"fabiano.ferst","True","10/10/2016 11:47:39","26/01/2017 08:47:21","F01 - Usina","1113301 - VENDAS ALIMENTOS","140259","fabiano.ferst@pia.com.br"
-"alexandro.fillipsen","True","29/10/2013 10:52:44","30/01/2017 08:20:42","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","93887","alexandro.fillipsen@pia.com.br"
-"juliana.fritsch","True","17/09/2010 11:13:41","23/01/2017 14:53:54","F01 - Usina","1114401 - LOGISTICA ALIM","93332","juliana.fritsch@pia.com.br"
-"jessica.schaefer","True","08/04/2015 09:40:27","25/01/2017 06:44:23",,"1114406 - EXPED SECOS","140861",
-"mariela.metz","True","24/06/2015 11:36:55","19/01/2017 07:51:20","F01 - Usina","1113301 - VENDAS ALIMENTOS","130468","mariela.metz@pia.com.br"
-"daiane.jung","True","17/06/2016 16:18:25","23/01/2017 07:43:26","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","137946","daiane.jung@pia.com.br"
-"taina.schaefer","True","23/08/2016 09:17:13","16/01/2017 13:34:20","F01 - Usina","4115514 - MENOR APRENDIZ","134946",
-"caroline","True","02/07/2009 08:04:23","26/12/2016 08:30:32","F01 - Usina","1111105 - ALMOXARIFADO","87648","caroline@pia.com.br"
-"giovani.reis","True","21/11/2014 10:58:37","23/01/2017 12:44:09","F01 - Usina","1111126 - CALDEIRA","80519","giovani.reis@pia.com.br"
-"luis.roque","True","07/12/2016 08:31:56","30/01/2017 00:38:33","F01 - Usina","1111114 - TETRA TOP FERMENTACAO","104600",
-"simone.weber","True","17/08/2011 10:20:55","25/01/2017 17:25:15","F01 - Usina","1111131 - PCP INDUSTRIA","104038","simone.weber@pia.com.br"
-"matheus.gomes","True","05/11/2015 13:49:15","30/01/2017 07:43:24","F01 - Usina","1111105 - ALMOXARIFADO","133114","matheus.gomes@pia.com.br"
-"heyd.magnus","True","12/11/2012 15:12:13","27/01/2017 21:02:02","F01 - Usina","4115509 - TECNOL INFORMACAO","99882","heyd.magnus@pia.com.br"
-"relogioponto","True","28/05/2015 11:05:31","20/01/2017 14:24:18",,"4115507 - RECURSOS HUMANOS",,
-"fernando.zeiser","True","23/08/2016 17:12:27","27/01/2017 08:23:41","F08 - Morro Reuter","3853305 - AGROPEC COM F8","109503",
-"rubia.geovana","True","01/04/2015 08:25:26","23/01/2017 07:38:22","F01 - Usina","1111105 - ALMOXARIFADO","129165","rubia.geovana@pia.com.br"
-"jaqueline.schutz","True","17/03/2014 16:22:34","30/01/2017 07:47:03","F01 - Usina","4115502 - CONTROLADORIA","121654","jaqueline.schutz@pia.com.br"
-"daniel.schneider","True","09/04/2015 16:41:33","26/01/2017 07:40:29","F01 - Usina","1111105 - ALMOXARIFADO","129228","daniel.schneider@pia.com.br"
-"andre.schneck","True","09/08/2011 10:07:39","27/01/2017 09:34:54","F01 - Usina","1111124 - MANUT LATIC NP","64821","andre.schneck@pia.com.br"
-"rafaela.maria","True","11/02/2011 09:20:32","26/01/2017 08:15:47","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","99510","rafaela.maria@pia.com.br"
-"gelson.oliveira","True","09/12/2016 08:31:16","27/01/2017 20:27:22","F01 - Usina","1111131 - PCP INDUSTRIA","141311",
-"raquelp","True","22/04/2004 16:57:26","21/01/2017 07:33:59","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","76703","raquelp@pia.com.br"
-"daniela.carvalho","True","11/11/2015 08:16:12","25/01/2017 08:36:36","F01 - Usina","1113301 - VENDAS ALIMENTOS","133297","daniela.carvalho@pia.com.br"
-"leonete","True","27/07/2010 15:10:15","20/03/2014 11:00:52","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","37175","leonete@pia.com.br"
-"anelise.gomes","True","11/11/2015 09:05:13","26/01/2017 07:42:00","F01 - Usina","1115505 - COMPRAS","133424","anelise.gomes@pia.com.br"
-"agropec.f12","True","07/10/2010 15:36:51","30/01/2017 08:05:31",,"1253305 - AGROPEC F12",,"agropec.f12@pia.com.br"
-"gesiane.galli","True","29/07/2011 11:22:57","26/01/2017 08:07:25","F12 - Vila Flores","1253305 - AGROPEC F12","102322","gesiane.galli@pia.com.br"
-"camila.bonatto","True","01/04/2016 07:50:49","24/01/2017 13:29:25","F01 - Usina","1111101 - POLITICA LEITE","135900","camila.bonatto@pia.com.br"
+"ronei.lermen","False","10/09/2014 17:22:59","22/06/2015 08:19:45",,,,"ronei.lermen@pia.com.br"
+"nei.silva","False","27/01/2016 09:58:37","08/02/2017 11:15:02","F01 - Usina","1111131 - PCP INDUSTRIA","134803","nei.silva@pia.com.br"
+"keemberly.taugen","False","25/04/2016 13:42:20","05/01/2017 12:24:39","F01 - Usina","1121107 - LABORATORIO DOCES","136938","keemberly.taugen@pia.com.br"
+"cleiton.lorenz","False","23/03/2015 08:47:31","28/10/2015 09:15:21",,,,
+"Daiane.Calsing","False","22/01/2015 19:12:44","02/05/2015 08:45:06",,,,
+"ivanete","False","31/10/2000 17:33:45","03/11/2016 07:24:50","F01 - Usina","4115507 - RECURSOS HUMANOS","25609","ivanete@pia.com.br"
+"nelson.miguel","False","24/06/2013 14:51:55","05/01/2017 07:35:05","F01 - Usina","4115507 - RECURSOS HUMANOS","116496","nelson.miguel@pia.com.br"
+"jessica.wurzius","False","01/10/2012 17:11:25","21/09/2015 07:37:10",,,,"jessica.wurzius@pia.com.br"
+"candida.lechmann","False","06/01/2011 08:49:18","25/07/2011 08:33:16",,,,
+"celito","False","12/09/2013 08:18:09","13/11/2016 05:06:48",,,"116517","celito@pia.com.br"
+"rocela.rosa","False","11/05/2016 14:14:59","12/05/2016 07:46:09",,,,
+"marcia.rodrigues","False","05/10/2015 13:40:45","09/01/2017 07:38:55","F01 - Usina","4115507 - RECURSOS HUMANOS","132666","marcia.rodrigues@pia.com.br"
+"joao.campos","False","23/11/2016 09:29:58","08/02/2017 14:52:31","F01 - Usina","4115515 - CUSTOS","141063",
+"fabiano.ferst","True","10/10/2016 11:47:39","26/02/2017 18:22:31","F01 - Usina","1113301 - VENDAS ALIMENTOS","140259","fabiano.ferst@pia.com.br"
+"televendas","True","14/12/2006 16:05:48","27/02/2017 08:56:48",,"3243303 - MERCADO F2",,"televendas@pia.com.br"
+"ivan.tondo","True","28/03/2014 08:09:16","02/02/2017 13:41:04","F12 - Vila Flores","1111202 - VETERINARIOS V FLORES","70319","ivan.tondo@pia.com.br"
+"kevin.neumann","True","30/06/2016 10:44:05","27/02/2017 07:38:15","F01 - Usina","1114401 - LOGISTICA ALIM","138084","kevin.neumann@pia.com.br"
+"cristina","True","26/09/2002 18:11:41","01/03/2017 07:54:32","F01 - Usina","4115508 - PLANOS DE SAUDE","17253","cristina@pia.com.br"
+"nikolas.bratz","True","22/05/2014 09:00:32","27/02/2017 07:28:04","F01 - Usina","1113301 - VENDAS ALIMENTOS","113352","nikolas.bratz@pia.com.br"
+"priscilla.zeni","True","10/08/2016 08:07:50","28/02/2017 07:14:08","F01 - Usina","1115501 - ADM ALIMENTOS","138871","priscilla.zeni@pia.com.br"
+"priscilla.arend","True","19/12/2012 10:03:58","02/03/2017 07:39:51","F01 - Usina","4115508 - PLANOS DE SAUDE","112631","priscilla.arend@pia.com.br"
+"tiago.schmokel","True","17/05/2016 14:43:46","27/02/2017 07:42:50","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","130228","tiago.schmokel@pia.com.br"
+"alan.loesch","True","02/09/2014 16:24:28","27/02/2017 07:37:45","F02 - Nova Petropolis","3243303 - MERCADO F2","94152","alan.loesch@pia.com.br"
+"fernando.zeiser","True","23/08/2016 17:12:27","20/02/2017 08:19:36","F08 - Morro Reuter","3853305 - AGROPEC COM F8","109503",
+"evelin.schumann","True","24/11/2014 10:22:07","13/01/2017 10:37:10","F02 - Nova Petropolis","3241106 - CAIXA F2","123923","evelin.schumann@pia.com.br"
+"daiane.jung","True","17/06/2016 16:18:25","23/02/2017 08:13:29","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","137946","daiane.jung@pia.com.br"
+"valdair.luz","True","13/03/2015 09:58:34","27/02/2017 06:07:05","F02 - Nova Petropolis","3242201 - PADARIA F2","85548","valdair.luz@pia.com.br"
+"juliano.fassina","True","14/10/2011 11:55:50","21/02/2017 17:24:40","F01 - Usina","1113301 - VENDAS ALIMENTOS","139772","juliano.fassina@pia.com.br"
+"eduardo.blauth","True","09/09/2015 11:42:01","22/09/2015 12:12:04","F01 - Usina","1111102 - VETERINARIOS","11820","eduardo.blauth@pia.com.br"
+"fabiana.fritzen","True","17/04/2015 15:07:24","21/02/2017 10:16:23","F02 - Nova Petropolis","3243303 - MERCADO F2","110800",
+"lisete.gerhardt","True","14/07/2014 15:26:38",,"F22 - Ivoti","1513303 - EXPEDICAO F22","123274",
+"manutencao.geral","True","03/02/2017 17:19:50","06/02/2017 10:08:59",,"1111124 - MANUT LATIC NP",,
+"vanessa.negri","True","20/04/2015 10:23:57","12/12/2016 07:30:49","F01 - Usina","1115501 - ADM ALIMENTOS","129260","vanessa.negri@pia.com.br"
+"roberto.caetano","True","27/05/2015 08:48:13","29/06/2015 20:33:35","F01 - Usina","1111102 - VETERINARIOS","127726","roberto.caetano@pia.com.br"
+"joao.bondan","True","01/06/2015 11:24:55","18/06/2015 08:07:01","F01 - Usina","1111103 - INSEMINACAO ARTIFICIAL","130047","joao.bondan@pia.com.br"
+"Patricia","True","31/10/2000 17:33:45","02/03/2017 08:42:03","F01 - Usina","4115503 - CONTABILIDADE","17221","patricia@pia.com.br"
+"tiago.haugg","True","20/10/2009 13:53:12","24/02/2017 14:09:04","F01 - Usina","4115510 - MARKETING","90191","tiago.haugg@pia.com.br"
+"joana","True","21/10/2002 07:52:53","27/02/2017 07:37:42","F01 - Usina","4115503 - CONTABILIDADE","17305","joana@pia.com.br"
+"franciele.schneider","True","04/09/2012 13:44:04","28/02/2017 07:31:59","F01 - Usina","4115503 - CONTABILIDADE","110771","franciele.schneider@pia.com.br"
+"luis.roque","True","07/12/2016 08:31:56","27/02/2017 02:46:45","F01 - Usina","1111114 - TETRA TOP FERMENTACAO","104600",
+"adriano.braun","True","21/01/2013 15:17:00","20/02/2017 07:34:18","F01 - Usina","4115503 - CONTABILIDADE","113372","adriano.braun@pia.com.br"
+"erick.eichler","True","06/02/2017 11:45:27","27/02/2017 07:31:12","F01 - Usina","4115505 - CONTAS PAGAR","142147",
+"silvana.imich","True","27/05/2014 17:28:55","27/02/2017 07:26:08","F01 - Usina","4115503 - CONTABILIDADE","122836","silvana.imich@pia.com.br"
+"tais.galli","True","06/02/2017 11:46:07","27/02/2017 07:36:57","F01 - Usina","4115504 - FINANCEIRO GERAL","142149",
+"priscila.patricio","True","28/08/2014 10:26:36","02/03/2017 07:33:41","F01 - Usina","4115503 - CONTABILIDADE","124744","priscila.patricio@pia.com.br"
+"valdir.junior","True","09/10/2013 15:09:44","24/02/2017 06:57:31","F01 - Usina","1113301 - VENDAS ALIMENTOS","118824","valdir.junior@pia.com.br"
+"patricia.marques","True","24/12/2015 08:56:26","23/01/2016 10:37:40","F01 - Usina","1122203 - DOCE FRUTA POTE","129672",
+"gelson.oliveira","True","09/12/2016 08:31:16","26/02/2017 20:46:01","F01 - Usina","1111131 - PCP INDUSTRIA","141311",
+"leticia.campos","True","22/06/2010 10:10:53","21/02/2017 07:37:18","F01 - Usina","1111108 - LABOR MICROB LATIC NP","94502","leticia.campos@pia.com.br"
+"rafaela.maria","True","11/02/2011 09:20:32","27/02/2017 08:16:52","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","99510","rafaela.maria@pia.com.br"
+"cristiane.silva","True","12/12/2012 16:04:17","23/02/2017 07:29:23","F01 - Usina","1111131 - PCP INDUSTRIA","111192","cristiane.silva@pia.com.br"
+"maluce.machado","True","01/07/2014 15:37:13","27/02/2017 08:43:27","F01 - Usina","1111108 - LABOR MICROB LATIC NP","123766","maluce.machado@pia.com.br"
+"Julio.Sonaglio","True","14/01/2015 15:32:55","27/02/2017 07:43:46","F01 - Usina","4115509 - TECNOL INFORMACAO","127440","julio.sonaglio@pia.com.br"
+"elaine.rauch","True","08/06/2015 11:50:19","20/02/2017 17:21:53","F01 - Usina","1122203 - DOCE FRUTA POTE","17231",
+"jessica.borba","True","14/07/2014 11:37:33","02/03/2017 08:07:23","F22 - Ivoti","1513303 - EXPEDICAO F22","123490",
+"gregori.durante","True","10/02/2017 10:28:20",,"F12 - Vila Flores","1253305 - AGROPEC F12","142337",
+"carina.almeida","True","10/02/2017 11:10:03","10/02/2017 11:21:21","F01 - Usina","1111107 - LABOR FIS/QUIM LATIC NP","61899",
+"faturamento","True","25/09/2013 10:45:29","23/11/2013 09:46:44",,,,
+"catia.reuse","True","23/08/2012 11:16:38","25/02/2017 07:39:44","F14 - Tupandi","3453305 - AGROPEC COM F14","93453","catia.reuse@pia.com.br"
+"volmir","True","07/01/2010 10:26:20","02/03/2017 11:10:21","F01 - Usina","1115503 - DEPTO DE PROJETOS ALIMENTOS","28935","volmir@pia.com.br"
+"atecnica.marau","True","07/02/2013 11:05:17","27/12/2013 08:58:38",,"1111302 - VETERINARIOS MARAU",,
+"samuel.schmitt","True","04/07/2014 14:42:22","19/02/2017 15:22:44","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","123768","samuel.schmitt@pia.com.br"
+"tiago.silva","True","22/09/2014 10:40:23","27/02/2017 07:33:17","F01 - Usina","1111105 - ALMOXARIFADO","125346",
+"diana.ponath","True","06/01/2015 17:25:16","18/02/2017 10:31:17","F01 - Usina","1111135 - GESTAO DO LEITE","127096","diana.ponath@pia.com.br"
+"elisandro.ribas","True","03/12/2013 15:19:38","27/02/2017 17:24:58","F01 - Usina","1113301 - VENDAS ALIMENTOS","120013","elisandro.ribas@pia.com.br"
+"marcio.goncalves","True","07/01/2015 07:32:18","23/02/2017 07:47:08","F01 - Usina","1111105 - ALMOXARIFADO","127084","marcio.goncalves@pia.com.br"
+"lucas.seger","True","13/12/2016 16:15:17","21/02/2017 07:33:40","F06 - Picada Cafe","3653305 - AGROPEC COM F6","141509",
+"ana.kroessin","True","23/03/2015 07:48:30","23/02/2017 04:05:08","F01 - Usina","1111105 - ALMOXARIFADO","127985","ana.kroessin@pia.com.br"
+"italo.martins","True","14/12/2016 11:24:07","25/02/2017 09:46:58","F01 - Usina","1112202 - UHT SIG","138293",
+"dorigon","True","16/11/2011 16:40:28","14/12/2011 10:28:54","F12 - Vila Flores","1111201 - POLITICA LEITE V FLORES","104739",
+"juliano.silva","True","14/07/2014 15:21:01",,"F22 - Ivoti","1513303 - EXPEDICAO F22","122239",
+"claudio.farias","True","14/04/2015 09:44:25","22/02/2017 13:14:15","F01 - Usina","1115505 - COMPRAS","129458","claudio.farias@pia.com.br"
+"alessandro.silva","True","27/04/2015 16:07:56","23/02/2017 18:26:01","F01 - Usina","1111105 - ALMOXARIFADO","129515","alessandro.silva@pia.com.br"
+"thiago.paixao","True","23/12/2014 08:26:35","21/02/2017 07:20:11","F01 - Usina","1113301 - VENDAS ALIMENTOS","100657","thiago.paixao@pia.com.br"
+"ezequiel.godoy","True","17/02/2017 11:35:01","02/03/2017 09:26:45","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","139358",
+"sao","True","17/02/2017 14:04:50","17/02/2017 14:05:31","F01 - Usina",,,
+"maiara.panzenhagen","True","11/09/2013 09:17:16","27/02/2017 07:47:33","F01 - Usina","4115509 - TECNOL INFORMACAO","118274","maiara.panzenhagen@pia.com.br"
+"marcos.costa","True","03/11/2016 11:20:02","23/02/2017 15:23:49","F01 - Usina","1113301 - VENDAS ALIMENTOS","140715","marcos.costa@pia.com.br"
+"juliana.buss","True","04/10/2007 14:00:12","23/02/2017 18:02:23","F01 - Usina","1114401 - LOGISTICA ALIM","66957","juliana.buss@pia.com.br"
+"jeferson.simon","True","19/02/2014 16:39:05","13/02/2017 02:22:03","F01 - Usina","1114406 - EXPED SECOS","71490","jeferson.simon@pia.com.br"
+"deise","True","07/12/2009 15:31:35","02/03/2017 08:10:35","F01 - Usina","1114403 - EXPED REFRIGERADOS","86560","deise@pia.com.br"
+"marcio.prediger","True","07/11/2012 08:27:56","27/02/2017 07:23:20","F01 - Usina","1114403 - EXPED REFRIGERADOS","112024","marcio.prediger@pia.com.br"
+"ivan.mafalda","True","18/06/2014 15:23:53","27/02/2017 22:37:39","F01 - Usina","1114406 - EXPED SECOS","110742","ivan.mafalda@pia.com.br"
+"alexandre.motta","True","18/06/2014 15:25:08","27/02/2017 07:45:40","F01 - Usina","1114401 - LOGISTICA ALIM","99513","alexandre.motta@pia.com.br"
+"verno","True","17/12/2002 12:28:26","25/02/2017 08:49:11","F11 - Taquara","3953305 - AGROPEC COM F11","17378","verno@pia.com.br"
+"andre.schneck","True","09/08/2011 10:07:39","20/02/2017 09:04:12","F01 - Usina","1111124 - MANUT LATIC NP","64821","andre.schneck@pia.com.br"
+"luciane","True","08/03/2004 16:49:58","02/11/2016 19:33:43","F11 - Taquara","3953305 - AGROPEC COM F11","23490","luciane@pia.com.br"
+"juliano.oliveira","True","29/03/2012 07:23:16","23/02/2017 07:38:12","F01 - Usina","1111124 - MANUT LATIC NP","107719","juliano.oliveira@pia.com.br"
+"volnei.santos","True","11/11/2010 07:37:12","25/02/2017 07:30:25","F11 - Taquara","3953305 - AGROPEC COM F11","81171","volnei.santos@pia.com.br"
+"perlita","True","24/09/2014 10:43:03","02/03/2017 07:50:47","F11 - Taquara","3953305 - AGROPEC COM F11","125190","perlita@pia.com.br"
+"henrique.wolf","True","18/02/2014 10:18:28","23/02/2017 07:29:10","F01 - Usina","1115503 - DEPTO DE PROJETOS ALIMENTOS","121244","henrique.wolf@pia.com.br"
+"alysson.guimaraes","True","12/03/2014 15:59:10","23/02/2017 07:28:07","F01 - Usina","1114401 - LOGISTICA ALIM","121335","alysson.guimaraes@pia.com.br"
+"bancadamicro","True","25/02/2016 08:18:13","19/02/2017 19:08:23",,"1111108 - LABOR MICROB LATIC NP",,
+"adriana.acker","True","10/05/2007 15:39:01","25/02/2017 17:53:06","F03 - Feliz","3341107 - GERENCIA F3","81050","adriana.acker@pia.com.br"
+"elcio.sopran","True","19/08/2014 08:53:38","28/02/2017 20:58:41","F01 - Usina","1111124 - MANUT LATIC NP","124557","elcio.sopran@pia.com.br"
+"bancada2","True","12/02/2016 14:05:28","28/02/2017 03:55:10",,"1111107 - LABOR FIS/QUIM LATIC NP",,
+"caroline.scherer","True","15/10/2009 08:45:53","23/02/2017 07:56:21","F08 - Morro Reuter","3845501 - ADMIN F8","89384","caroline.scherer@pia.com.br"
+"manutencao.uht","True","17/06/2015 17:00:02","27/02/2017 03:44:07",,"1111124 - MANUT LATIC NP",,"manutencao.uht@pia.com.br"
+"bancada4","True","12/02/2016 14:08:35","21/02/2017 10:46:47",,"1111107 - LABOR FIS/QUIM LATIC NP",,
+"anderson.weber","True","22/02/2012 10:00:23","23/02/2017 07:00:08","F08 - Morro Reuter","3841107 - GERENCIA F8","53787","anderson.weber@pia.com.br"
+"fernanda.couto","True","16/04/2014 10:57:59","20/02/2017 14:16:12","F01 - Usina","1114403 - EXPED REFRIGERADOS","121909","fernanda.couto@pia.com.br"
+"taiani.wolf","True","14/07/2014 16:08:43","24/01/2017 09:08:46","F22 - Ivoti","1513303 - EXPEDICAO F22","123006","taiani.wolf@pia.com.br"
+"bancada3","True","12/02/2016 14:07:15","18/02/2017 06:36:01",,"1111107 - LABOR FIS/QUIM LATIC NP",,
+"claudia.regina","True","12/08/2015 10:52:15","23/02/2017 07:40:20","F01 - Usina","1113301 - VENDAS ALIMENTOS","131539","claudia.regina@pia.com.br"
+"beatris.spaniol","True","11/07/2014 18:04:06","27/02/2017 07:02:15","F22 - Ivoti","1513303 - EXPEDICAO F22","121969",
+"bancada1","True","12/02/2016 13:43:02","22/02/2017 06:13:26",,"1111107 - LABOR FIS/QUIM LATIC NP",,
+"bianca.almeida","True","14/07/2014 08:46:32","27/02/2017 13:59:02","F22 - Ivoti","1513303 - EXPEDICAO F22","123294","bianca.almeida@pia.com.br"
+"elisandra.drehmer","True","09/12/2015 14:53:15","27/02/2017 07:32:12","F01 - Usina","1114401 - LOGISTICA ALIM","134068","elisandra.drehmer@pia.com.br"
 "ademir.melos","True","22/10/2014 08:07:32","18/11/2016 08:14:22","F01 - Usina","1111105 - ALMOXARIFADO","80416","ademir.melos@pia.com.br"
-"adroaldo","True","11/04/2013 15:39:37","25/09/2016 20:09:20","F01 - Usina","1111102 - VETERINARIOS","36172","adroaldo@pia.com.br"
+"andressa.malheiros","True","24/03/2016 14:14:07","23/02/2017 07:38:58","F01 - Usina","1114406 - EXPED SECOS","136266","andressa.malheiros@pia.com.br"
 "alvaro.barbosa","True","11/07/2014 17:55:59",,"F22 - Ivoti","1513303 - EXPEDICAO F22","115060",
+"nata.anjos","True","15/12/2016 15:09:56","01/03/2017 01:12:15","F01 - Usina","1114403 - EXPED REFRIGERADOS",,
+"paloma.winck","True","14/07/2014 15:46:12","20/02/2017 15:38:01","F22 - Ivoti","1513303 - EXPEDICAO F22","123812",
+"joice.schaefer","True","07/01/2016 17:02:01","27/02/2017 12:13:37","F01 - Usina","1114406 - EXPED SECOS","134494","joice.schaefer@pia.com.br"
 "anderson.favaretto","True","20/06/2014 08:02:36","20/06/2014 10:03:15",,"1111102 - VETERINARIOS","122121","anderson.favaretto@pia.com.br"
-"lara.flores","True","04/04/2016 13:29:48","22/01/2017 09:12:01","F01 - Usina","1113302 - TRADE MARKETING","136571","lara.flores@pia.com.br"
-"lucas.seger","True","13/12/2016 16:15:17","24/01/2017 08:29:55","F06 - Picada Cafe","3653305 - AGROPEC COM F6","141509",
-"joice.gabrielli","True","10/02/2015 11:33:36","24/01/2017 10:34:37","F12 - Vila Flores","1253305 - AGROPEC F12","120289","joice.gabrielli@pia.com.br"
-"italo.martins","True","14/12/2016 11:24:07","17/01/2017 06:20:55","F01 - Usina","1112202 - UHT SIG","138293",
-"cristiano.nascimento","True","13/04/2015 16:50:08","23/01/2017 08:15:00","F12 - Vila Flores","1111201 - POLITICA LEITE V FLORES","129208","cristiano.nascimento@pia.com.br"
-"luciano.bastianello","True","21/08/2015 15:49:21","30/01/2017 11:15:29","F01 - Usina","1113301 - VENDAS ALIMENTOS","131936","luciano.bastianello@pia.com.br"
-"kevin.neumann","True","30/06/2016 10:44:05","26/01/2017 07:49:52","F01 - Usina","1114401 - LOGISTICA ALIM","138084","kevin.neumann@pia.com.br"
-"tiago.sousa","True","17/10/2016 08:37:34","30/01/2017 03:51:33","F01 - Usina","4115513 - SEGURANCA DO TRABALHO","140394","tiago.sousa@pia.com.br"
-"mauro","True","11/04/2008 16:52:19","23/01/2017 09:29:57","F01 - Usina","1111124 - MANUT LATIC NP","79081","mauro@pia.com.br"
-"renata.follmann","True","17/11/2015 13:47:32","23/01/2017 07:47:53","F08 - Morro Reuter","3845501 - ADMIN F8","121885","renata.follmann@pia.com.br"
-"monica.foss","True","27/01/2016 08:20:00","23/01/2017 07:23:23","F13 - Fazenda Piraja","3141125 - RECEP/EXPED F13 MERCADO","134765","monica.foss@pia.com.br"
-"edimar.tolffo","True","17/10/2016 09:06:37","17/10/2016 09:06:52","F16 - Marau","1111302 - VETERINARIOS MARAU","111817","edimar.tolffo@pia.com.br"
-"daniel.godoy","True","08/02/2012 09:43:36","23/01/2017 07:43:12","F01 - Usina","4115507 - RECURSOS HUMANOS","99884","daniel.godoy@pia.com.br"
-"juliano.oliveira","True","29/03/2012 07:23:16","23/01/2017 07:33:04","F01 - Usina","1111124 - MANUT LATIC NP","107719","juliano.oliveira@pia.com.br"
-"isolde.kroetz","True","26/11/2012 10:09:35","25/01/2017 07:58:21","F01 - Usina","1111131 - PCP INDUSTRIA","63871","isolde.kroetz@pia.com.br"
-"intranet2","True","17/11/2015 14:03:27","07/06/2016 14:42:51",,,,
-"telefonista","True","10/07/2006 13:24:19","26/01/2017 07:34:24",,"3243303 - MERCADO F2",,"telefonista@pia.com.br"
-"tiago.haugg","True","20/10/2009 13:53:12","27/01/2017 08:03:24","F01 - Usina","4115510 - MARKETING","90191","tiago.haugg@pia.com.br"
-"jean.becker","True","09/12/2014 17:11:47","26/01/2017 12:33:23","F01 - Usina","1111131 - PCP INDUSTRIA","126378","jean.becker@pia.com.br"
-"silvane","True","10/07/2006 13:24:56","23/01/2017 07:31:50","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","57331","silvane@pia.com.br"
-"julia.bohn","True","24/02/2015 09:36:54","30/01/2017 07:33:19","F01 - Usina","1111124 - MANUT LATIC NP","128129","julia.bohn@pia.com.br"
-"henrique.wolf","True","18/02/2014 10:18:28","18/01/2017 09:25:18","F01 - Usina","1115503 - DEPTO DE PROJETOS ALIMENTOS","121244","henrique.wolf@pia.com.br"
-"camila.santos","True","27/01/2016 10:01:39","19/01/2017 13:03:03","F01 - Usina","1111131 - PCP INDUSTRIA","134820","camila.santos@pia.com.br"
-"alysson.guimaraes","True","12/03/2014 15:59:10","23/01/2017 07:40:31","F01 - Usina","1114401 - LOGISTICA ALIM","121335","alysson.guimaraes@pia.com.br"
-"mariana.coser","True","26/06/2015 08:06:18","26/01/2017 12:39:48","F01 - Usina","1111131 - PCP INDUSTRIA","130657","mariana.coser@pia.com.br"
-"thiago.araujo","True","27/01/2016 10:02:47","22/01/2017 21:18:52","F01 - Usina","1111131 - PCP INDUSTRIA","134815","thiago.araujo@pia.com.br"
-"daniele.wolf","True","14/10/2014 08:20:27","27/01/2017 10:46:10","F01 - Usina","4115510 - MARKETING","125759","daniele.wolf@pia.com.br"
-"soleci","True","31/10/2000 17:33:45","26/01/2017 07:50:04","F01 - Usina","4115506 - CONTAS RECEBER","17300","soleci@pia.com.br"
-"elcio.sopran","True","19/08/2014 08:53:38","26/01/2017 07:35:10","F01 - Usina","1111124 - MANUT LATIC NP","124557","elcio.sopran@pia.com.br"
-"andre.meneghel","True","17/10/2016 13:59:32","17/10/2016 14:00:55","F01 - Usina","1111102 - VETERINARIOS","135903","andre.meneghel@pia.com.br"
-"carla.dubina","True","29/03/2010 07:49:21","26/01/2017 08:39:39","F01 - Usina","4115505 - CONTAS PAGAR","94370","carla.dubina@pia.com.br"
-"manutencao.uht","True","17/06/2015 17:00:02","26/01/2017 20:59:01",,"1111124 - MANUT LATIC NP",,"manutencao.uht@pia.com.br"
-"clair.horst","True","17/10/2016 15:07:54","24/01/2017 07:53:43","F22 - Ivoti","1513303 - EXPEDICAO F22","127987",
+"rafael.silva","True","14/07/2014 15:52:05","20/02/2017 14:08:06","F22 - Ivoti","1513303 - EXPEDICAO F22","122666","rafael.silva@pia.com.br"
+"andreia.thome","True","26/11/2012 10:10:33","10/02/2013 01:16:52","F01 - Usina","1111132 - REFEITORIO","59025",
+"renata.follmann","True","17/11/2015 13:47:32","23/02/2017 07:48:36","F08 - Morro Reuter","3845501 - ADMIN F8","121885","renata.follmann@pia.com.br"
+"rodrigo.marçal","True","09/07/2014 17:02:17","04/01/2017 09:37:12","F16 - Marau","1111302 - VETERINARIOS MARAU","84473","rodrigom@pia.com.br"
+"angelica.neta","True","03/03/2016 19:34:05","23/08/2016 14:29:58","F08 - Morro Reuter","3853305 - AGROPEC COM F8","106059",
+"rafael.bonatto","True","09/07/2014 14:28:31","05/10/2016 09:05:46","F12 - Vila Flores","1111202 - VETERINARIOS V FLORES","65095","rafael.bonatto@pia.com.br"
+"lara.flores","True","04/04/2016 13:29:48","23/02/2017 07:27:48","F01 - Usina","1113302 - TRADE MARKETING","136571","lara.flores@pia.com.br"
+"mauryn.wendling","True","25/08/2015 10:48:52","23/02/2017 07:34:39","F01 - Usina","1113301 - VENDAS ALIMENTOS","131937","mauryn.wendling@pia.com.br"
+"clair.horst","True","17/10/2016 15:07:54","15/02/2017 06:54:46","F22 - Ivoti","1513303 - EXPEDICAO F22","127987",
+"elisabetha.grings","True","26/11/2012 09:50:48","14/03/2014 13:51:28","F01 - Usina","1111107 - LABOR FIS/QUIM LATIC NP","5563",
+"giovani.reis","True","21/11/2014 10:58:37","24/02/2017 07:57:47","F01 - Usina","1111126 - CALDEIRA","80519","giovani.reis@pia.com.br"
+"fabio.neumann","True","24/09/2015 16:56:35","21/02/2017 07:42:03","F01 - Usina","1113301 - VENDAS ALIMENTOS","30578","fabio.neumann@pia.com.br"
+"gilvana.lorenço","True","21/02/2017 07:36:30","21/02/2017 07:39:34","F01 - Usina","1112202 - UHT SIG","117688",
 "carlito.maciel","True","16/05/2012 14:53:51","04/07/2012 14:52:09","F01 - Usina","1111124 - MANUT LATIC NP","76393",
 "daniele.lopes","True","19/01/2010 10:51:51","30/01/2017 07:37:52","F01 - Usina","1111131 - PCP INDUSTRIA","70556","daniele.lopes@pia.com.br"
-"rodrigo.marçal","True","09/07/2014 17:02:17","04/01/2017 09:37:12","F16 - Marau","1111302 - VETERINARIOS MARAU","84473","rodrigom@pia.com.br"
-"andre.heissler","True","19/03/2003 17:12:19","30/01/2017 12:16:00","F01 - Usina","1114403 - EXPED REFRIGERADOS","69414","andre.heissler@pia.com.br"
-"claiton.soares","True","12/07/2013 11:37:54","25/01/2017 22:42:31","F01 - Usina","1114403 - EXPED REFRIGERADOS","91871","claiton.soares@pia.com.br"
-"candida.schmitt","True","29/08/2016 09:06:21","23/01/2017 08:08:07",,"1113302 - TRADE MARKETING",,"candida.schmitt@pia.com.br"
+"felipe.braun","True","14/12/2015 22:56:00","02/03/2017 04:01:47","F01 - Usina","1114403 - EXPED REFRIGERADOS","111329","felipe.braun@pia.com.br"
+"intranet2","True","17/11/2015 14:03:27","07/06/2016 14:42:51",,,,
 "cschmokel","True","13/08/2003 14:21:46",,"F01 - Usina","1111107 - LABOR FIS/QUIM LATIC NP","17235",
-"claudemir.silva","True","19/11/2012 16:22:28","21/12/2016 04:12:15","F01 - Usina","1112202 - UHT SIG","138416","claudemir.silva@pia.com.br"
-"ricardo.weber","True","07/07/2016 07:54:56","23/01/2017 07:43:19","F11 - Taquara","3953305 - AGROPEC COM F11","138310","ricardo.weber@pia.com.br"
-"cleberton.lima","False","30/04/2014 11:25:01",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121998",
-"leandro.harms","True","13/12/2012 12:01:01","07/07/2015 03:58:54","F01 - Usina","1111133 - MISTURA LACTEA","101548",
-"rejanes","True","14/10/2002 17:00:37","30/01/2017 07:11:49","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","17214","rejanes@pia.com.br"
-"anderson.schneider","True","28/04/2014 11:18:16","23/01/2017 07:38:27","F01 - Usina","1113301 - VENDAS ALIMENTOS","122512","anderson.schneider@pia.com.br"
-"geisa.lamas","True","07/07/2016 09:22:25","25/01/2017 21:38:21","F01 - Usina","1111108 - LABOR MICROB LATIC NP","129373","geisa.lamas@pia.com.br"
-"marcelo.schwantes","True","21/10/2002 08:03:15","23/01/2017 07:26:47","F09 - Industria Racoes","2833301 - COMERCIAL INS/F. RACOES NP F9","22240","marcelo.schwantes@pia.com.br"
-"cleiton.wandscher","True","14/07/2014 09:00:03",,"F22 - Ivoti","1513303 - EXPEDICAO F22","123287",
-"andreiar","True","16/05/2002 08:02:55","26/01/2017 13:43:37","F01 - Usina","1111110 - DESENVOLV PRODUTOS","24334","andreiar@pia.com.br"
-"alexandra","True","31/05/2004 09:42:49","30/01/2017 09:16:08","F02 - Nova Petropolis","3243303 - MERCADO F2","37173","alexandra@pia.com.br"
-"leandro.silveira","True","30/06/2014 16:46:00","21/01/2017 04:01:38","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","123676","leandro.silveira@pia.com.br"
-"veridiana","True","05/03/2009 13:59:23","26/01/2017 07:34:55","F09 - Industria Racoes","2833301 - COMERCIAL INS/F. RACOES NP F9","98269","veridiana@pia.com.br"
-"clene.oliveira","True","26/11/2012 10:03:28","05/03/2013 15:45:01","F01 - Usina","1111107 - LABOR FIS/QUIM LATIC NP","101213",
-"fabiana.brito","True","17/07/2013 17:35:09","21/01/2017 12:03:42","F01 - Usina","1111130 - BALANCA","115785",
-"gisele","True","13/09/2005 11:24:25","27/01/2017 08:01:31","F02 - Nova Petropolis","3243303 - MERCADO F2","78238","gisele@pia.com.br"
-"mateus.silveira","True","01/07/2015 16:00:42","05/08/2015 16:10:40","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","130708","mateus.silveira@pia.com.br"
-"elisa.michalski","True","20/10/2016 13:59:50","26/01/2017 13:46:34","F01 - Usina","4115514 - MENOR APRENDIZ","134903","elisa.michalski@pia.com.br"
-"dorigon","True","16/11/2011 16:40:28","14/12/2011 10:28:54","F12 - Vila Flores","1111201 - POLITICA LEITE V FLORES","104739",
-"cristiane.weippert","False","05/06/2014 16:23:10","05/12/2016 07:36:27","F01 - Usina","4115507 - RECURSOS HUMANOS","116722","cristiane.weippert@pia.com.br"
-"susi.estulano","True","19/12/2012 07:58:42","25/01/2017 18:12:26","F01 - Usina","1111110 - DESENVOLV PRODUTOS","105108","susi.estulano@pia.com.br"
-"agropec.f2","True","01/02/2008 15:38:01","28/01/2017 08:23:10",,"3253305 - AGROPEC COMERCIAL F2",,"agropec.f2@pia.com.br"
-"geovane.teodoro","True","23/11/2015 13:44:03","20/01/2017 19:50:50","F01 - Usina","1111105 - ALMOXARIFADO","24902","geovane.teodoro@pia.com.br"
-"rafael.bonatto","True","09/07/2014 14:28:31","05/10/2016 09:05:46","F12 - Vila Flores","1111202 - VETERINARIOS V FLORES","65095","rafael.bonatto@pia.com.br"
-"atecnica","True","12/11/2002 09:35:29","19/01/2017 08:28:58",,"1111102 - VETERINARIOS",,"atecnica@pia.com.br"
-"mauryn.wendling","True","25/08/2015 10:48:52","23/01/2017 07:35:16","F01 - Usina","1113301 - VENDAS ALIMENTOS","131937","mauryn.wendling@pia.com.br"
-"renata","True","15/05/2009 16:42:12","20/01/2017 14:42:02","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","113193","renata@pia.com.br"
-"luiz.alves","True","14/04/2016 11:37:38","28/01/2017 16:27:30","F01 - Usina","1111111 - SUPERV LATIC NP","135580","luiz.alves@pia.com.br"
-"elisandro.ribas","True","03/12/2013 15:19:38","26/01/2017 10:57:51","F01 - Usina","1113301 - VENDAS ALIMENTOS","120013","elisandro.ribas@pia.com.br"
-"sebastiao.franco","True","14/07/2014 16:01:38",,"F22 - Ivoti","1513303 - EXPEDICAO F22","122675",
-"carin.ponath","True","05/06/2013 14:01:07","18/01/2017 07:56:05","F01 - Usina","1111103 - INSEMINACAO ARTIFICIAL","115993","carin.ponath@pia.com.br"
-"jonas.schumann","True","23/10/2002 10:51:57","23/01/2017 07:45:12","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","140041","jonas.schumann@pia.com.br"
-"girlei.santos","True","25/08/2015 15:41:52","02/09/2015 07:47:39","F11 - Taquara","3953305 - AGROPEC COM F11","37078","girlei.santos@pia.com.br"
-"dorildes.egster","True","14/07/2014 10:29:18",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121897",
-"marcelo.wittmann","True","02/09/2013 14:21:31","23/01/2017 07:29:59","F01 - Usina","1111102 - VETERINARIOS","25455","marcelo.witmann@pia.com.br"
-"angelica.hoffmeister","True","31/08/2016 07:40:32","26/01/2017 10:32:38","F11 - Taquara","3953305 - AGROPEC COM F11","138541","angelica.hoffmeister@pia.com.br"
-"paula.schein","True","14/07/2014 15:49:39",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121918",
-"juliane.bohn","True","06/05/2015 16:51:45","26/01/2017 11:46:45","F01 - Usina","4115513 - SEGURANCA DO TRABALHO","129753","juliane.bohn@pia.com.br"
-"laercio.leal","True","18/04/2016 07:46:45","30/01/2017 08:22:27","F01 - Usina","4115507 - RECURSOS HUMANOS","136865","laercio.leal@pia.com.br"
-"felipe.todescatto","True","31/08/2016 11:44:40","31/08/2016 11:47:16","F12 - Vila Flores","1253305 - AGROPEC F12","104150","felipe.todescatto@pia.com.br"
-"elisabetha.grings","True","26/11/2012 09:50:48","14/03/2014 13:51:28","F01 - Usina","1111107 - LABOR FIS/QUIM LATIC NP","5563",
-"roberto.fassbinder","True","05/02/2014 09:07:18","28/01/2017 07:36:57","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","70606","roberto.fassbinder@pia.com.br"
-"fernanda.couto","True","16/04/2014 10:57:59","09/01/2017 07:38:34","F01 - Usina","1114403 - EXPED REFRIGERADOS","121909","fernanda.couto@pia.com.br"
-"Julio.Sonaglio","True","14/01/2015 15:32:55","26/01/2017 07:48:41","F01 - Usina","4115509 - TECNOL INFORMACAO","127440","julio.sonaglio@pia.com.br"
-"ivan.tondo","True","28/03/2014 08:09:16","16/01/2017 13:29:40","F12 - Vila Flores","1111202 - VETERINARIOS V FLORES","70319","ivan.tondo@pia.com.br"
-"taiani.wolf","True","14/07/2014 16:08:43","24/01/2017 09:08:46","F22 - Ivoti","1513303 - EXPEDICAO F22","123006","taiani.wolf@pia.com.br"
-"thiago.paixao","True","23/12/2014 08:26:35","17/01/2017 18:11:23","F01 - Usina","1113301 - VENDAS ALIMENTOS","100657","thiago.paixao@pia.com.br"
-"danieli.cristine","True","16/03/2011 15:24:25","22/01/2017 08:50:04","F01 - Usina","4115508 - PLANOS DE SAUDE","101020","danieli.cristine@pia.com.br"
-"nikolas.bratz","True","22/05/2014 09:00:32","26/01/2017 07:35:06","F01 - Usina","1113301 - VENDAS ALIMENTOS","113352","nikolas.bratz@pia.com.br"
-"maiquel.koch","True","15/05/2015 14:17:07","26/01/2017 13:06:10","F01 - Usina","4115509 - TECNOL INFORMACAO","92566","maiquel.koch@pia.com.br"
-"alan.loesch","True","02/09/2014 16:24:28","27/01/2017 09:22:47","F02 - Nova Petropolis","3243303 - MERCADO F2","94152","alan.loesch@pia.com.br"
-"nata.anjos","True","15/12/2016 15:09:56","24/01/2017 22:18:56","F01 - Usina","1114403 - EXPED REFRIGERADOS",,
-"evelin.schumann","True","24/11/2014 10:22:07","13/01/2017 10:37:10","F02 - Nova Petropolis","3241106 - CAIXA F2","123923","evelin.schumann@pia.com.br"
-"beatris.spaniol","True","11/07/2014 18:04:06","26/01/2017 21:29:46","F22 - Ivoti","1513303 - EXPEDICAO F22","121969",
-"Rosangela","True","21/10/2002 07:53:31","30/01/2017 09:12:47","F02 - Nova Petropolis","3241107 - GERENCIA F2","17283","rosangela@pia.com.br"
-"bianca.almeida","True","14/07/2014 08:46:32","26/01/2017 13:59:08","F22 - Ivoti","1513303 - EXPEDICAO F22","123294","bianca.almeida@pia.com.br"
-"leticia.barbosa","True","26/11/2015 14:00:32","26/01/2017 07:37:08","F13 - Fazenda Piraja","3141125 - RECEP/EXPED F13 MERCADO","121670","leticia.barbosa@pia.com.br"
-"hadassa.nascimento","True","24/10/2016 09:08:10","30/01/2017 13:09:19","F01 - Usina","4115514 - MENOR APRENDIZ","134904",
-"valdair.luz","True","13/03/2015 09:58:34","26/01/2017 07:45:23","F02 - Nova Petropolis","3242201 - PADARIA F2","85548","valdair.luz@pia.com.br"
-"roger.farias","True","05/02/2016 13:58:25","25/01/2017 10:36:56","F18 - Vila Maria","2935501 - ADM F.RACOES V. MARIA F18","135088",
 "marcos","True","18/09/2006 15:45:29","17/10/2016 09:42:52","F12 - Vila Flores","1111202 - VETERINARIOS V FLORES","39448","marcos@pia.com.br"
-"fabiana.fritzen","True","17/04/2015 15:07:24","17/01/2017 07:34:24","F02 - Nova Petropolis","3243303 - MERCADO F2","110800",
-"lenice.lucas","True","19/04/2016 14:04:00","30/01/2017 03:57:16","F01 - Usina","1111131 - PCP INDUSTRIA","122661","lenice.lucas@pia.com.br"
-"catia.schvantes","True","14/08/2013 09:41:02","30/01/2017 07:31:44","F02 - Nova Petropolis","3243303 - MERCADO F2","66021","catia.schvantes@pia.com.br"
-"vanessa.negri","True","20/04/2015 10:23:57","12/12/2016 07:30:49","F01 - Usina","1115501 - ADM ALIMENTOS","129260","vanessa.negri@pia.com.br"
-"paloma.winck","True","14/07/2014 15:46:12","17/01/2017 16:48:11","F22 - Ivoti","1513303 - EXPEDICAO F22","123812",
-"tiago.dapper","True","27/03/2015 07:58:58","26/01/2017 07:26:47","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","104181","tiago.dapper@pia.com.br"
-"paola.neuberger","True","14/07/2014 15:47:45","27/01/2017 22:12:01","F22 - Ivoti","1513303 - EXPEDICAO F22","121895",
-"smaniotto","True","02/05/2011 10:55:05","20/01/2017 09:39:17","F01 - Usina","4115501 - ADM GERAL","19534","smaniotto@pia.com.br"
-"nadia.blauth","True","17/04/2015 09:02:02","28/01/2017 08:53:26","F02 - Nova Petropolis","3242205 - RESTAURANTE F2","129339","nadia.blauth@pia.com.br"
-"roberto.caetano","True","27/05/2015 08:48:13","29/06/2015 20:33:35","F01 - Usina","1111102 - VETERINARIOS","127726","roberto.caetano@pia.com.br"
-"rafael.silva","True","14/07/2014 15:52:05","30/01/2017 13:36:35","F22 - Ivoti","1513312 - VENDEDORES","122666","rafael.silva@pia.com.br"
-"edmar.bressan","True","26/10/2016 09:06:01","16/01/2017 02:37:20","F01 - Usina","1114403 - EXPED REFRIGERADOS","134190",
-"beto","True","10/10/2011 10:17:26","16/11/2012 10:38:12","F01 - Usina","4115501 - ADM GERAL","101774","gilberto@pia.com.br"
-"joao.bondan","True","01/06/2015 11:24:55","18/06/2015 08:07:01","F01 - Usina","1111103 - INSEMINACAO ARTIFICIAL","130047","joao.bondan@pia.com.br"
-"edson.almeida","True","26/10/2016 09:09:11","28/01/2017 11:11:44","F01 - Usina","1114403 - EXPED REFRIGERADOS","116295",
-"nilson","True","10/10/2011 10:24:14","30/01/2017 08:20:22","F01 - Usina","4115501 - ADM GERAL","63501","nilson@pia.com.br"
-"remidio","True","31/10/2000 17:33:45","30/01/2017 11:24:45","F01 - Usina","4115504 - FINANCEIRO GERAL","8574","remidio@pia.com.br"
-"jose.alves","True","26/10/2016 09:10:36","23/01/2017 04:02:53","F01 - Usina","1114403 - EXPED REFRIGERADOS","135425",
-"rafael","True","30/01/2009 14:10:01","02/01/2017 21:24:53","F01 - Usina","1114403 - EXPED REFRIGERADOS","72429","rafael@pia.com.br"
-"juliano.padilha","True","26/10/2016 09:11:10","23/01/2017 20:13:05","F01 - Usina","1114403 - EXPED REFRIGERADOS","119720",
-"zenaide.arnhold","True","21/09/2011 10:41:13","23/01/2017 07:59:04","F01 - Usina","4115506 - CONTAS RECEBER","104770","zenaide.arnhold@pia.com.br"
-"nestor.reinheimer","True","05/12/2014 13:32:04","18/01/2017 00:24:37","F01 - Usina","1111111 - SUPERV LATIC NP","26927","nestor.reinheimer@pia.com.br"
-"tiago.kleemann","True","26/10/2016 09:17:49","23/01/2017 11:55:57","F01 - Usina","1114403 - EXPED REFRIGERADOS","128224",
-"felipe.preste","True","26/10/2016 09:19:11","26/10/2016 11:00:25",,,,
-"marcelo.dreher","True","04/06/2014 11:09:12","19/01/2017 14:56:24","F01 - Usina","1111102 - VETERINARIOS","99478","marcelo.dreyer@pia.com.br"
-"junior.silva","True","22/04/2016 10:45:07","24/01/2017 10:11:07","F16 - Marau","1111306 - RECEP LEITE MARAU","136576","junior.silva@pia.com.br"
-"geni.roque","True","14/07/2014 10:49:33",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121924",
-"everton.carbone","True","07/01/2014 09:25:17","23/01/2017 10:37:32","F01 - Usina","1111111 - SUPERV LATIC NP","120556","everton.carbone@pia.com.br"
-"aline.daniele","True","07/07/2009 07:50:04","26/01/2017 08:21:40","F08 - Morro Reuter","3845501 - ADMIN F8","70733","aline.daniele@pia.com.br"
-"jonatan.rosa","True","14/07/2016 19:35:03","26/01/2017 07:44:21","F01 - Usina","1115505 - COMPRAS","138710",
-"lisiane.maldaner","True","26/08/2011 09:59:18","23/01/2017 07:37:04","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","103939","lisiane.maldaner@pia.com.br"
-"nilson.schamrek","True","14/07/2016 19:36:38","30/01/2017 07:30:01","F01 - Usina","1115505 - COMPRAS","138549","nilson.schamrek@pia.com.br"
-"luciane.reinehr","True","19/11/2012 09:11:45","28/03/2013 08:32:59","F01 - Usina","1111105 - SUPERVISAO LATICINIOS","034758",
-"felipe.gottschalk","True","21/01/2013 10:51:24","21/01/2017 08:25:47","F06 - Picada Cafe ","3653305 - AGROPEC COM F6","47765","felipe.gottschalk@pia.com.br"
-"luis.gouveia","True","27/08/2014 11:08:28","29/01/2017 15:27:57","F01 - Usina","1111111 - SUPERV LATIC NP","124749","luis.gouveia@pia.com.br"
-"helma.schranck","True","14/07/2014 10:59:16",,"F22 - Ivoti","1513303 - EXPEDICAO F22","122482",
-"marta.dieter","True","15/01/2014 15:52:05","26/01/2017 10:44:29","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","101158","marta.dieter@pia.com.br"
-"renan.gonzaga","True","26/11/2014 08:24:53","29/01/2017 12:28:51","F01 - Usina","1111111 - SUPERV LATIC NP","126420","renan.gonzaga@pia.com.br"
-"idiliani.lerner","True","14/07/2014 11:15:47",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121916",
-"greice.tatiane","True","06/03/2015 09:18:29","26/01/2017 09:39:12","F06 - Picada Cafe ","3643303 - MERCADO F6","113416","greice.tatiane@pia.com.br"
-"monica.maurer","True","06/03/2015 09:19:51","23/01/2017 09:06:42","F06 - Picada Cafe ","3643303 - MERCADO F6","57533","monica.maurer@pia.com.br"
-"lindomar.kich","True","16/05/2012 08:13:11","31/07/2013 20:47:53","F01 - Usina","1111126 - CALDEIRA","46047",
-"claudete.bohn","True","26/11/2012 09:48:27","11/07/2015 08:46:05",,,,
-"daiane.estulano","True","26/11/2012 10:01:43","26/01/2017 08:07:18","F01 - Usina","1111110 - DESENVOLV PRODUTOS","106034","daiane.estulano@pia.com.br"
-"jair.padilha","True","19/11/2012 16:20:03",,"F01 - Usina","1122201 - POLPA FRUTA","21034",
-"jorge.lamb","True","05/02/2013 09:14:42","27/01/2017 10:20:56","F01 - Usina","1121111 - SUPERVISAO DOCES","110054","jorge.lamb@pia.com.br"
-"driele.rodrigues","True","10/02/2016 08:24:43","26/01/2017 08:39:38","F01 - Usina","4115509 - TECNOL INFORMACAO","135316","driele.rodrigues@pia.com.br"
-"andreia.thome","True","26/11/2012 10:10:33","10/02/2013 01:16:52","F01 - Usina","1111132 - REFEITORIO","59025",
-"fabieli.niederauer","True","05/02/2014 09:21:55","27/01/2017 08:24:56","F01 - Usina","1111111 - SUPERV LATIC NP","116894","fabieli.niederauer@pia.com.br"
-"ederson.andrade","True","22/12/2016 10:17:00","23/01/2017 08:02:56","F15 - Marau","3753305 - AGROPEC COM F15","113904",
-"jean.castilhos","True","14/07/2014 11:21:48",,"F01 - Usina","1112206 - FERMENT SACOS","121968",
-"ketlyn.schutz","True","07/10/2014 14:27:41","23/01/2017 07:54:15","F01 - Usina","1111107 - LABOR FIS/QUIM LATIC NP","122806","ketlyn.schutz@pia.com.br"
-"ilton.spaniol","True","18/07/2016 10:01:14","27/01/2017 10:27:05","F01 - Usina","1112202 - UHT SIG","74147",
-"mauricio.dalmas","True","08/10/2014 16:56:44","23/01/2017 10:21:36","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","129514","mauricio.dalmas@pia.com.br"
-"cleverson.silva","True","03/12/2015 13:43:01","08/09/2016 10:47:57","F01 - Usina","1111105 - ALMOXARIFADO","103653","cleverson.silva@pia.com.br"
-"ladair.pessutto","True","16/03/2015 11:57:59","27/01/2017 08:29:25","F12 - Vila Flores","1253305 - AGROPEC F12","128874","ladair.pessutto@pia.com.br"
-"luciano.hubner","True","08/07/2015 15:59:58","03/11/2016 11:02:53","F16 - Marau","1111302 - VETERINARIOS MARAU","130856","luciano.hubner@pia.com.br"
-"ricardo.mendes","True","03/12/2015 15:57:07","26/01/2017 13:46:58","F01 - Usina","4115507 - RECURSOS HUMANOS","134067","ricardo.mendes@pia.com.br"
-"bancada1","True","12/02/2016 13:43:02","24/01/2017 03:58:44",,"1111107 - LABOR FIS/QUIM LATIC NP",,
-"evair.klock","True","22/01/2015 14:03:43","05/01/2017 17:23:51","F01 - Usina","1111135 - GESTAO DO LEITE","68748","eviar.klock@pia.com.br"
-"bancada2","True","12/02/2016 14:05:28","18/01/2017 19:38:10",,"1111107 - LABOR FIS/QUIM LATIC NP",,
-"leticia.bruch","True","23/12/2016 08:59:51","22/01/2017 21:07:22","F01 - Usina","1111131 - PCP INDUSTRIA","141604",
-"avelino","True","12/05/2003 08:04:57","19/01/2017 15:02:59","F05 - Santa Maria do Herval","3553305 - AGROPEC COM F5","31432","avelino@pia.com.br"
-"daniela.silva","True","27/04/2015 16:13:52","30/01/2017 07:35:16","F01 - Usina","1111131 - PCP INDUSTRIA","129516","daniela.silva@pia.com.br"
-"bancada3","True","12/02/2016 14:07:15","24/01/2017 04:34:44",,"1111107 - LABOR FIS/QUIM LATIC NP",,
-"lisete","True","14/09/2004 15:33:03","10/01/2017 10:29:13","F01 - Usina","4115517 - ASSOCIADOS","111335","lisete@pia.com.br"
-"daiane.ciquelero","True","26/11/2012 09:58:45","25/01/2017 23:26:34","F01 - Usina","1121107 - LABORATORIO DOCES","93086","daiane.ciquelero@pia.com.br"
-"gerceo.falchetti","True","28/04/2015 15:25:14","28/01/2017 11:55:16","F01 - Usina","1111111 - SUPERV LATIC NP","29472","gerceo.falchetti@pia.com.br"
-"andrea.silva","True","03/12/2015 17:11:17","20/01/2017 07:26:42","F01 - Usina","1115501 - ADM ALIMENTOS","133585","andrea.silva@pia.com.br"
-"bancada4","True","12/02/2016 14:08:35","25/01/2017 09:54:12",,"1111107 - LABOR FIS/QUIM LATIC NP",,
-"liane","True","31/10/2000 17:33:45","30/01/2017 07:47:16","F01 - Usina","4115503 - CONTABILIDADE","56399","liane@pia.com.br"
-"candida","True","18/01/2006 18:23:58","30/01/2017 07:33:25","F01 - Usina","4115501 - ADM GERAL","54831","candida@pia.com.br"
-"Monrou","True","31/10/2000 17:33:45","05/01/2017 07:29:23","F01 - Usina","4115502 - CONTROLADORIA","28899","monrou@pia.com.br"
-"rejane.ackermann","True","07/04/2004 14:39:22","23/01/2017 09:11:35","F02 - Nova Petropolis","3243302 - VESTUARIO F2","17205","rejane.ackermann@pia.com.br"
-"helena","True","23/01/2004 17:14:00","30/01/2017 07:34:47","F01 - Usina","4115503 - CONTABILIDADE","5547","helena@pia.com.br"
-"filial18","True","11/03/2010 15:10:26","23/01/2017 12:23:44",,"2931115 - MAO-DE-OBRA GERAL F. RACOES V.MARIA F18",,"filial18@pia.com.br"
-"eduardo.blauth","True","09/09/2015 11:42:01","22/09/2015 12:12:04","F01 - Usina","1111102 - VETERINARIOS","11820","eduardo.blauth@pia.com.br"
-"fabiano","True","09/09/2003 11:54:46","27/01/2017 18:58:29","F01 - Usina","4115509 - TECNOL INFORMACAO","78349","fabiano@pia.com.br"
-"exp.latic","True","21/01/2013 09:13:40","23/01/2017 11:53:57",,"1114403 - EXPED REFRIGERADOS",,"exp.latic@pia.com.br"
-"julian.wanderley","True","19/07/2016 10:04:53","25/01/2017 20:09:30","F01 - Usina","1112202 - UHT SIG","127525",
-"luis.buss","True","18/02/2009 07:31:14","26/01/2017 07:56:42","F01 - Usina","1114401 - LOGISTICA ALIM","120639","luis.buss@pia.com.br"
-"luizia.eberle","True","27/04/2011 10:08:35","23/01/2017 07:41:29","F01 - Usina","4115517 - ASSOCIADOS","101655","luizia.eberle@pia.com.br"
-"labfoss","True","09/09/2015 15:24:43","23/01/2017 15:22:31",,"1111107 - LABOR FIS/QUIM LATIC NP",,
-"rosilei.mewius","True","19/07/2016 10:12:04","12/12/2016 18:43:05","F01 - Usina","1111114 - TETRA TOP FERMENTACAO","85989",
-"gerson","True","18/02/2009 14:27:07","23/01/2017 07:24:49","F09 - Industria Racoes","2831115 - MAO-DE-OBRA GERAL F. RACOES NP F9","66788","gerson@pia.com.br"
-"elemar.junior","True","27/02/2012 15:33:05","29/01/2017 20:16:21","F01 - Usina","1114403 - EXPED REFRIGERADOS","104762","elemar.junior@pia.com.br"
-"claudio.roberto","True","05/09/2012 08:22:09","12/01/2017 07:32:14","F01 - Usina","4115502 - CONTROLADORIA","111095","claudio.roberto@pia.com.br"
-"larissa.bueno","True","12/11/2014 08:23:10","30/01/2017 08:35:21","F03 - Feliz","3341106 - CAIXA F3","116521","larissa.bueno@pia.com.br"
-"gabriele.wentz","True","08/10/2014 17:03:27","22/01/2017 13:05:39","F19 - Vila Rica","5143303 - MERCADO F19","90090","gabriele.wentz@pia.com.br"
-"elisa.silva","True","19/07/2016 10:16:26","27/01/2017 01:06:18","F01 - Usina","1112202 - UHT SIG","68005",
-"eduardo.abelaira","True","23/04/2012 08:03:40","26/01/2017 09:24:56","F01 - Usina","4115509 - TECNOL INFORMACAO","108478","eduardo.abelaira@pia.com.br"
-"marilene.silva","True","19/07/2016 10:54:59","27/01/2017 02:22:58","F01 - Usina","1112202 - UHT SIG","127793",
-"schumacher","True","09/01/2013 09:19:46","23/01/2017 11:34:38","F01 - Usina","4115503 - CONTABILIDADE","112708","schumacher@pia.com.br"
-"paola.andrade","True","18/09/2014 08:08:12","01/12/2016 16:02:21","F01 - Usina","4115509 - TECNOL INFORMACAO","125285","paola.andrade@pia.com.br"
-"juliana.buss","True","04/10/2007 14:00:12","23/01/2017 07:17:11","F01 - Usina","1114401 - LOGISTICA ALIM","66957","juliana.buss@pia.com.br"
-"aline.oliveira","True","12/12/2014 09:02:07","19/01/2017 07:19:26","F01 - Usina","1113301 - VENDAS ALIMENTOS","126933","aline.oliveira@pia.com.br"
-"Patricia","True","31/10/2000 17:33:45","30/01/2017 07:50:21","F01 - Usina","4115503 - CONTABILIDADE","17221","patricia@pia.com.br"
-"Celulares","True","20/03/2015 08:55:41","14/01/2016 09:53:48",,,,
-"joana","True","21/10/2002 07:52:53","26/01/2017 07:40:12","F01 - Usina","4115503 - CONTABILIDADE","17305","joana@pia.com.br"
-"contabil","True","04/06/2015 16:58:23","18/01/2017 18:47:17",,"4115503 - CONTABILIDADE",,
-"isolete","True","17/09/2008 09:27:41","23/01/2017 07:41:23","F01 - Usina","1114401 - LOGISTICA ALIM","66104","isolete@pia.com.br"
-"franciele.schneider","True","04/09/2012 13:44:04","30/01/2017 07:42:36","F01 - Usina","4115503 - CONTABILIDADE","110771","franciele.schneider@pia.com.br"
-"deise","True","07/12/2009 15:31:35","02/01/2017 21:26:25","F01 - Usina","1114403 - EXPED REFRIGERADOS","86560","deise@pia.com.br"
-"adriano.braun","True","21/01/2013 15:17:00","30/01/2017 07:31:38","F01 - Usina","4115503 - CONTABILIDADE","113372","adriano.braun@pia.com.br"
-"gabriel.kunst","True","11/09/2015 15:08:39","22/01/2017 00:09:36","F01 - Usina","4115509 - TECNOL INFORMACAO","135672","gabriel.kunst@pia.com.br"
-"silvana.imich","True","27/05/2014 17:28:55","26/01/2017 07:33:49","F01 - Usina","4115503 - CONTABILIDADE","122836","silvana.imich@pia.com.br"
-"jonatas","True","07/04/2004 14:40:15","27/01/2017 20:49:14","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","28823","jonatas@pia.com.br"
-"priscila.patricio","True","28/08/2014 10:26:36","30/01/2017 07:39:28","F01 - Usina","4115503 - CONTABILIDADE","124744","priscila.patricio@pia.com.br"
-"giovani.bouvie","True","16/02/2016 09:46:00","26/01/2017 08:33:38","F01 - Usina","4115509 - TECNOL INFORMACAO","135432","giovani.bouvie@pia.com.br"
-"lucas.vaz","True","04/05/2016 15:16:24","18/01/2017 19:12:34","F01 - Usina","1114403 - EXPED REFRIGERADOS","129278","lucas.vaz@pia.com.br"
-"marcos.alcantara","True","20/07/2016 09:59:21","21/07/2016 07:06:02","F01 - Usina","1111112 - PASTEURIZACAO","134016",
-"luciano","True","01/11/2007 08:19:06","24/01/2017 07:17:35","F01 - Usina","1121101 - ASS TECNICA FRUTAS","56035","luciano@pia.com.br"
-"gilmar.teodoro","True","23/10/2002 10:57:56","13/01/2017 11:47:34","F01 - Usina","1111111 - SUPERV LATIC NP","21797","gilmar.teodoro@pia.com.br"
-"danilo.ferreira","True","20/07/2016 10:01:50","21/07/2016 05:50:15","F01 - Usina","1112202 - UHT SIG","137324",
-"marcio.prediger","True","07/11/2012 08:27:56","26/01/2017 11:23:26","F01 - Usina","1114403 - EXPED REFRIGERADOS","112024","marcio.prediger@pia.com.br"
-"raul.xavier","True","20/07/2016 10:03:09","21/01/2017 21:48:18","F01 - Usina","1111111 - SUPERV LATIC NP","138407","raul.xavier@pia.com.br"
-"jessica.kny","True","16/09/2010 08:28:58","23/01/2017 09:04:05","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","94277","jessica.kny@pia.com.br"
-"graciela","True","25/09/2007 12:09:20","27/01/2017 07:34:09","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","80949","graciela@pia.com.br"
-"marieli.simon","True","18/12/2013 08:21:02","30/01/2017 07:09:32","F01 - Usina","4115512 - LOGISTICA","56702","marieli.simon@pia.com.br"
-"cleiton.ismael","True","06/04/2011 08:12:52","26/01/2017 09:54:47","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","99901","cleiton.ismael@pia.com.br"
-"valdir.junior","True","09/10/2013 15:09:44","23/01/2017 14:06:51","F01 - Usina","1113301 - VENDAS ALIMENTOS","118824","valdir.junior@pia.com.br"
-"patricia.rauch","True","31/12/2013 11:50:34","30/01/2017 07:35:42","F01 - Usina","1114401 - LOGISTICA ALIM","120441","patricia.rauch@pia.com.br"
-"greice.brackmann","True","11/10/2012 11:36:20","23/01/2017 08:33:31","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","93711",
-"alexandre.schenkel","True","09/11/2012 08:14:05","23/01/2017 10:49:38","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","111667","alexandre.schenkel@pia.com.br"
-"rosana.cavalleri","True","13/07/2015 17:11:08","26/01/2017 08:23:06","F01 - Usina","1111107 - LABOR FIS/QUIM LATIC NP","130886","rosana.cavalleri@pia.com.br"
-"luiz.arenhart","True","07/12/2015 11:28:12","30/01/2017 07:35:08","F11 - Taquara","3953305 - AGROPEC COM F11","133927","luiz.arenhart@pia.com.br"
-"janice.strey","True","28/01/2013 17:36:30","28/01/2017 08:07:11","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","61634","janice.strey@pia.com.br"
-"adriane.pooter","True","07/07/2014 14:26:00","16/01/2017 08:07:24","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","122367","adriane.pooter@pia.com.br"
-"jobson.alves","True","21/07/2016 11:16:05","31/12/2016 01:13:17","F01 - Usina","1112212 - TETRA TOP ENVASE","130878",
-"bruna.freitas","True","10/09/2014 14:29:50","23/01/2017 10:11:23","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","118303","bruna.freitas@pia.com.br"
-"Rosane","True","08/12/2003 14:33:12","22/01/2017 07:11:31","F05 - Santa Maria do Herval","3553305 - AGROPEC COM F5","74953","rosane@pia.com.br"
-"elisandra.drehmer","True","09/12/2015 14:53:15","26/01/2017 07:43:24","F01 - Usina","1114401 - LOGISTICA ALIM","134068","elisandra.drehmer@pia.com.br"
-"marcos.costa","True","03/11/2016 11:20:02","24/01/2017 10:53:36","F01 - Usina","1113301 - VENDAS ALIMENTOS","140715","marcos.costa@pia.com.br"
-"canisio","True","29/10/2002 08:35:52","23/01/2017 07:54:02","F05 - Santa Maria do Herval","3553305 - AGROPEC COM F5","7472","canisio.roldo@pia.com.br"
-"vanuza.goncalves","True","23/12/2014 14:57:57","30/12/2014 10:39:16","F22 - Ivoti","1513303 - EXPEDICAO F22","127095",
+"pedro.barbosa","True","14/12/2015 22:53:21","02/03/2017 11:06:58","F01 - Usina","1114406 - EXPED SECOS","103941","pedro.barbosa@pia.com.br"
+"cleberton.lima","False","30/04/2014 11:25:01",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121998",
+"cleiton.wandscher","True","14/07/2014 09:00:03",,"F22 - Ivoti","1513303 - EXPEDICAO F22","123287",
+"marcelo.dreher","True","04/06/2014 11:09:12","24/02/2017 12:53:31","F01 - Usina","1111102 - VETERINARIOS","99478","marcelo.dreyer@pia.com.br"
+"anderson.schneider","True","28/04/2014 11:18:16","23/02/2017 06:50:41","F01 - Usina","1113301 - VENDAS ALIMENTOS","122512","anderson.schneider@pia.com.br"
 "tatiane.schein","True","17/02/2016 16:37:53","26/09/2016 13:58:19","F14 - Tupandi","3445501 - ADMIN F14","120794","tatiane.schein@pia.com.br"
-"giovani.backes","True","26/10/2011 08:39:56","21/01/2017 13:27:27","F05 - Santa Maria do Herval","3553305 - AGROPEC COM F5","79343","giovani.backes@pia.com.br"
-"gabriel.rosa","True","13/09/2016 09:31:15","26/01/2017 07:38:41","F01 - Usina","1113303 - MARKETING ALIM","139756","gabriel.rosa@pia.com.br"
-"juliana.kunzler","True","27/01/2012 15:39:45","22/01/2017 18:36:58","F05 - Santa Maria do Herval","3545501 - ADMIN F5","113415","juliana.kunzler@pia.com.br"
-"lableitef12","True","14/07/2015 10:50:00","23/01/2017 06:01:45",,"1111207 - LABOR V FLORES",,
-"rafael.santos","True","22/07/2016 11:04:22","23/01/2017 12:43:04","F01 - Usina","1112202 - UHT SIG","126932",
-"felix.alles","True","16/07/2013 17:07:39","20/01/2017 13:58:00","F05 - Santa Maria do Herval","3541107 - GERENCIA F5","72364","felix.alles@pia.com.br"
-"lilian.chafes","True","20/12/2012 07:41:36","23/01/2017 08:50:05","F01 - Usina","1111109 - QUALIDADE NP","98268","lilian.chafes@pia.com.br"
-"jair.henrique","True","17/09/2015 08:31:09","26/01/2017 07:17:18","F01 - Usina","1111111 - SUPERV LATIC NP","132366","jair.henrique@pia.com.br"
-"magnara.felli","True","19/02/2016 11:38:56","05/01/2017 07:39:41","F01 - Usina","4115507 - RECURSOS HUMANOS","135429","magnara.felli@pia.com.br"
-"diego.berle","True","08/04/2014 15:13:32","23/01/2017 08:48:37","F05 - Santa Maria do Herval","3553305 - AGROPEC COM F5","115677","diego.berle@pia.com.br"
-"neiva.kroetz","True","04/08/2014 10:52:36","30/01/2017 08:35:00","F05 - Santa Maria do Herval","3553305 - AGROPEC COM F5","104922","neiva.kroetz@pia.com.br"
-"elcio","True","07/04/2004 14:37:42","23/01/2017 08:06:15","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","78800","elcio@pia.com.br"
-"sergio","True","29/05/2006 13:59:36","24/01/2017 07:05:39","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","8543","sergio@pia.com.br"
-"recleitef12","True","14/07/2015 10:54:07","22/01/2017 06:36:41",,"1111206 - RECEP LEITE V. FLORES",,
-"Marilda.Rocha","True","18/09/2015 11:54:59","24/01/2017 10:14:33","F12 - Vila Flores","1111230 - BALANCA V FLORES","131927","marilda.rocha@pia.com.br"
-"andre.fritzen","True","08/06/2011 08:53:34","30/01/2017 08:24:26","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","102569","andre.fritzen@pia.com.br"
-"lableitef16","True","14/07/2015 10:56:29","25/01/2017 06:20:11",,"1111307 - LABOR MARAU",,
-"andressa.bortoluzzi","True","11/12/2015 10:00:27","22/01/2017 06:00:28","F16 - Marau","1111306 - RECEP LEITE MARAU","132954","andressa.bortoluzzi@pia.com.br"
-"recleitef16","True","14/07/2015 10:58:06","25/01/2017 06:19:10",,"1111306 - RECEP LEITE MARAU",,
-"Marcos.Pfeifer","True","06/01/2015 13:44:07","30/01/2017 01:04:48","F01 - Usina","1115505 - COMPRAS","127450","Marcos.Pfeifer@pia.com.br"
+"raul.xavier","True","20/07/2016 10:03:09","21/02/2017 19:54:24","F01 - Usina","1111111 - SUPERV LATIC NP","138407","raul.xavier@pia.com.br"
+"clene.oliveira","True","26/11/2012 10:03:28","05/03/2013 15:45:01","F01 - Usina","1111107 - LABOR FIS/QUIM LATIC NP","101213",
+"jonas.schumann","True","23/10/2002 10:51:57","22/02/2017 07:29:10","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","140041","jonas.schumann@pia.com.br"
+"ilton.spaniol","True","18/07/2016 10:01:14","21/02/2017 08:14:11","F01 - Usina","1112202 - UHT SIG","74147",
+"elisangela.brandt","True","16/12/2015 20:06:41","24/02/2017 09:15:27","F02 - Nova Petropolis","3243303 - MERCADO F2","120771","elisangela.brandt@pia.com.br"
+"julian.wanderley","True","19/07/2016 10:04:53","25/01/2017 20:09:30","F01 - Usina","1112202 - UHT SIG","127525",
+"fernanda.grings","True","21/02/2017 13:42:00","21/02/2017 14:17:42","F01 - Usina","1121107 - LABORATORIO DOCES","142324",
+"marilene.silva","True","19/07/2016 10:54:59","27/01/2017 02:22:58","F01 - Usina","1112202 - UHT SIG","127793",
+"rafael.souza","True","21/02/2017 16:11:20","22/02/2017 14:04:43","F01 - Usina","1113301 - VENDAS ALIMENTOS","114566","rafael.souza@pia.com.br"
+"dorildes.egster","True","14/07/2014 10:29:18",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121897",
+"angelo.teixeira","True","24/03/2016 15:45:16",,"F01 - Usina","1111112 - PASTEURIZACAO","133914",
+"ademilson.ribeiro","True","23/12/2015 16:05:35","20/02/2017 07:22:20","F01 - Usina","1113303 - MARKETING ALIM","133878","ademilson.ribeiro@pia.com.br"
+"jobson.alves","True","21/07/2016 11:16:05","19/02/2017 20:04:01","F01 - Usina","1112212 - TETRA TOP ENVASE","130878",
+"alessandro.ramos","True","21/02/2017 16:20:25","21/02/2017 16:23:30","F01 - Usina","1113301 - VENDAS ALIMENTOS","134748",
+"paula.schein","True","14/07/2014 15:49:39",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121918",
+"gilmar.teodoro","True","23/10/2002 10:57:56","24/02/2017 11:50:12","F01 - Usina","1111111 - SUPERV LATIC NP","21797","gilmar.teodoro@pia.com.br"
+"joao.mellos","True","24/03/2016 15:47:22",,"F01 - Usina","1111116 - MASSA DOCE LT (TACHOS)","80361",
+"rafael.santos","True","22/07/2016 11:04:22","20/02/2017 14:17:14","F01 - Usina","1112202 - UHT SIG","126932",
+"sergio","True","29/05/2006 13:59:36","23/02/2017 06:52:37","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","8543","sergio@pia.com.br"
+"lilian.chafes","True","20/12/2012 07:41:36","22/02/2017 08:00:26","F01 - Usina","1111109 - QUALIDADE NP","98268","lilian.chafes@pia.com.br"
+"leuzivane.sherer","True","24/03/2016 16:29:44",,"F01 - Usina","1112211 - FERMENT COPOS","131545",
+"elisa.silva","True","19/07/2016 10:16:26","20/02/2017 01:24:22","F01 - Usina","1112202 - UHT SIG","68005",
+"salete.ruechel","True","24/03/2016 16:32:05",,"F01 - Usina","1112205 - REQUEIJAO","127559",
+"agropec.f15","True","22/12/2008 09:11:35","22/02/2017 13:53:07",,"3753305 - AGROPEC COM F15",,"agropec.f15@pia.com.br"
+"lucas.heineck","True","24/03/2016 16:34:14",,"F01 - Usina","1111116 - MASSA DOCE LT (TACHOS)","116294",
+"rubia","True","20/08/2009 08:48:00","21/02/2017 07:59:44","F15 - Marau","3741107 - GERENCIA F15","88646","rubia@pia.com.br"
+"luciane.servelin","True","09/03/2016 09:39:17","23/02/2017 09:07:56","F12 - Vila Flores","1111206 - RECEP LEITE V. FLORES","135918","luciane.servelin@pia.com.br"
+"nilto.dalmolin","True","05/10/2016 14:11:12","14/01/2017 13:29:47","F01 - Usina","1111102 - VETERINARIOS","47911","nilton.dalmolin@pia.com.br"
+"thiago.marçal","True","29/07/2011 13:31:58","24/02/2017 08:01:55","F16 - Marau","1111302 - VETERINARIOS MARAU","039117","thiago@pia.com.br"
+"marco.link","True","23/03/2011 08:34:54","27/02/2017 10:37:36","F01 - Usina","1113301 - VENDAS ALIMENTOS","19336","marco.link@pia.com.br"
+"Marilda.Rocha","True","18/09/2015 11:54:59","24/02/2017 08:40:58","F12 - Vila Flores","1111230 - BALANCA V FLORES","131927","marilda.rocha@pia.com.br"
+"bernardo.muniz","True","05/10/2016 13:43:47","29/12/2016 14:00:14","F12 - Vila Flores","1111201 - POLITICA LEITE V FLORES","123004","bernardo.muniz@pia.com.br"
+"adrianar","True","30/11/2004 15:33:50","21/02/2017 17:55:42","F01 - Usina","1114403 - EXPED REFRIGERADOS","43964","adriana@pia.com.br"
+"andressa.ruppenthal","True","26/02/2016 13:45:32","23/02/2017 14:44:57","F01 - Usina","1111105 - ALMOXARIFADO","133636","andressa.ruppenthal@pia.com.br"
+"edimar.tolffo","True","17/10/2016 09:06:37","17/10/2016 09:06:52","F16 - Marau","1111302 - VETERINARIOS MARAU","111817","edimar.tolffo@pia.com.br"
+"Darlei.Marchioro","True","10/02/2015 17:13:55","27/02/2017 17:54:59","F15 - Marau","3753305 - AGROPEC COM F15","108588","darlei.marchioro@pia.com.br"
+"monica.maculan","True","18/09/2013 08:05:26","23/02/2017 08:00:38","F15 - Marau","3753305 - AGROPEC COM F15","112959","monica.maculan@pia.com.br"
+"exp.secos","True","09/06/2016 08:34:38","13/09/2016 18:46:10",,,,
+"ivan.bosa","True","23/01/2015 11:01:24","27/02/2017 20:27:59","F12 - Vila Flores","1253305 - AGROPEC F12","93427","ivan.bosa@pia.com.br"
+"francieli.gollo","True","20/06/2014 16:57:04","01/03/2017 07:55:49","F15 - Marau","3743303 - MERCADO F15","123455","francieli.gollo@pia.com.br"
+"alex.rambor","True","17/09/2013 09:11:33","27/02/2017 07:32:39","F01 - Usina","4115512 - LOGISTICA","118347","alex.rambor@pia.com.br"
+"jose.junior","True","29/09/2016 11:04:52","02/03/2017 10:48:38","F01 - Usina","1111105 - ALMOXARIFADO","139866","jose.junior@pia.com.br"
+"marilene.silveira","True","24/12/2014 08:07:45","23/02/2017 08:01:26","F15 - Marau","3753305 - AGROPEC COM F15","127217","marilene.silveira@pia.com.br"
+"alexandre.rutzen","True","24/06/2015 08:42:50","21/09/2016 16:51:52","F01 - Usina","1114403 - EXPED REFRIGERADOS","127700","alexandre.rutzen@pia.com.br"
+"regis.araujo","True","13/08/2015 08:33:51","23/08/2015 10:42:56","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","131677","regis.araujo@pia.com.br"
+"mateus.mattiuz","True","22/07/2015 10:23:01","28/02/2017 20:51:04","F12 - Vila Flores","1253305 - AGROPEC F12","131036","mateus.mattiuz@pia.com.br"
+"ederson.andrade","True","22/12/2016 10:17:00","23/02/2017 07:01:57","F15 - Marau","3753305 - AGROPEC COM F15","113904",
+"sandra.thome","True","17/01/2003 08:48:15","24/02/2017 11:27:16","F01 - Usina","1113303 - MARKETING ALIM","78982","sandra.thome@pia.com.br"
+"juliana.fritsch","True","17/09/2010 11:13:41","24/02/2017 07:35:43","F01 - Usina","1114401 - LOGISTICA ALIM","93332","juliana.fritsch@pia.com.br"
+"mateus.silveira","True","01/07/2015 16:00:42","05/08/2015 16:10:40","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","130708","mateus.silveira@pia.com.br"
+"lucas.vaz","True","04/05/2016 15:16:24","18/01/2017 19:12:34","F01 - Usina","1114403 - EXPED REFRIGERADOS","129278","lucas.vaz@pia.com.br"
+"mariela.metz","True","24/06/2015 11:36:55","27/02/2017 07:44:00","F01 - Usina","1113301 - VENDAS ALIMENTOS","130468","mariela.metz@pia.com.br"
+"luciano.hubner","True","08/07/2015 15:59:58","03/11/2016 11:02:53","F16 - Marau","1111302 - VETERINARIOS MARAU","130856","luciano.hubner@pia.com.br"
+"silvia","True","27/02/2009 09:38:45","01/03/2017 07:17:52","F01 - Usina","1111122 - MEIO AMBIENTE (EFLUENTES-LIXO-IBAMA)","43393","silvia@pia.com.br"
+"taina.schaefer","True","23/08/2016 09:17:13","16/01/2017 13:34:20","F01 - Usina","4115514 - MENOR APRENDIZ","134946",
+"geni.roque","True","14/07/2014 10:49:33",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121924",
+"simone.weber","True","17/08/2011 10:20:55","26/02/2017 10:14:59","F01 - Usina","1111131 - PCP INDUSTRIA","104038","simone.weber@pia.com.br"
+"andre.meneghel","True","17/10/2016 13:59:32","17/10/2016 14:00:55","F01 - Usina","1111102 - VETERINARIOS","135903","andre.meneghel@pia.com.br"
+"leticia.bruch","True","23/12/2016 08:59:51","24/02/2017 04:14:43","F01 - Usina","1111131 - PCP INDUSTRIA","141604",
+"camila.bonatto","True","01/04/2016 07:50:49","24/02/2017 13:32:33","F01 - Usina","1111101 - POLITICA LEITE","135900","camila.bonatto@pia.com.br"
+"jessica.linz","True","23/05/2016 16:55:22","24/02/2017 07:25:54","F13 - Fazenda Piraja","3141129 - RECEP/EXPED F13 -AGRO","120749","jessica.linz@pia.com.br"
+"luciane.reinehr","True","19/11/2012 09:11:45","28/03/2013 08:32:59","F01 - Usina","1111105 - SUPERVISAO LATICINIOS","034758",
+"yara.regina","True","14/08/2013 17:01:41","16/02/2017 13:39:12","F01 - Usina","1111109 - QUALIDADE NP","117686","yara.regina@pia.com.br"
+"roger.farias","True","05/02/2016 13:58:25","25/02/2017 07:21:17","F18 - Vila Maria","2935501 - ADM F.RACOES V. MARIA F18","135088",
+"helma.schranck","True","14/07/2014 10:59:16",,"F22 - Ivoti","1513303 - EXPEDICAO F22","122482",
+"vanessa.iop","True","07/07/2014 11:35:54","08/02/2017 20:05:02","F01 - Usina","1111109 - QUALIDADE NP","123230","vanessa.iop@pia.com.br"
+"henrique.steffen","True","29/07/2015 09:15:40","23/02/2017 08:46:28","F14 - Tupandi","3453305 - AGROPEC COM F14","126771","henrique.steffen@pia.com.br"
+"idiliani.lerner","True","14/07/2014 11:15:47",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121916",
+"cledis.melo","True","25/09/2014 15:09:35","23/02/2017 07:47:35","F01 - Usina","1111109 - QUALIDADE NP","124933","cledis.melo@pia.com.br"
+"karen.souza","True","09/10/2014 13:59:25","23/02/2017 07:22:24","F01 - Usina","1111109 - QUALIDADE NP","125637","karen.souza@pia.com.br"
+"jair.padilha","True","19/11/2012 16:20:03",,"F01 - Usina","1122201 - POLPA FRUTA","21034",
+"jean.castilhos","True","14/07/2014 11:21:48",,"F01 - Usina","1112206 - FERMENT SACOS","121968",
+"karine.piazer","True","29/01/2015 16:39:42","27/02/2017 07:41:51","F01 - Usina","1111110 - DESENVOLV PRODUTOS","127649","karine.piazer@pia.com.br"
+"maiara.filipetto","True","18/02/2015 14:15:10","27/02/2017 07:40:34","F01 - Usina","1111109 - QUALIDADE NP","128131","maiara.filipetto@pia.com.br"
+"aline.daniele","True","07/07/2009 07:50:04","27/02/2017 07:53:23","F08 - Morro Reuter","3845501 - ADMIN F8","70733","aline.daniele@pia.com.br"
+"daiane.ciquelero","True","26/11/2012 09:58:45","25/02/2017 20:08:56","F01 - Usina","1121107 - LABORATORIO DOCES","93086","daiane.ciquelero@pia.com.br"
+"bruna.tamires","True","28/04/2010 16:28:35","23/02/2017 07:34:28","F01 - Usina","4115510 - MARKETING","93795","bruna.tamires@pia.com.br"
+"lisiane.maldaner","True","26/08/2011 09:59:18","27/02/2017 07:23:20","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","103939","lisiane.maldaner@pia.com.br"
+"gicela.rambo","True","04/12/2014 13:33:57","23/02/2017 07:47:36","F01 - Usina","4115507 - RECURSOS HUMANOS","126519","gicela.rambo@pia.com.br"
+"felipe.gottschalk","True","21/01/2013 10:51:24","02/03/2017 07:42:22","F06 - Picada Cafe ","3653305 - AGROPEC COM F6","47765","felipe.gottschalk@pia.com.br"
+"rafaela.santos","True","19/08/2013 08:15:50","02/03/2017 07:51:39","F01 - Usina","1113303 - MARKETING ALIM","110851","rafaela.santos@pia.com.br"
+"leonice.ribeiro","True","18/02/2015 17:03:52","23/02/2017 07:34:45","F01 - Usina","1111131 - PCP INDUSTRIA","127980","leonice.ribeiro@pia.com.br"
+"patricia.rauch","True","31/12/2013 11:50:34","02/03/2017 07:29:44","F01 - Usina","1114401 - LOGISTICA ALIM","120441","patricia.rauch@pia.com.br"
+"marta.dieter","True","15/01/2014 15:52:05","25/02/2017 10:19:22","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","101158","marta.dieter@pia.com.br"
+"fernanda.schneider","True","20/08/2013 17:42:06","02/03/2017 07:51:21","F01 - Usina","1113303 - MARKETING ALIM","111191","fernanda.schneider@pia.com.br"
+"fernando.muller","True","12/11/2014 07:46:53","20/02/2017 11:30:20","F18 - Vila Maria","2931115 - MAO-DE-OBRA GERAL F. RACOES V.MARIA F18","126788","fernando.muller@pia.com.br"
+"greice.tatiane","True","06/03/2015 09:18:29","27/02/2017 08:14:09","F06 - Picada Cafe ","3643303 - MERCADO F6","113416","greice.tatiane@pia.com.br"
+"joao.frederico","True","27/07/2012 14:00:33","28/02/2017 07:33:31","F01 - Usina","1111131 - PCP INDUSTRIA","110308","joao.frederico@pia.com.br"
+"mireli.marcal","True","03/10/2013 10:17:52","15/02/2017 09:43:12","F16 - Marau","1111301 - POLITICA LEITE MARAU","114826","mireli.marcal@pia.com.br"
+"luis.buss","True","18/02/2009 07:31:14","27/02/2017 07:25:51","F01 - Usina","1114401 - LOGISTICA ALIM","120639","luis.buss@pia.com.br"
+"monica.maurer","True","06/03/2015 09:19:51","23/02/2017 08:31:55","F06 - Picada Cafe ","3643303 - MERCADO F6","57533","monica.maurer@pia.com.br"
+"isolde.kroetz","True","26/11/2012 10:09:35","27/02/2017 07:13:38","F01 - Usina","1111131 - PCP INDUSTRIA","63871","isolde.kroetz@pia.com.br"
+"everton.schwantes","True","22/11/2016 10:19:39","19/02/2017 20:02:33","F01 - Usina","1111130 - BALANCA","140859",
+"elemar.junior","True","27/02/2012 15:33:05","02/03/2017 10:56:17","F01 - Usina","1114403 - EXPED REFRIGERADOS","104762","elemar.junior@pia.com.br"
+"marceli.fritzen","True","14/03/2013 16:51:57","27/02/2017 07:30:53","F01 - Usina","4115513 - SEGURANCA DO TRABALHO","107125","marceli.fritzen@pia.com.br"
+"jean.becker","True","09/12/2014 17:11:47","17/02/2017 07:55:32","F01 - Usina","1111131 - PCP INDUSTRIA","126378","jean.becker@pia.com.br"
+"telefonista","True","10/07/2006 13:24:19","27/02/2017 07:38:30",,"3243303 - MERCADO F2",,"telefonista@pia.com.br"
+"fabio.guaragni","True","02/12/2013 09:34:18","23/02/2017 15:30:09","F01 - Usina","1111101 - POLITICA LEITE","108710","fabio.guaragni@pia.com.br"
+"silvane","True","10/07/2006 13:24:56","27/02/2017 08:59:43","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","57331","silvane@pia.com.br"
+"mariana.coser","True","26/06/2015 08:06:18","27/02/2017 12:03:25","F01 - Usina","1111131 - PCP INDUSTRIA","130657","mariana.coser@pia.com.br"
+"maicon.haas","True","06/08/2014 14:28:10","23/02/2017 07:37:49","F01 - Usina","1111124 - MANUT LATIC NP","57843","maicon.haas@pia.com.br"
+"haislana.lima","True","02/03/2015 09:59:23","27/02/2017 07:23:58","F01 - Usina","1113301 - VENDAS ALIMENTOS","128374","haislana.lima@pia.com.br"
+"everton.carbone","True","07/01/2014 09:25:17","23/02/2017 09:58:10","F01 - Usina","1111111 - SUPERV LATIC NP","120556","everton.carbone@pia.com.br"
+"luis.gouveia","True","27/08/2014 11:08:28","27/02/2017 15:09:44","F01 - Usina","1111111 - SUPERV LATIC NP","124749","luis.gouveia@pia.com.br"
+"jaqueline.schutz","True","17/03/2014 16:22:34","02/03/2017 08:21:44","F01 - Usina","4115502 - CONTROLADORIA","121654","jaqueline.schutz@pia.com.br"
+"denise.dietrich","True","06/12/2010 09:25:44","02/03/2017 07:41:39","F01 - Usina","4115503 - CONTABILIDADE","99110","denise.dietrich@pia.com.br"
+"renan.gonzaga","True","26/11/2014 08:24:53","08/02/2017 12:36:46","F01 - Usina","1111111 - SUPERV LATIC NP","126420","renan.gonzaga@pia.com.br"
+"vanuza.goncalves","True","23/12/2014 14:57:57","30/12/2014 10:39:16","F22 - Ivoti","1513303 - EXPEDICAO F22","127095",
 "ismar.serrer","True","14/05/2015 10:25:19","14/05/2015 10:28:39","F01 - Usina","1112212 - TETRA TOP ENVASE","128686",
-"Darlei.Marchioro","True","10/02/2015 17:13:55","25/01/2017 13:47:31","F15 - Marau","3753305 - AGROPEC COM F15","108588","darlei.marchioro@pia.com.br"
-"gicela.rambo","True","04/12/2014 13:33:57","23/01/2017 07:53:29","F01 - Usina","4115507 - RECURSOS HUMANOS","126519","gicela.rambo@pia.com.br"
-"marcio.fiori","True","07/11/2016 15:50:51","19/01/2017 16:59:45","F12 - Vila Flores","1111211 - SUPERV V. FLORES","140419",
-"gisela","True","05/10/2009 15:30:47","26/01/2017 08:29:28","F01 - Usina","4115502 - CONTROLADORIA","89955","gisela@pia.com.br"
-"guilherme.barroso","True","14/07/2015 14:34:15","29/01/2017 21:23:47","F01 - Usina","1111111 - SUPERV LATIC NP","130429","guilherme.barroso@pia.com.br"
-"gerson.rafael","True","16/03/2011 09:06:35","27/01/2017 07:41:09","F01 - Usina","4115502 - CONTROLADORIA","95169","gerson.rafael@pia.com.br"
-"cilene.rossato","True","18/12/2014 17:34:10","28/01/2017 21:02:30","F15 - Marau","3753305 - AGROPEC COM F15","124578","cilene.rossato@pia.com.br"
-"bancadamicro","True","25/02/2016 08:18:13","24/01/2017 17:25:40",,"1111108 - LABOR MICROB LATIC NP",,
-"tamires.ribas","True","11/05/2016 09:05:53","29/01/2017 22:13:03","F01 - Usina","1111131 - PCP INDUSTRIA","137065","tamires.ribas@pia.com.br"
-"marcia.henz","True","21/09/2015 11:52:18","30/01/2017 08:26:55","F01 - Usina","4115507 - RECURSOS HUMANOS","132467","marcia.henz@pia.com.br"
-"gabriella.souza","True","15/07/2015 09:31:53","01/09/2016 07:34:26","F01 - Usina","1111131 - PCP INDUSTRIA","130882","gabriella.souza@pia.com.br"
-"andressa.ruppenthal","True","26/02/2016 13:45:32","24/01/2017 13:25:29","F01 - Usina","1111105 - ALMOXARIFADO","133636","andressa.ruppenthal@pia.com.br"
-"luis.fraga","True","09/11/2016 08:09:41","22/01/2017 09:14:24","F01 - Usina","1113301 - VENDAS ALIMENTOS","140701","luis.fraga@pia.com.br"
-"jaqueline.maahs","True","11/05/2016 19:00:28","26/01/2017 07:49:28","F06 - Picada Cafe ","3643303 - MERCADO F6","65865","jaqueline.maahs@pia.com.br"
-"carina.silva","True","09/11/2016 16:36:24","23/01/2017 05:55:13","F12 - Vila Flores","1111230 - BALANCA V FLORES","140255",
-"televendas","True","14/12/2006 16:05:48","26/01/2017 08:51:22",,"3243303 - MERCADO F2",,"televendas@pia.com.br"
-"leison.prediger","True","11/04/2013 15:26:58","20/01/2017 07:47:22","F01 - Usina","1111101 - POLITICA LEITE","106039","leison.prediger@pia.com.br"
-"fabio.neumann","True","24/09/2015 16:56:35","30/01/2017 07:33:05","F01 - Usina","1113301 - VENDAS ALIMENTOS","30578","fabio.neumann@pia.com.br"
-"pedro.barbosa","True","14/12/2015 22:53:21","30/01/2017 10:24:40","F01 - Usina","1114406 - EXPED SECOS","103941","pedro.barbosa@pia.com.br"
-"cristina","True","26/09/2002 18:11:41","26/01/2017 13:48:50","F01 - Usina","4115508 - PLANOS DE SAUDE","17253","cristina@pia.com.br"
-"leonice.ribeiro","True","18/02/2015 17:03:52","23/01/2017 07:46:37","F01 - Usina","1111131 - PCP INDUSTRIA","127980","leonice.ribeiro@pia.com.br"
-"felipe.braun","True","14/12/2015 22:56:00","30/01/2017 04:06:12","F01 - Usina","1114403 - EXPED REFRIGERADOS","111329","felipe.braun@pia.com.br"
-"priscilla.arend","True","19/12/2012 10:03:58","30/01/2017 07:34:44","F01 - Usina","4115508 - PLANOS DE SAUDE","112631","priscilla.arend@pia.com.br"
-"faturamento","True","25/09/2013 10:45:29","23/11/2013 09:46:44",,,,
-"leticia.campos","True","22/06/2010 10:10:53","19/01/2017 08:02:42","F01 - Usina","1111108 - LABOR MICROB LATIC NP","94502","leticia.campos@pia.com.br"
-"cristiane.silva","True","12/12/2012 16:04:17","23/01/2017 07:24:34","F01 - Usina","1111131 - PCP INDUSTRIA","111192","cristiane.silva@pia.com.br"
-"maluce.machado","True","01/07/2014 15:37:13","24/01/2017 19:38:33","F01 - Usina","1111108 - LABOR MICROB LATIC NP","123766","maluce.machado@pia.com.br"
-"elisangela.brandt","True","16/12/2015 20:06:41","26/01/2017 08:02:20","F02 - Nova Petropolis","3243303 - MERCADO F2","120771","elisangela.brandt@pia.com.br"
-"agropec.f15","True","22/12/2008 09:11:35","16/01/2017 10:06:41",,"3753305 - AGROPEC COM F15",,"agropec.f15@pia.com.br"
-"elaine.rauch","True","08/06/2015 11:50:19","23/01/2017 10:49:37","F01 - Usina","1122203 - DOCE FRUTA POTE","17231",
-"mireli.marcal","True","03/10/2013 10:17:52","30/01/2017 08:46:51","F16 - Marau","1111301 - POLITICA LEITE MARAU","114826","mireli.marcal@pia.com.br"
-"rubia","True","20/08/2009 08:48:00","30/01/2017 07:57:28","F15 - Marau","3741107 - GERENCIA F15","88646","rubia@pia.com.br"
-"juliano.silva","True","14/07/2014 15:21:01",,"F01 - Usina","1112202 - UHT SIG","129947",
-"fernando.muller","True","12/11/2014 07:46:53","11/01/2017 15:06:38","F18 - Vila Maria","2931115 - MAO-DE-OBRA GERAL F. RACOES V.MARIA F18","126788","fernando.muller@pia.com.br"
-"thiago.marçal","True","29/07/2011 13:31:58","23/01/2017 13:42:35","F16 - Marau","1111302 - VETERINARIOS MARAU","039117","thiago@pia.com.br"
-"lisete.gerhardt","True","14/07/2014 15:26:38",,"F22 - Ivoti","1513303 - EXPEDICAO F22","123274",
-"anderson.dalmedico","True","02/03/2016 10:13:27","29/01/2017 18:11:33","F01 - Usina","4115509 - TECNOL INFORMACAO","135801","anderson.dalmedico@pia.com.br"
-"fabio.guaragni","True","02/12/2013 09:34:18","20/01/2017 08:08:48","F01 - Usina","1111101 - POLITICA LEITE","108710","fabio.guaragni@pia.com.br"
-"recleitea","True","21/07/2015 07:23:25","21/01/2017 04:07:24",,"1111106 - RECEP LEITE NP",,
-"katia.lima","True","28/09/2015 20:11:27","30/01/2017 08:01:48","F01 - Usina","1115505 - COMPRAS","93581","katia.lima@pia.com.br"
-"monica.maculan","True","18/09/2013 08:05:26","23/01/2017 08:10:36","F15 - Marau","3753305 - AGROPEC COM F15","112959","monica.maculan@pia.com.br"
-"recleiteb","True","21/07/2015 07:24:39","25/01/2017 12:03:26",,"1111106 - RECEP LEITE NP",,
-"thiago.santos","True","02/03/2016 10:57:22","23/01/2017 07:00:01","F01 - Usina","4115509 - TECNOL INFORMACAO","135802","thiago.santos@pia.com.br"
-"francieli.gollo","True","20/06/2014 16:57:04","26/01/2017 10:20:21","F15 - Marau","3743303 - MERCADO F15","123455","francieli.gollo@pia.com.br"
-"ayrton","True","21/02/2014 08:52:35","24/01/2017 09:02:55","F01 - Usina","1111111 - SUPERV LATIC NP","121552","ayrton@pia.com.br"
-"jessica.borba","True","14/07/2014 11:37:33","27/01/2017 13:58:52","F22 - Ivoti","1513303 - EXPEDICAO F22","123490",
-"recleitec","True","21/07/2015 07:25:18","20/01/2017 20:03:33",,"1111106 - RECEP LEITE NP",,
-"tiago.schmokel","True","17/05/2016 14:43:46","27/01/2017 08:35:27","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","130228","tiago.schmokel@pia.com.br"
-"marilene.silveira","True","24/12/2014 08:07:45","23/01/2017 08:03:01","F15 - Marau","3753305 - AGROPEC COM F15","127217","marilene.silveira@pia.com.br"
-"ivan.bosa","True","23/01/2015 11:01:24","21/01/2017 22:24:15","F12 - Vila Flores","1253305 - AGROPEC F12","93427","ivan.bosa@pia.com.br"
-"david.moraes","True","05/01/2017 16:13:03","30/01/2017 13:38:25","F01 - Usina","4115514 - MENOR APRENDIZ","138640",
+"lais.bender","True","13/02/2015 13:46:20","02/03/2017 07:34:02","F01 - Usina","4115503 - CONTABILIDADE","128130","lais.bender@pia.com.br"
+"marcelo.kunst","True","10/03/2015 08:29:25",,"F22 - Ivoti","1513303 - EXPEDICAO F22","121901",
+"claudete.bohn","True","26/11/2012 09:48:27","11/07/2015 08:46:05",,,,
+"leandro.silveira","True","30/06/2014 16:46:00","27/02/2017 07:39:47","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","123676","leandro.silveira@pia.com.br"
+"daiane.estulano","True","26/11/2012 10:01:43","27/02/2017 07:41:46","F01 - Usina","1111110 - DESENVOLV PRODUTOS","106034","daiane.estulano@pia.com.br"
+"jorge.lamb","True","05/02/2013 09:14:42","27/02/2017 04:31:40","F01 - Usina","1121111 - SUPERVISAO DOCES","110054","jorge.lamb@pia.com.br"
+"fabieli.niederauer","True","05/02/2014 09:21:55","02/03/2017 13:52:51","F01 - Usina","1111111 - SUPERV LATIC NP","116894","fabieli.niederauer@pia.com.br"
+"ketlyn.schutz","True","07/10/2014 14:27:41","21/02/2017 14:39:55","F01 - Usina","1111107 - LABOR FIS/QUIM LATIC NP","122806","ketlyn.schutz@pia.com.br"
+"zoraia.petry","True","22/11/2012 09:23:16","02/03/2017 07:48:44","F01 - Usina","1114401 - LOGISTICA ALIM","55979","zoraia.petry@pia.com.br"
+"danilo.ferreira","True","20/07/2016 10:01:50","21/07/2016 05:50:15","F01 - Usina","1112202 - UHT SIG","137324",
+"marcos.alcantara","True","20/07/2016 09:59:21","21/07/2016 07:06:02","F01 - Usina","1111112 - PASTEURIZACAO","134016",
+"maiquel.koch","True","15/05/2015 14:17:07","27/02/2017 07:03:41","F01 - Usina","4115509 - TECNOL INFORMACAO","92566","maiquel.koch@pia.com.br"
+"evair.klock","True","22/01/2015 14:03:43","21/02/2017 07:36:24","F01 - Usina","1111135 - GESTAO DO LEITE","68748","eviar.klock@pia.com.br"
+"daniela.silva","True","27/04/2015 16:13:52","02/03/2017 07:28:58","F01 - Usina","1111131 - PCP INDUSTRIA","129516","daniela.silva@pia.com.br"
+"liane","True","31/10/2000 17:33:45","02/03/2017 07:42:26","F01 - Usina","4115503 - CONTABILIDADE","56399","liane@pia.com.br"
+"miriam.borusewsky","True","10/06/2014 08:25:19","27/02/2017 08:03:07","F22 - Ivoti","1513303 - EXPEDICAO F22","123367","miriam.borusewsky@pia.com.br"
+"gerceo.falchetti","True","28/04/2015 15:25:14","28/02/2017 19:22:29","F01 - Usina","1111111 - SUPERV LATIC NP","29472","gerceo.falchetti@pia.com.br"
+"Monrou","True","31/10/2000 17:33:45","27/02/2017 07:30:02","F01 - Usina","4115502 - CONTROLADORIA","28899","monrou@pia.com.br"
+"diego.csouza","True","04/11/2014 07:40:18","26/02/2017 15:07:55","F01 - Usina","4115509 - TECNOL INFORMACAO","126222","diego.csouza@pia.com.br"
+"rejane.ackermann","True","07/04/2004 14:39:22","23/02/2017 17:43:04","F02 - Nova Petropolis","3243302 - VESTUARIO F2","17205","rejane.ackermann@pia.com.br"
+"helena","True","23/01/2004 17:14:00","02/03/2017 08:12:37","F01 - Usina","4115503 - CONTABILIDADE","5547","helena@pia.com.br"
+"filial18","True","11/03/2010 15:10:26","28/02/2017 08:02:03",,"2931115 - MAO-DE-OBRA GERAL F. RACOES V.MARIA F18",,"filial18@pia.com.br"
+"fabiano","True","09/09/2003 11:54:46","27/02/2017 12:03:00","F01 - Usina","4115509 - TECNOL INFORMACAO","78349","fabiano@pia.com.br"
+"douglas.padilha","True","14/07/2014 10:30:58","21/02/2017 21:37:50","F22 - Ivoti","1513303 - EXPEDICAO F22","112781","douglas.padilha@pia.com.br"
+"exp.latic","True","21/01/2013 09:13:40","26/02/2017 21:41:36",,"1114403 - EXPED REFRIGERADOS",,"exp.latic@pia.com.br"
+"gerson","True","18/02/2009 14:27:07","21/02/2017 07:17:42","F09 - Industria Racoes","2831115 - MAO-DE-OBRA GERAL F. RACOES NP F9","66788","gerson@pia.com.br"
+"raquel.juwer","True","14/07/2014 15:53:48","20/02/2017 16:18:51","F01 - Usina","1114403 - EXPED REFRIGERADOS","123055","raquel.juwer@pia.com.br"
+"eduardo.abelaira","True","23/04/2012 08:03:40","25/02/2017 14:15:29","F01 - Usina","4115509 - TECNOL INFORMACAO","108478","eduardo.abelaira@pia.com.br"
+"gabriele.wentz","True","08/10/2014 17:03:27","24/02/2017 08:39:11","F19 - Vila Rica","5143303 - MERCADO F19","90090","gabriele.wentz@pia.com.br"
+"schumacher","True","09/01/2013 09:19:46","23/02/2017 07:54:25","F01 - Usina","4115503 - CONTABILIDADE","112708","schumacher@pia.com.br"
+"elemar","True","14/05/2007 16:46:18","02/03/2017 06:43:27","F01 - Usina","1111111 - SUPERV LATIC NP","64161","elemar@pia.com.br"
+"Celulares","True","20/03/2015 08:55:41","14/01/2016 09:53:48",,,,
+"contabil","True","04/06/2015 16:58:23","20/02/2017 16:54:21",,"4115503 - CONTABILIDADE",,
+"jair.eduardo","True","11/12/2002 10:00:05","02/03/2017 07:26:11","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","17207","jair@pia.com.br"
+"roberto.fassbinder","True","05/02/2014 09:07:18","19/02/2017 13:42:33","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","70606","roberto.fassbinder@pia.com.br"
+"daniela","True","27/02/2009 07:54:14","21/02/2017 07:50:01","F13 - Fazenda Piraja","3145502 - CORPORATIVO CD F13","82188","daniela@pia.com.br"
+"oliveira","True","15/10/2009 14:03:14","28/02/2017 22:28:39","F01 - Usina","1114406 - EXPED SECOS","136371","oliveira@pia.com.br"
+"elcio","True","07/04/2004 14:37:42","27/02/2017 08:03:07","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","78800","elcio@pia.com.br"
+"joao.junior","True","27/12/2012 09:36:04","24/02/2017 06:40:14","F06 - Picada Cafe ","3643303 - MERCADO F6","86564","joao.junior@pia.com.br"
+"katia.lima","True","28/09/2015 20:11:27","23/02/2017 07:32:09","F01 - Usina","1115505 - COMPRAS","93581","katia.lima@pia.com.br"
+"graciela","True","25/09/2007 12:09:20","27/02/2017 07:33:33","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","80949","graciela@pia.com.br"
+"andre.fritzen","True","08/06/2011 08:53:34","02/03/2017 08:08:14","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","102569","andre.fritzen@pia.com.br"
+"jessica.schaefer","True","08/04/2015 09:40:27","27/02/2017 06:51:43",,"1114406 - EXPED SECOS","140861",
+"caroline","True","02/07/2009 08:04:23","23/02/2017 07:46:48","F01 - Usina","1111105 - ALMOXARIFADO","87648","caroline@pia.com.br"
+"junior.silva","True","22/04/2016 10:45:07","23/02/2017 09:13:30","F16 - Marau","1111306 - RECEP LEITE MARAU","136576","junior.silva@pia.com.br"
+"Marcos.Pfeifer","True","06/01/2015 13:44:07","01/03/2017 01:56:49","F01 - Usina","1115505 - COMPRAS","127450","Marcos.Pfeifer@pia.com.br"
+"alexandro.fillipsen","True","29/10/2013 10:52:44","21/02/2017 07:02:42","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","93887","alexandro.fillipsen@pia.com.br"
+"heyd.magnus","True","12/11/2012 15:12:13","27/02/2017 11:52:46","F01 - Usina","4115509 - TECNOL INFORMACAO","99882","heyd.magnus@pia.com.br"
+"nuna.vale","True","17/03/2016 14:34:03","20/12/2016 11:36:39","F01 - Usina","1111122 - MEIO AMBIENTE (EFLUENTES-LIXO-IBAMA)","138282","nuna.vale@pia.com.br"
+"jonatas","True","07/04/2004 14:40:15","27/02/2017 10:22:06","F13 - Fazenda Piraja","3141128 - COMPRAS F13 - AGRO","28823","jonatas@pia.com.br"
+"rubia.geovana","True","01/04/2015 08:25:26","23/02/2017 07:36:47","F01 - Usina","1111105 - ALMOXARIFADO","129165","rubia.geovana@pia.com.br"
+"andressa.bortoluzzi","True","11/12/2015 10:00:27","22/02/2017 08:13:21","F16 - Marau","1111306 - RECEP LEITE MARAU","132954","andressa.bortoluzzi@pia.com.br"
+"daniel.schneider","True","09/04/2015 16:41:33","27/02/2017 07:25:07","F01 - Usina","1111105 - ALMOXARIFADO","129228","daniel.schneider@pia.com.br"
+"magnara.felli","True","19/02/2016 11:38:56","27/02/2017 07:39:53","F01 - Usina","4115507 - RECURSOS HUMANOS","135429","magnara.felli@pia.com.br"
+"agropec.f12","True","07/10/2010 15:36:51","22/02/2017 07:57:19",,"1253305 - AGROPEC F12",,"agropec.f12@pia.com.br"
+"fernanda.dentz","True","04/03/2016 14:02:49","20/02/2017 15:46:36","F01 - Usina","4115513 - SEGURANCA DO TRABALHO","135422","fernanda.dentz@pia.com.br"
+"gesiane.galli","True","29/07/2011 11:22:57","21/02/2017 07:55:28","F12 - Vila Flores","1253305 - AGROPEC F12","102322","gesiane.galli@pia.com.br"
+"marcia.henz","True","21/09/2015 11:52:18","23/02/2017 13:18:40","F01 - Usina","4115507 - RECURSOS HUMANOS","132467","marcia.henz@pia.com.br"
+"daniele.wolf","True","14/10/2014 08:20:27","27/02/2017 07:45:01","F01 - Usina","4115510 - MARKETING","125759","daniele.wolf@pia.com.br"
+"jenifer.jung","True","27/02/2017 14:35:05","28/02/2017 10:04:57","F01 - Usina","1113301 - VENDAS ALIMENTOS",,
+"thiago.santos","True","02/03/2016 10:57:22","22/02/2017 14:10:49","F01 - Usina","4115509 - TECNOL INFORMACAO","135802","thiago.santos@pia.com.br"
+"bruna.pereira","True","18/03/2016 11:02:07","02/03/2017 04:15:27","F01 - Usina","1111131 - PCP INDUSTRIA","135911","bruna.pereira@pia.com.br"
+"cristina.gonzaga","True","10/03/2016 14:49:46","23/02/2017 07:29:01","F01 - Usina","1111131 - PCP INDUSTRIA","135888","cristina.gonzaga@pia.com.br"
+"felipe.preste","True","26/10/2016 09:19:11","26/10/2016 11:00:25",,,,
+"djonata.griep","True","29/07/2015 07:47:57","02/03/2017 07:33:53","F01 - Usina","1113301 - VENDAS ALIMENTOS","99885","djonata.griep@pia.com.br"
+"joice.gabrielli","True","10/02/2015 11:33:36","20/02/2017 07:03:42","F12 - Vila Flores","1253305 - AGROPEC F12","120289","joice.gabrielli@pia.com.br"
+"guilherme.barroso","True","14/07/2015 14:34:15","01/03/2017 22:21:47","F01 - Usina","1111111 - SUPERV LATIC NP","130429","guilherme.barroso@pia.com.br"
+"cristiano.nascimento","True","13/04/2015 16:50:08","24/02/2017 08:09:03","F12 - Vila Flores","1111201 - POLITICA LEITE V FLORES","129208","cristiano.nascimento@pia.com.br"
+"geovane.teodoro","True","23/11/2015 13:44:03","02/03/2017 07:37:02","F01 - Usina","1111105 - ALMOXARIFADO","24902","geovane.teodoro@pia.com.br"
+"pendencia_aprovacao","True","03/08/2015 15:31:05",,,,,"pendencia_aprovacao@pia.com.br"
+"carlos.raimundo","True","30/05/2001 16:01:25","15/02/2017 11:05:51","F01 - Usina","4115512 - LOGISTICA","30453","carlos.raimundo@pia.com.br"
+"matheus.gomes","True","05/11/2015 13:49:15","30/01/2017 07:43:24","F01 - Usina","1111105 - ALMOXARIFADO","133114","matheus.gomes@pia.com.br"
+"david.moraes","True","05/01/2017 16:13:03","22/02/2017 13:35:36","F01 - Usina","4115514 - MENOR APRENDIZ","138640",
+"gabriel.kunst","True","11/09/2015 15:08:39","22/02/2017 12:39:21","F01 - Usina","4115509 - TECNOL INFORMACAO","135672","gabriel.kunst@pia.com.br"
+"Ana","True","05/02/2001 08:54:34","27/02/2017 07:30:36","F01 - Usina","4115506 - CONTAS RECEBER","17398","ana.arend@pia.com.br"
+"william.strossi","True","18/03/2016 11:06:04","26/02/2017 19:45:28","F01 - Usina","1111131 - PCP INDUSTRIA","135897","william.strossi@pia.com.br"
+"vmf02","True","28/02/2017 15:26:46","28/02/2017 15:29:21",,,,
+"anderson.dalmedico","True","02/03/2016 10:13:27","02/03/2017 07:44:33","F01 - Usina","4115509 - TECNOL INFORMACAO","135801","anderson.dalmedico@pia.com.br"
+"claudemir.silva","True","19/11/2012 16:22:28","25/02/2017 06:06:39","F01 - Usina","1112202 - UHT SIG","138416","claudemir.silva@pia.com.br"
+"luiza.junkes","True","20/05/2015 14:48:59","02/03/2017 08:09:27","F01 - Usina","4115506 - CONTAS RECEBER","129934","luiza.junkes@pia.com.br"
+"cleverson.silva","True","03/12/2015 13:43:01","01/03/2017 07:50:27","F01 - Usina","1111105 - ALMOXARIFADO","103653","cleverson.silva@pia.com.br"
+"leandro.harms","True","13/12/2012 12:01:01","07/07/2015 03:58:54","F01 - Usina","1111133 - MISTURA LACTEA","101548",
+"jeremy.schmitz","True","29/10/2015 14:07:35","23/02/2017 12:17:31","F01 - Usina","1111105 - ALMOXARIFADO","133092",
+"paola.andrade","True","18/09/2014 08:08:12","01/12/2016 16:02:21","F01 - Usina","4115509 - TECNOL INFORMACAO","125285","paola.andrade@pia.com.br"
+"fabiana.brito","True","17/07/2013 17:35:09","20/02/2017 16:51:16","F01 - Usina","1111130 - BALANCA","115785",
+"anelise.gomes","True","11/11/2015 09:05:13","28/02/2017 14:23:17","F01 - Usina","1115505 - COMPRAS","133424","anelise.gomes@pia.com.br"
+"driele.rodrigues","True","10/02/2016 08:24:43","27/02/2017 07:28:34","F01 - Usina","4115509 - TECNOL INFORMACAO","135316","driele.rodrigues@pia.com.br"
+"lindomar.kich","True","16/05/2012 08:13:11","31/07/2013 20:47:53","F01 - Usina","1111126 - CALDEIRA","46047",
+"janaina","True","22/06/2009 16:49:54","23/02/2017 07:37:10","F01 - Usina","4115509 - TECNOL INFORMACAO","87406","janaina@pia.com.br"
+"andrea.silva","True","03/12/2015 17:11:17","20/01/2017 07:26:42","F01 - Usina","1115501 - ADM ALIMENTOS","133585","andrea.silva@pia.com.br"
+"Rosangela","True","21/10/2002 07:53:31","02/03/2017 12:33:15","F02 - Nova Petropolis","3241107 - GERENCIA F2","17283","rosangela@pia.com.br"
+"lableitef16","True","14/07/2015 10:56:29","27/02/2017 08:40:09",,"1111307 - LABOR MARAU",,
+"regis","True","20/12/2010 07:50:05","27/02/2017 13:32:15","F01 - Usina","4115504 - FINANCEIRO GERAL","82745","regis@pia.com.br"
+"camila.santos","True","27/01/2016 10:01:39","24/02/2017 12:29:07","F01 - Usina","1111131 - PCP INDUSTRIA","134820","camila.santos@pia.com.br"
+"labfoss","True","09/09/2015 15:24:43","20/02/2017 21:12:49",,"1111107 - LABOR FIS/QUIM LATIC NP",,
+"catia.schvantes","True","14/08/2013 09:41:02","20/02/2017 13:53:08","F02 - Nova Petropolis","3243303 - MERCADO F2","66021","catia.schvantes@pia.com.br"
+"giovani.bouvie","True","16/02/2016 09:46:00","27/02/2017 07:37:58","F01 - Usina","4115509 - TECNOL INFORMACAO","135432","giovani.bouvie@pia.com.br"
+"tiago.dapper","True","27/03/2015 07:58:58","26/02/2017 11:19:44","F13 - Fazenda Piraja","3141104 - COMPRAS F13 MERCADO","104181","tiago.dapper@pia.com.br"
+"recleitec","True","21/07/2015 07:25:18","24/02/2017 20:10:28",,"1111106 - RECEP LEITE NP",,
+"nadia.blauth","True","17/04/2015 09:02:02","27/02/2017 08:01:13","F02 - Nova Petropolis","3242205 - RESTAURANTE F2","129339","nadia.blauth@pia.com.br"
+"luiz.alves","True","14/04/2016 11:37:38","01/03/2017 08:57:17","F01 - Usina","1111111 - SUPERV LATIC NP","135580","luiz.alves@pia.com.br"
+"remidio","True","31/10/2000 17:33:45","21/02/2017 08:37:03","F01 - Usina","4115504 - FINANCEIRO GERAL","8574","remidio@pia.com.br"
+"rafael","True","30/01/2009 14:10:01","20/02/2017 21:01:44","F01 - Usina","1114403 - EXPED REFRIGERADOS","72429","rafael@pia.com.br"
+"mauro","True","11/04/2008 16:52:19","23/02/2017 13:33:50","F01 - Usina","1111124 - MANUT LATIC NP","79081","mauro@pia.com.br"
+"zenaide.arnhold","True","21/09/2011 10:41:13","23/02/2017 07:37:54","F01 - Usina","4115506 - CONTAS RECEBER","104770","zenaide.arnhold@pia.com.br"
+"roneide.rambo","True","09/03/2016 08:09:21","02/03/2017 07:47:33","F01 - Usina","1121111 - SUPERVISAO DOCES","136012","roneide.rambo@pia.com.br"
+"leonete","True","27/07/2010 15:10:15","20/03/2014 11:00:52","F02 - Nova Petropolis","3253305 - AGROPEC COMERCIAL F2","37175","leonete@pia.com.br"
+"recleitef12","True","14/07/2015 10:54:07","24/02/2017 06:38:28",,"1111206 - RECEP LEITE V. FLORES",,
+"marcio.fiori","True","07/11/2016 15:50:51","27/02/2017 09:10:31","F12 - Vila Flores","1111211 - SUPERV V. FLORES","140419",
+"ayrton","True","21/02/2014 08:52:35","26/02/2017 20:57:53","F01 - Usina","1111111 - SUPERV LATIC NP","121552","ayrton@pia.com.br"
+"luciano.eckert","True","14/07/2014 15:28:52","02/03/2017 07:17:51","F22 - Ivoti","1513303 - EXPEDICAO F22","121892","luciano.eckert@pia.com.br"
+"recleitef16","True","14/07/2015 10:58:06","01/03/2017 06:21:28",,"1111306 - RECEP LEITE MARAU",,
+"recleiteb","True","21/07/2015 07:24:39","20/02/2017 12:05:05",,"1111106 - RECEP LEITE NP",,
+"ivete.schwade","True","29/08/2003 18:03:44","27/09/2016 15:37:37","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","17324","ivete.schwade@pia.com.br"
+"regina","True","31/01/2007 17:14:48","27/02/2017 07:33:49","F01 - Usina","4115507 - RECURSOS HUMANOS","43845","regina@pia.com.br"
+"adroaldo","True","11/04/2013 15:39:37","25/09/2016 20:09:20","F01 - Usina","1111102 - VETERINARIOS","36172","adroaldo@pia.com.br"
+"karla.pintro","True","04/05/2015 15:42:27","27/02/2017 07:35:16","F01 - Usina","4115507 - RECURSOS HUMANOS","129756","karla.pintro@pia.com.br"
+"lenice.lucas","True","19/04/2016 14:04:00","02/03/2017 04:12:10","F01 - Usina","1111131 - PCP INDUSTRIA","122661","lenice.lucas@pia.com.br"
+"carlos.reinoldo","True","19/07/2013 10:53:38","21/11/2016 11:18:13","F01 - Usina","1111102 - VETERINARIOS","17401","carlos.reinoldo@pia.com.br"
+"leticia.barbosa","True","26/11/2015 14:00:32","27/02/2017 14:58:40","F13 - Fazenda Piraja","3141125 - RECEP/EXPED F13 MERCADO","121670","leticia.barbosa@pia.com.br"
+"huillder.almeida","True","08/10/2015 11:55:08","26/02/2017 19:53:38","F01 - Usina","1111109 - QUALIDADE NP","132555","huillder.almeida@pia.com.br"
+"leison.prediger","True","11/04/2013 15:26:58","24/02/2017 10:18:52","F01 - Usina","1111101 - POLITICA LEITE","106039","leison.prediger@pia.com.br"
+"daniel.godoy","True","08/02/2012 09:43:36","23/02/2017 08:06:35","F01 - Usina","4115507 - RECURSOS HUMANOS","99884","daniel.godoy@pia.com.br"
+"thiago.araujo","True","27/01/2016 10:02:47","22/02/2017 20:18:49","F01 - Usina","1111131 - PCP INDUSTRIA","134815","thiago.araujo@pia.com.br"
+"airton","True","10/10/2005 13:56:29","20/02/2017 07:12:38","F09 - Industria Racoes","2833301 - COMERCIAL INS/F. RACOES NP F9","5808","airton@pia.com.br"
+"raquelp","True","22/04/2004 16:57:26","02/03/2017 07:34:51","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","76703","raquelp@pia.com.br"
+"gabriella.souza","True","15/07/2015 09:31:53","02/03/2017 07:27:36","F01 - Usina","1111131 - PCP INDUSTRIA","130882","gabriella.souza@pia.com.br"
+"marcelo.schwantes","True","21/10/2002 08:03:15","23/02/2017 07:36:29","F09 - Industria Racoes","2833301 - COMERCIAL INS/F. RACOES NP F9","22240","marcelo.schwantes@pia.com.br"
+"julia.bohn","True","24/02/2015 09:36:54","28/02/2017 07:17:51","F01 - Usina","1111124 - MANUT LATIC NP","128129","julia.bohn@pia.com.br"
+"jair.henrique","True","17/09/2015 08:31:09","27/02/2017 04:34:54","F01 - Usina","1111111 - SUPERV LATIC NP","132366","jair.henrique@pia.com.br"
+"veridiana","True","05/03/2009 13:59:23","27/02/2017 07:34:14","F09 - Industria Racoes","2833301 - COMERCIAL INS/F. RACOES NP F9","98269","veridiana@pia.com.br"
+"larissa.bueno","True","12/11/2014 08:23:10","01/03/2017 12:40:42","F03 - Feliz","3341106 - CAIXA F3","116521","larissa.bueno@pia.com.br"
+"soleci","True","31/10/2000 17:33:45","28/02/2017 07:37:51","F01 - Usina","4115506 - CONTAS RECEBER","17300","soleci@pia.com.br"
+"lableitef12","True","14/07/2015 10:50:00","23/02/2017 12:55:03",,"1111207 - LABOR V FLORES",,
+"inacio.ludwig","True","30/08/2003 16:48:40","28/02/2017 08:00:34","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","7169","inacio@pia.com.br"
+"carla.dubina","True","29/03/2010 07:49:21","27/02/2017 07:37:59","F01 - Usina","4115505 - CONTAS PAGAR","94370","carla.dubina@pia.com.br"
+"rosana.cavalleri","True","13/07/2015 17:11:08","26/02/2017 13:04:24","F01 - Usina","1111107 - LABOR FIS/QUIM LATIC NP","130886","rosana.cavalleri@pia.com.br"
+"sirleib","True","23/02/2005 16:30:47","02/03/2017 09:41:36","F20 - Vale Real","5241107 - GERENCIA F20","40116","sirleib@pia.com.br"
+"recleitea","True","21/07/2015 07:23:25","22/02/2017 04:41:39",,"1111106 - RECEP LEITE NP",,
+"Goreti.Vanoni","True","23/10/2002 13:43:07","27/02/2017 07:35:45","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","17520","goreti.vanoni@pia.com.br"
+"sebastiao.franco","True","14/07/2014 16:01:38",,"F22 - Ivoti","1513303 - EXPEDICAO F22","122675",
+"andreiar","True","16/05/2002 08:02:55","27/02/2017 07:41:04","F01 - Usina","1111110 - DESENVOLV PRODUTOS","24334","andreiar@pia.com.br"
+"laercio.leal","True","18/04/2016 07:46:45","02/03/2017 08:23:52","F01 - Usina","4115507 - RECURSOS HUMANOS","136865","laercio.leal@pia.com.br"
+"joice.petry","True","28/04/2014 11:50:58","27/02/2017 08:08:59","F19 - Vila Rica","5141107 - GERENCIA F19","121853","joice.petry@pia.com.br"
+"jonathan.borges","True","22/03/2016 16:53:55","02/03/2017 07:56:37","F01 - Usina","4115507 - RECURSOS HUMANOS","136280","jonathan.borges@pia.com.br"
+"susi.estulano","True","19/12/2012 07:58:42","27/02/2017 07:37:42","F01 - Usina","1111110 - DESENVOLV PRODUTOS","105108","susi.estulano@pia.com.br"
+"dalva.savi","True","11/08/2015 09:32:59","23/02/2017 07:45:45","F01 - Usina","4115507 - RECURSOS HUMANOS","131599","dalva.savi@pia.com.br"
+"luciano.finato","True","16/02/2015 14:44:24","28/02/2017 20:47:39","F03 - Feliz","3353305 - AGROPEC COMERCIAL F3","115062",
+"ricardo.mendes","True","03/12/2015 15:57:07","26/02/2017 22:56:47","F01 - Usina","4115507 - RECURSOS HUMANOS","134067","ricardo.mendes@pia.com.br"
+"mariane.simon","True","24/06/2015 10:56:18","24/02/2017 08:18:47","F20 - Vale Real","5241106 - CAIXA F20","128717","mariane.simon@pia.com.br"
+"girlei.santos","True","25/08/2015 15:41:52","02/09/2015 07:47:39","F11 - Taquara","3953305 - AGROPEC COM F11","37078","girlei.santos@pia.com.br"
+"tiele.muller","True","04/01/2016 15:43:35","20/02/2017 15:14:44","F11 - Taquara","3953305 - AGROPEC COM F11","128399","tiele.muller@pia.com.br"
